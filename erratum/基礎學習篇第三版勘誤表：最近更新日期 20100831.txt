@@ -1,0 +1,132 @@
+基礎學習篇第三版勘誤表
+基本書籍資料：
+	
+出版日期：2010/01
+書籍 ISBN：9789861818511
+出版社：碁峰出版社
+若您發現書籍上的任何錯誤，請前往討論區留言給鳥哥， 小弟會儘速處理勘誤資訊，謝謝您！
+0-5頁，第0.1.3小節的最後一段，原本是：(update 2010/04/06)
+在這裡我們先來瞭解一下各元件的相關係囉
+應改為：
+在這裡我們先來瞭解一下各元件的關係囉
+0-6頁，圖示中的最左下角那個灰色方框，原本是：(update 2010/04/06)
+操縱者人體與外界環境的互動
+應改為：
+操縱著人體與外界環境的互動
+0-14頁，最上方表格內的最後一行，原本是：(update 2010/10/19)
+DDR DDRI800 64 400 800
+應改為：
+DDR DDRI800 64 200 800
+0-29頁，倒數第8行，原本是：(update 2010/04/06)
+鳥哥已將經程式碼
+應改為：
+鳥哥已經將程式碼
+1-4頁，1.1.2小節第二段第三行的最右邊部分，原本是：(update 2010/04/06)
+這的小東西這麼棒
+應改為：
+這個小東西這麼棒
+1-9頁，第二段的第一行開頭部分，原本是：(update 2010/04/06)
+此外，Minux作業系統
+應改為：
+此外，Minix作業系統
+1-14頁，中間黑點清單的第四點，原本是：
+貢獻的原始碼遠永都存在
+應改為：
+貢獻的原始碼永遠都存在
+1-27頁，1.3.2小節第一個小黑點的第一行最右邊，原本是：(update 2010/04/06)
+Unix系統相似的的程式
+應改為：
+Unix系統相似的程式
+1-30頁，最大黑點為close source部分的第一行最前面，原本是：(update 2010/04/06)
+Open Source 的軟體會釋出原始法
+應改為：
+Open Source 的軟體會釋出原始碼
+1-31頁，第六個黑點的內容，原本是：(update 2010/04/06)
+1984年由Andrew Tannenbaum製作出
+應改為：
+1984年由Andrew Tanenbaum製作出
+1-31頁，倒數第二個小黑點的內容，原本是：(update 2010/04/06)
+分別是穩定版本的偶數版，如2.6.X，適合於商業與家用環境使用；一種是發展中版本如2.5.X版
+應改為：
+分別是穩定版本的偶數版，如2.6.X，適合於商業與家用環境使用；一種是發展中版本的奇數版如2.5.X版
+4-47頁，第一行，原本是：(update 2010/04/06)
+安裝一定要先裝 WindowsX 再裝 Linux 才好
+應改為：
+安裝一定要先裝 WindowsXP 再裝 Linux 才好
+6-34頁，第一個黑點題目的第二行並沒有目錄資料，其內容應為：(update 2010/04/06)
+/etc/, /etc/init.d, /boot, /usr/bin, /bin, /usr/sbin, /sbin, /dev, /var/log
+8-2頁，標題部分，原本是：
+8.1.1 相硬碟組成與分割的複習
+應改為：
+8.1.1 硬碟組成與分割的複習
+8-7頁，在例題中的第四與第五行單位放置的位置應該挪一下，原本是：
+50 x 10000 (bytes) = 488.3Kbytes，但此時浪費的容量為：『 4046 x 10000 (bytes) = 38.6MBytes
+應改為：
+50 (bytes) x 10000 = 488.3Kbytes，但此時浪費的容量為：『 4046 (bytes) x 10000 = 38.6MBytes
+8-11頁，從上而下數，第七行的地方，原本是：(update: 2010/08/31)
+此時在 block bitmpap 當中相對應到該 block
+應改為：
+此時在 block bitmap 當中相對應到該 block
+8-14頁，第一段的第二行內容，原本是：
+你的環境不可能與我的 inode 號碼一模一樣！上表的右邊所列出的 inode 僅是
+應改為：
+你的環境不可能與我的 inode 號碼一模一樣！上表的左邊所列出的 inode 僅是
+8-71頁，第二個灰色框框內的最後一行，原本是：
+118 /etc <==單位是 Kbytes 喔！
+應改為：
+118 /etc <==單位是 Mbytes 喔！
+10-29頁，從上而下數來第七個黑點，原本內容是：
+如果在文章內有對其的區塊
+應改為：
+如果在文章內有對齊的區塊
+11-11頁，第一個小黑點底下的第二段第一行，原本內容是(update 2010/02/07)：
+如果說的學理一點，那麼由於在 Linux System 下面，所有的執行續都是需要
+應改為：
+如果說的學理一點，那麼由於在 Linux System 下面，所有的執行緒都是需要
+11-14頁，灰色的框框內，倒數第 6 行，原本是(update 2010/04/27)：
+範例四：呈範例三，我要將 name
+應改為：
+範例四：承範例三，我要將 name
+11-31頁，最下方的灰色的框框內，第三行開始的內容原本是(update 2010/07/05)：
+/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/
+bin:
+/root/bin <==這兩行其實是同一行啦！
+應改為：
+/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/
+bin:/root/bin <==這兩行其實是同一行啦！
+11-35頁，中間的灰色框框內的第一行內容，原本是(update 2010/04/16)：
+然後測試一下等號 (-) 的用法
+應改為：
+然後測試一下減號 (-) 的用法
+11-67頁，中間說明部分的最後一行，原本是(update 2010/04/16)：
+就使用 wc -c 這個選項吧！
+應改為：
+就使用 wc -m 這個選項吧！
+12-12頁，倒數第三行的解釋部分，原本是 (update 2010/04/16)：
+* (星星號)：代表『重複前一個 0 到無窮多次』的意思，為組合形態
+應改為：
+* (星星號)：代表『重複前一個字元， 0 到無窮多次』的意思，為組合形態
+12-16頁，表格中第四行關於中括號 [] 的範例部分，原本是 (update 2010/10/19)：
+grep -n '[0-9]' regular_express.txt
+應改為：
+grep -n '[A-Z]' regular_express.txt
+13-12頁，圖 13.2.2.2 的內容有點小 bug，原本是 (update 2010/04/19)：
+sh sh02.sh 在此執行
+應改為：
+source sh02.sh 在此執行
+13-17頁，最底下一段的第一行，原本是 (update 2010/04/25)：
+restart 是除新啟動的意思
+應改為：
+restart 是重新啟動的意思
+14-46頁，倒數第四行，原本是 (update 2010/04/25)：
+這個檔案就是 /etc/sudoerds 啦！
+應改為：
+這個檔案就是 /etc/sudoers 啦！
+14-75頁，第 3 個步驟內的灰色框框，第五行的部分原本是 (update 2010/04/27)：
+useradd -G youcan -s -m $username
+應改為：
+useradd -G youcan -s /bin/bash -m $username
+18-14頁，第一個灰色框框在『 per_source 』的說明與範例欄位中，原本是：
+設定值：[一個數字或 NULIMITED]
+應改為：
+設定值：[一個數字或 UNLIMITED]
