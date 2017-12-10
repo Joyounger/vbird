@@ -1,0 +1,10 @@
+注1：Virtualbox为一个虚拟机器的软件，可以在一部机器上面同时运作多个操作系统。 鸟哥是在Windows XP上面安装Virtualbox本版来进行CentOS 5.x的捉图。其官网如下：
+http://www.virtualbox.org/
+进阶内存测试网站：http://www.memtest.org/
+注2：更多的核心参数可以参考如下连结：
+http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html
+对於安装过程所加入的参数有兴趣的，则可以参考底下这篇连结，里面有详细说明硬件原因：
+http://polishlinux.org/choose/laptop/
+注3：SELinux是由美国国家安全局开发出来的，SELinux是被整合到Linux核心当中， SELinux并非防火墙，他是一个存取权限控制的模组。 最早之前SELinux的开发是有鉴於系统常常会被一般使用者误用而造成系统数据的安全性问题， 因此加上这个模组来防止系统被终端用户不小心滥用系统资源喔！详细的说明可以参考底下的连结：
+http://www.nsa.gov/selinux/
+SPFdisk的官网：http://spfdisk.sourceforge.net/

@@ -1,0 +1,16 @@
+
+注1：关於 fork-and-exec 的说明可以参考如下网页与书籍：
+吴贤明老师维护的网站：http://nmc.nchu.edu.tw/linux/process.htm
+杨振和、操作系统导论、第三章、学贯出版社
+注2：对 Linux 核心有兴趣的话，可以先看看底下的连结：
+http://www.linux.org.tw/CLDP/OLD/INFO-SHEET-2.html
+http://oreilly.com/catalog/linuxkernel/chapter/ch10.html
+注3：来自 Linux Journal 的关於 /proc 的说明：http://www.linuxjournal.com/article/177
+注4：关於 SELinux 相关的网站与文件数据：
+美国国家安全局的 SELinux 简介：http://www.nsa.gov/research/selinux/
+小州老师在 SA 的简报数据：http://kenduest.sayya.org/blog/kenduest-data/2008/10/selinux_sa.pdf
+小州老师上课的讲义：http://kenduest.sayya.org/blog/kenduest-data/2008/5/kenduest-UNIX-selinux-2008-05-15.pdf
+陈永升、『企业级Linux 系统管理宝典』、学贯行销股份有限公司
+Fedora SELinux 说明：http://fedoraproject.org/wiki/SELinux/SecurityContext
+美国国家安全局对 SELinux 的白皮书：http://www.nsa.gov/research/_files/selinux/papers/module/t1.shtml
+徐秉义老师的 SELinux 配置范例：http://kate.babyface.com.tw/NetAdmin/24200801SELinux/

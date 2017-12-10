@@ -1,0 +1,15 @@
+1 the second extend file system 
+http://www.nongnu.org/ext2-doc/
+2 Rob's ext2 documentation
+http://www.landley.net/code/toybox/ext2.html
+3 ext2文件系统分析
+www.qdhedu.com/blog/post/7.html
+
+uranus.it,swin.edu.cn/~in/explore2fs/es2fs.htm
+注5:
+http://e2fsprogs.sourceforge.net/ext2intro.html
+
+注7:
+www.freeos.com/articles/3912/
+www.linuxplanet.com/linuxplanet/reports/3726/1
+https://en.wikipedia.org/wiki/Comparison_of_file_systems

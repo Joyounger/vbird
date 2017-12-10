@@ -1,0 +1,4 @@
+注1：关於 console 的说明可以参考底下的连结：
+http://en.wikipedia.org/wiki/Console
+http://publib.boulder.ibm.com/infocenter/systems/index.jsp?topic=/com.ibm.aix.files/doc/aixfiles/console.htm
+关於 logfile 也有网友提供英文版喔！我将他放置到： http://cn.linux.vbird.org//download/vbird/logfile_en.txt

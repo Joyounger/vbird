@@ -1,0 +1,11 @@
+注1：PPD 的解释：http://en.wikipedia.org/wiki/PostScript_Printer_Description
+注2：U盘 的相关解释与书籍
+维基百科的解释：http://en.wikipedia.org/wiki/Universal_Serial_Bus
+U盘 的线上书籍：http://www.linux-usb.org/USB-guide/book1.html
+Linux U盘 ：http://www.linux-usb.org/
+注3：核心代码的相关网页：http://www.kernel.org/pub/linux/docs/device-list/devices.txt
+注4：关於 udev 的简单说明：
+核心网站的说明：http://kernel.org/pub/linux/utils/kernel/hotplug/udev.html
+linuxjournal 的说明：http://www.linuxjournal.com/article/7316
+注5：hal 的官网 http://www.freedesktop.org/wiki/Software/hal
+LM_sensors 官方网站：http://www.lm-sensors.org/

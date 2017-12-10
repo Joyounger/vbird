@@ -1,0 +1,2046 @@
+From: <Saved by Blink>
+Subject: The Linux BootPrompt-HowTo
+Date: Mon, 10 Dec 2017 10:20:46 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--TA3EYkDRZxfHT1Aqwl6Y8VWNV5VipgqkbsulWgXds0----"
+
+------MultipartBoundary--TA3EYkDRZxfHT1Aqwl6Y8VWNV5VipgqkbsulWgXds0----
+Content-Type: text/html
+Content-ID: <frame-500-01523017-95f4-4ac5-9d5a-30068fa128ee@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html
+
+<html data-find=3D"_3"><head><meta http-equiv=3D"Content-Type" content=3D"t=
+ext/html; charset=3Dwindows-1252">
+
+<title>
+The Linux BootPrompt-HowTo
+</title>
+</head>
+<body bgcolor=3D"white" data-find=3D"_2">
+
+<hr>
+<h1>The Linux BootPrompt-HowTo</h1>
+
+<h2>by Paul Gortmaker. </h2>v1.4, Mar 21, 2003
+<p></p><hr>
+<em>    This is the BootPrompt-Howto, which is a compilation of all the
+        possible boot time arguments that can be passed to the Linux
+        kernel at boot time.    A discussion of how the kernel sorts boot t=
+ime arguments, along
+        with an overview of some of the popular software used to boot Linux
+        kernels is also included.</em>
+<hr>
+<p>
+</p><h2><a name=3D"toc1">1.</a> <a href=3D"http://www.faqs.org/docs/Linux-H=
+OWTO/BootPrompt-HOWTO.html#s1">Introduction</a></h2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s1.1">1.1 Intended Audience and Applicability</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss1.2">1.2 Related Documentation</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss1.3">1.3 New Versions of this Document</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc2">2.</a> <a href=3D"http://www.faqs.org/docs/Linux-H=
+OWTO/BootPrompt-HOWTO.html#s2">Overview of Boot Prompt Arguments</a></h2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s2.1">2.1 LILO (LInux LOader)</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss2.2">2.2 LoadLin</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss2.3">2.3 The ``rdev'' utility</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss2.4">2.4 How the Kernel Sorts the Arguments</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss2.5">2.5 Setting Environment Variables.</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss2.6">2.6 Passing Arguments to the `init' program</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc3">3.</a> <a href=3D"http://www.faqs.org/docs/Linux-H=
+OWTO/BootPrompt-HOWTO.html#s3">General Non-Device Specific Boot Args</a></h=
+2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s3.1">3.1 Root Filesystem options</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss3.2">3.2 Options Relating to RAM Disk Management</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss3.3">3.3 Boot Arguments Related to Memory Handling</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss3.4">3.4 Other Misc. Kernel Boot Arguments</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc4">4.</a> <a href=3D"http://www.faqs.org/docs/Linux-H=
+OWTO/BootPrompt-HOWTO.html#s4">Boot Arguments to Control PCI Bus Behaviour =
+(`pci=3D')</a></h2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s4.1">4.1 The `pci=3Dassign-busses' Argument</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss4.2">4.2 The `pci=3Dbios' and `pci=3Dnobios' Arguments</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss4.3">4.3 The `pci=3Dconf1' and `pci=3Dconf2' Arguments</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss4.4">4.4 The `pci=3Dirqmask=3D' Argument</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss4.5">4.5 The `pci=3Dlastbus=3D' Argument</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss4.6">4.6 The `pci=3Dnoacpi' Argument</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss4.7">4.7 The `pci=3Dnopeer' Argument</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss4.8">4.8 The `pci=3Dnosort' Argument</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss4.9">4.9 The `pci=3Doff' Argument</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss4.10">4.10 The `pci=3Dusepirqmask' Argument</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss4.11">4.11 The `pci=3Drom' Argument</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc5">5.</a> <a href=3D"http://www.faqs.org/docs/Linux-H=
+OWTO/BootPrompt-HOWTO.html#s5">Boot Arguments for Video Frame Buffer Driver=
+s</a></h2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s5.1">5.1 The `video=3Dmap:...' Argument</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss5.2">5.2 The `video=3Dscrollback:...' Argument</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss5.3">5.3 The `video=3Dvc:...' Argument</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc6">6.</a> <a href=3D"http://www.faqs.org/docs/Linux-H=
+OWTO/BootPrompt-HOWTO.html#s6">Boot Arguments for SCSI Peripherals.</a></h2=
+>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s6.1">6.1 Arguments for Upper and Mid-level Drivers</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss6.2">6.2 Arguments for SCSI Host Adapter Drivers</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc7">7.</a> <a href=3D"http://www.faqs.org/docs/Linux-H=
+OWTO/BootPrompt-HOWTO.html#s7">Hard Disks</a></h2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s7.1">7.1 IDE Disk/CD-ROM Driver Parameters</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss7.2">7.2 Old MFM/RLL/Standard ST-506 Disk Driver Options (`hd=3D')</a=
+>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss7.3">7.3 XT Disk Driver Options (`xd=3D', `xd_geo=3D')</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc8">8.</a> <a href=3D"http://www.faqs.org/docs/Linux-H=
+OWTO/BootPrompt-HOWTO.html#s8">The Sound Drivers </a></h2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s8.1">8.1 Individual Sound Device Driver Arguments</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc9">9.</a> <a href=3D"http://www.faqs.org/docs/Linux-H=
+OWTO/BootPrompt-HOWTO.html#s9">CD-ROMs (Non-SCSI/ATAPI/IDE)</a></h2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s9.1">9.1 Old CD-ROM Driver Arguments</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc10">10.</a> <a href=3D"http://www.faqs.org/docs/Linux=
+-HOWTO/BootPrompt-HOWTO.html#s10">Serial and ISDN Drivers</a></h2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s10.1">10.1 The ISDN drivers</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss10.2">10.2 The Serial drivers</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc11">11.</a> <a href=3D"http://www.faqs.org/docs/Linux=
+-HOWTO/BootPrompt-HOWTO.html#s11">Other Hardware Devices</a></h2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s11.1">11.1 Ethernet Devices (`ether=3D', `netdev=3D')</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss11.2">11.2 The Floppy Disk Driver (`floppy=3D')</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss11.3">11.3 The Bus Mouse Driver (`bmouse=3D')</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss11.4">11.4 The MS Bus Mouse Driver (`msmouse=3D')</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss11.5">11.5 The Printer Driver (`lp=3D')</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss11.6">11.6 The Parallel port IP driver (`plip=3D')</a>
+</li></ul>
+<p>
+</p><h2><a name=3D"toc12">12.</a> <a href=3D"http://www.faqs.org/docs/Linux=
+-HOWTO/BootPrompt-HOWTO.html#s12">Copying, Translations, Closing, etc.</a><=
+/h2>
+
+<ul>
+<li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#s=
+s12.1">12.1 Copyright and Disclaimer</a>
+</li><li><a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.h=
+tml#ss12.2">12.2 Closing</a>
+</li></ul>
+<hr>
+<h2><a name=3D"main-intro"></a> <a name=3D"s1">1.</a> <a href=3D"http://www=
+.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#toc1">Introduction</a></h2=
+>
+
+<p>
+</p><p>The kernel has the capability to accept information at
+boot in the form of a `command line', similar to an argument
+list you would give to a program. In general this is used to
+supply the kernel with information about hardware parameters
+that the kernel would not be able to determine on its own, or
+to avoid/override the values that the kernel would otherwise
+detect.
+</p><p>It is the job of the boot loader (e.g. LILO, loadlin or Grub) to=20
+take this information from the user and put it in a previously
+agreed upon place where the kernel can find it once it starts.
+</p><p>This present revision covers kernels up to and including v2.4.20.
+and v2.5.63
+</p><p>The BootPrompt-Howto is by:
+</p><blockquote>
+Paul Gortmaker, <code>p_gortmaker @ yahoo.com</code>
+</blockquote>
+<p>This document is Copyright (c) 1995-2003 by Paul Gortmaker.
+Please see the Disclaimer and Copying information at the end
+of this document (
+<a href=3D"http://www.faqs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#copyr=
+ight">copyright</a>)
+for information about redistribution of
+this document and the usual `we are not responsible for what
+you manage to break...' type legal stuff.
+</p><p>
+</p><h2><a name=3D"ss1.1">1.1 Intended Audience and Applicability</a>
+</h2>
+
+<p>Most Linux users should never have to even look at this document.
+Linux does an exceptionally good job at detecting most hardware and
+picking reasonable default settings for most parameters.
+The information in this document is aimed at users who might want
+to change some of the default settings to optimize the kernel to
+their particular machine, or to a user who has `rolled their own'=20
+kernel to support a not so common piece of hardware for which=20
+the automatic defaults are not optimal.
+</p><p>For the sake of this document it is best to break the=20
+boot arguments into two general categories; (a)ones
+handled by the kernel and (b)those being handled by a device driver.
+Examples would be <code>init=3D</code> which tells the kernel what the
+first program to run should be, versus <code>aha154x=3D</code> which
+tells a device driver for a SCSI card what hardware resources it
+should use are.  This document concentrates on giving detailed
+information on those in  (a) for reasons outlined below.
+</p><p><em>IMPORTANT NOTE:</em> Driver related boot prompt arguments=20
+only apply to hardware drivers that are compiled directly into the
+kernel. They have <em>no effect</em> on drivers that are loaded
+as modules. Most Linux distributions come with a basic `bare-bones'
+kernel, and the drivers are small modules that are loaded after
+the kernel has initialized.=20
+If you are unsure if you are using modules then try <code>lsmod</code>,
+look at <code>man depmod</code> and <code>man modprobe</code> along with th=
+e
+contents of your <code>/etc/modules.conf</code>. =20
+</p><p>In light of this, device driver boot prompt arguments are
+only really used by a few people who are building their own=20
+kernels, and thus have the kernel source at hand.  These people=20
+are usually going to check the source for the options and
+syntax required by that driver to get the most up to date info.
+</p><p>For example, if you were looking for what arguments could be
+passed to the AHA1542 SCSI driver, then you would go to the
+<code>linux/drivers/scsi</code> directory, and look in the
+file <code>aha1542.c</code> for <code>__setup(... , ...)</code>.  The
+first thing in brackets is the argument you provide at boot,
+and the second thing is the name of the function that processes your
+argument.  Usually near the top of this function or at the
+top of the source file you will find a description of the boot=20
+time arguments that the driver accepts.
+</p><p>
+</p><p>
+</p><h2><a name=3D"ss1.2">1.2 Related Documentation</a>
+</h2>
+
+<p>
+</p><p>For a while now, the kernel source has come with the file
+<code>linux/Documentation/kernel-parameters.txt</code>.  This
+file contains a brief listing of all the boot time arguments
+that you can provide, along with quick pointers to where in=20
+the source you can find where the arguments are parsed.
+The idea is that this file gives developers a quick and
+easy place to add in a brief description of any new arguments
+that they add while working on the source.  As such, it=20
+will probably always be more up to date than this document.
+Actually, I'm considering discontinuing this document in light=20
+of the existence of <code>kernel-parameters.txt</code>.  (Opinions?)
+</p><p>The <code>linux</code> directory is usually found in <code>/usr/src/=
+</code>
+for most distributions.  All references in this document
+to files that come with the kernel will have their pathname
+abbreviated to start with <code>linux</code> - you will have to add the=20
+<code>/usr/src/</code> or whatever is appropriate for your system.
+Some distributions may not install the full kernel source by
+default, and only put in the <code>linux/include</code> directory.
+If you can't find the file in question, then install the kernel
+source and/or make use of the <code>find</code> and <code>locate</code> com=
+mands.
+If you can't find the kernel source package in your distribution
+then the kernel source is available at:
+</p><p>
+<a href=3D"http://www.kernel.org/">Kernel Source Home</a></p><p>The next be=
+st thing to reading the kernel C source itself, will=20
+be any of the other documentation files that are
+distributed with the kernel itself. There are now quite a
+few of these, and most of them can be found in the directory
+<code>linux/Documentation</code> and subdirectories from there.
+Sometimes there will be <code>README.foo</code> files that can be found
+in the related driver directory (e.g. <code>linux/drivers/???/</code>,
+where examples of <code>???</code> could be <code>scsi</code>, <code>char</=
+code>, or <code>net</code>).
+The general trend is to move these files into the Documentation
+directory, so if a file mentioned in this document is no longer
+there, chances are it has been moved.
+</p><p>If you have figured out what boot-args you intend to use, and
+now want to know how to get that information to the kernel, then
+look at the documentation that comes with the software that you
+use to boot the kernel (e.g. LILO or loadlin). A brief overview
+is given below, but it is no substitute for the documentation
+that comes with the booting software.
+</p><p>
+</p><h2><a name=3D"new-doc"></a> <a name=3D"ss1.3">1.3 New Versions of this=
+ Document</a>
+</h2>
+
+<p>New versions of this document can be retrieved via anonymous
+FTP from most Linux FTP sites in the directory
+<code>/pub/Linux/docs/HOWTO/</code>. Updates will be made as new=20
+information and/or drivers becomes available. If this copy that
+you are presently reading is more than six months old, then
+you should probably check to see if a newer copy exists.
+I would recommend viewing this via a WWW browser or in the
+Postscript/dvi format. Both of these contain cross-references
+that are lost in a simple plain text version.
+</p><p>If you want to get the official copy, here is URL.
+</p><p>
+<a href=3D"http://metalab.unc.edu/mdw/HOWTO/BootPrompt-HOWTO.html">BootProm=
+pt-HOWTO</a></p><p>
+</p><hr>
+<h2><a name=3D"oview"></a> <a name=3D"s2">2.</a> <a href=3D"http://www.faqs=
+.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#toc2">Overview of Boot Prompt A=
+rguments</a></h2>
+
+<p>
+</p><p>This section gives some examples of software that can be used
+to pass kernel boot-time arguments to the kernel itself.
+It also gives you an idea of how the arguments are processed,
+what limitations there are on the boot args, and how they filter
+down to each appropriate device that they are intended for.
+</p><p>It is <em>important</em> to note that spaces should <em>not</em> be
+used in a boot argument, but only between separate arguments.
+A list of values that are for a single argument are to be
+separated with a comma between the values, and again without
+any spaces. See the following examples below.
+</p><p>
+</p><hr>
+<pre>        ether=3D9,0x300,0xd0000,0xd4000,eth0  root=3D/dev/hda1        =
+    *RIGHT*
+        ether =3D 9, 0x300, 0xd0000, 0xd4000, eth0  root =3D /dev/hda1    *=
+WRONG*
+</pre>
+<hr>
+<p>Once the Linux kernel is up and running, one can view the command
+line arguments that were in place at boot by simply typing
+<code>cat /proc/cmdline</code> at a shell prompt.=20
+</p><p>
+</p><h2><a name=3D"lilo"></a> <a name=3D"ss2.1">2.1 LILO (LInux LOader)</a>
+</h2>
+
+<p>The LILO program (LInux LOader) written by Werner Almesberger
+is the most commonly used. It has the ability to boot
+various kernels, and stores the configuration information
+in a plain text file. Most distributions ship with LILO
+as the default boot-loader. LILO can boot DOS, OS/2, Linux,
+FreeBSD, etc. without any difficulties, and is quite flexible.
+</p><p>A typical configuration will have LILO stop and print <code>LILO:</c=
+ode>
+shortly after you turn on your computer. It will then wait for
+a few seconds for any optional input from the user, and failing
+that it will then boot the default system. Typical system labels
+that people use in the LILO configuration files are <code>linux</code>
+and <code>backup</code> and <code>msdos</code>. If you want to type in a bo=
+ot
+argument, you type it in here, after typing in the system label
+that you want LILO to boot from, as shown in the example below.
+</p><p>
+</p><hr>
+<pre>        LILO: linux root=3D/dev/hda1
+</pre>
+<hr>
+<p>LILO comes with excellent documentation, and for the purposes
+of boot args discussed here, the LILO <code>append=3D</code> command
+is of significant importance when one wants to add a boot time
+argument as a permanent addition to the LILO config file.
+You simply add something like <code>append =3D "foo=3Dbar"</code> to the
+<code>/etc/lilo.conf</code> file. It can either be added at the top
+of the config file, making it apply to all sections, or to a
+single system section by adding it inside an <code>image=3D</code> section.
+Please see the LILO documentation for a more complete description.
+</p><p>
+</p><h2><a name=3D"loadlin"></a> <a name=3D"ss2.2">2.2 LoadLin</a>
+</h2>
+
+<p>The other commonly used Linux loader is `LoadLin' which is
+a DOS program that has the capability to launch a Linux
+kernel from the DOS prompt (with boot-args) assuming that
+certain resources are available. This is good for people
+that use DOS and want to launch into Linux from DOS.
+</p><p>It is also very useful if you have certain hardware which relies
+on the supplied DOS driver to put the hardware into a known
+state. A common example is `SoundBlaster Compatible' sound
+cards that require the DOS driver to set a few proprietary
+registers to put the card into a SB compatible mode. Booting
+DOS with the supplied driver, and then loading Linux from
+the DOS prompt with <code>LOADLIN.EXE</code> avoids the reset of=20
+the card that
+happens if one rebooted instead. Thus the card is left in a
+SB compatible mode and hence is useable under Linux.
+</p><p>There are also other programs that can be used to boot Linux.
+For a complete list, please look at the programs available
+on your local Linux ftp mirror, under <code>system/Linux-boot/</code>.
+</p><p>
+</p><h2><a name=3D"rdev"></a> <a name=3D"ss2.3">2.3 The ``rdev'' utility</a=
+>
+</h2>
+
+<p>There are a few of the kernel boot parameters that have their
+default values stored in various bytes in the kernel image itself.
+There is a utility called <code>rdev</code> that is installed on most
+systems that knows where these values are, and how to change them.
+It can also change things that have no kernel boot argument
+equivalent, such as the default video mode used.
+</p><p>The rdev utility is usually also aliased to swapdev, ramsize,
+vidmode and rootflags. These are the five things that rdev
+can change, those being the root device, the swap device,
+the RAM disk parameters, the default video mode, and the       =20
+readonly/readwrite setting of root device.
+</p><p>More information on <code>rdev</code> can be found by typing
+<code>rdev -h</code> or by reading the supplied man page (<code>man rdev</c=
+ode>).
+</p><p>
+</p><h2><a name=3D"ss2.4">2.4 How the Kernel Sorts the Arguments</a>
+</h2>
+
+<p>Most of the boot args take the form of:
+</p><hr>
+<pre>        name[=3Dvalue_1][,value_2]...[,value_11]
+</pre>
+<hr>
+<p>where `name' is a unique keyword that is used to identify
+what part of the kernel the associated values (if any) are to be
+given to. Multiple boot args are just a space separated list
+of the above format. Note the limit of 11 is real, as the
+present code only handles 11 comma separated parameters per
+keyword. (However, you can re-use the same keyword with
+up to an additional 11 parameters in unusually complicated
+situations, assuming the setup function supports it.)
+Also note that the kernel splits the list into a maximum of
+ten integer arguments, and a following string, so you
+can't really supply 11 integers unless you convert the
+11th arg from a string to an int in the driver itself.
+</p><p>Most of the sorting goes on in <code>linux/init/main.c</code>.
+First, the kernel checks to see if the argument is any of
+the special arguments `root=3D', `ro', `rw', or `debug'.
+The meaning of these special arguments is described further
+on in the document.
+</p><p>Then it walks a list of      setup functions (contained in the
+<code>bootsetups</code> array) to see if the specified
+argument string (such as `foo') has been associated with a
+setup function (<code>foo_setup()</code>) for a particular
+device or part of the kernel. If you
+passed the kernel the line <code>foo=3D3,4,5,6,bar</code> then the
+kernel would search the <code>bootsetups</code> array to see if
+`foo' was registered. If it was, then it would call the
+setup function associated with `foo' (<code>foo_setup()</code>)
+and hand it the integer arguments
+3, 4, 5 and 6 as given on the kernel command line, and
+also hand it the string argument <code>bar</code>.
+</p><p>
+</p><h2><a name=3D"ss2.5">2.5 Setting Environment Variables.</a>
+</h2>
+
+<p>Anything of the form `foo=3Dbar' that is not accepted as a
+setup function as described above is then interpreted as an
+environment variable to be set. An example would
+be to use <code>TERM=3Dvt100</code> or <code>BOOT_IMAGE=3Dvmlinuz.bak</code=
+>
+as a boot argument.  These environment
+variables are typically tested for in the initialization=20
+scripts to enable or disable a wide range of things.
+</p><p>
+</p><h2><a name=3D"ss2.6">2.6 Passing Arguments to the `init' program</a>
+</h2>
+
+<p>Any remaining arguments that were not picked up by the
+kernel and were not interpreted as environment variables
+are then passed onto process one, which is usually the
+<code>init</code> program. The most common argument that is passed to
+the <code>init</code> process is the word <em>single</em> which instructs
+<code>init</code> to boot the computer in single user mode, and not
+launch all the usual daemons. Check the manual page for the
+version of <code>init</code> installed on your system to see what
+arguments it accepts.
+</p><p>
+</p><hr>
+<h2><a name=3D"general"></a> <a name=3D"s3">3.</a> <a href=3D"http://www.fa=
+qs.org/docs/Linux-HOWTO/BootPrompt-HOWTO.html#toc3">General Non-Device Spec=
+ific Boot Args</a></h2>
+
+<p>These are the boot arguments that are not related to any
+specific device or peripheral. They are instead related to
+certain internal kernel parameters, such as memory handling,
+ramdisk handling, root file system handling and others.
+</p><p>
+</p><h2><a name=3D"ss3.1">3.1 Root Filesystem options</a>
+</h2>
+
+<p>The following options all pertain to how the kernel selects
+and handles the root filesystem.
+</p><p>
+</p><h3>The `root=3D' Argument</h3>
+
+<p>This argument tells the kernel what device is to be used as
+the root filesystem while booting. The default of this setting
+is the value of the root device of the system that
+the kernel was built on.
+For example, if the kernel in question was built on a system
+that used `/dev/hda1' as the root partition, then the default
+root device would be `/dev/hda1'.  To override this default
+value, and select the second floppy drive as the root device,
+one would use `root=3D/dev/fd1'.
+</p><p>Valid root devices are any of the following devices:
+</p><p>(1) /dev/hdaN to /dev/hddN, which is partition N on ST-506
+compatible disk `a to d'.
+</p><p>(2) /dev/sdaN to /dev/sdeN, which is partition N on SCSI
+compatible disk `a to e'.
+</p><p>(3) /dev/xdaN to /dev/xdbN, which is partition N on XT
+compatible disk `a to b'.
+</p><p>(4) /dev/fdN, which is floppy disk drive number N. Having
+N=3D0 would be the DOS `A:' drive, and N=3D1 would be `B:'.
+</p><p>(5) /dev/nfs, which is not really a device, but rather a
+flag to tell the kernel to get the root fs via the network.
+</p><p>(6) /dev/ram, which is the RAM disk.
+</p><p>The more awkward and less portable numeric specification
+of the above possible disk devices in major/minor format is
+also accepted. (e.g. /dev/sda3 is major 8, minor 3, so you
+could use <code>root=3D0x803</code> as an alternative.)
+</p><p>This is one of the few kernel boot arguments that has its
+default stored in the kernel image, and which can thus
+be altered with the <code>rdev</code> utility.
+</p><p>
+</p><p>
+</p><h3>The `rootflags=3D' Argument</h3>
+
+<p>This option allows you to give options pertaining to the
+mounting of the root filesystem just as you would to the
+<code>mount</code> program.  An example could be giving the
+<code>noatime</code>  option to an ext2 fs.
+</p><p>
+</p><h3>The `rootfstype=3D' Argument</h3>
+
+<p>This option allows you to give a comma separated list of
+fs types that will be tried for a match when trying to=20
+mount the root filesystem.  This list will be used instead
+of the internal default which usually starts with ext2,
+minix and the like.
+</p><p>
+</p><h3>The `ro' Argument</h3>
+
+<p>When the kernel boots, it needs a root filesystem to read
+basic things off of. This is the root filesystem that is
+mounted at boot. However, if the root filesystem is mounted
+with write access, you can not reliably check the filesystem
+integrity with half-written files in progress. The `ro'
+option tells the kernel to mount the root filesystem as
+`readonly' so that any filesystem consistency check programs
+(fsck) can safely assume that there are no half-written
+files in progress while performing the check. No programs
+or processes can write to files on the filesystem in
+question until it is `remounted' as read/write capable.
+</p><p>This is one of the few kernel boot arguments that has its
+default stored in the kernel image, and which can thus
+be altered with the <code>rdev</code> utility.
+</p><p>
+</p><h3>The `rw' Argument</h3>
+
+<p>This is the exact opposite of the above, in that it tells the
+kernel to mount the root filesystem as read/write. The default
+is to mount the root filesystem as read only. Do not
+run any `fsck' type programs on a filesystem that is mounted
+read/write.
+</p><p>The same value stored in the image file mentioned above is
+also used for this parameter, accessible via <code>rdev</code>.
+</p><p>
+</p><h3>The `nfsroot=3D' Argument</h3>
+
+<p>This argument tells the kernel which machine, what directory
+and what NFS options to use for the root filesystem.
+Also note that
+the argument <code>root=3D/dev/nfs</code> is required. Detailed
+information on using an NFS root fs is in the file
+<code>linux/Documentation/nfsroot.txt</code>.=20
+</p><p>
+</p><p>
+</p><h3>The `ip=3D' or `nfsaddrs=3D' Argument</h3>
+
+<p>If you are using NFS as a root filesystem, then there is no
+programs like <code>ifconfig</code> and <code>route</code> present until
+the root fs is mounted, and so the
+kernel has to configure the network interfaces directly.
+This boot argument sets up the various network interface addresses
+that are required to communicate over the network. If this argument
+is not given, then the kernel tries to use RARP and/or BOOTP to
+figure out these parameters.=20
+</p><p>
+</p><h2><a name=3D"ss3.2">3.2 Options Relating to RAM Disk Management</a>
+</h2>
+
+<p>The following options all relate to how the kernel handles
+the RAM disk device, which is usually used for bootstrapping
+machines during the install phase, or for machines with
+modular drivers that need to be installed to access the
+root filesystem.
+</p><p>
+</p><p>
+</p><h3>The `ramdisk_start=3D' Argument</h3>
+
+<p>To allow a kernel image to reside on a floppy disk along with a
+compressed ramdisk image, the `ramdisk_start=3D&lt;offset&gt;' command
+was added. The kernel can't be included into the compressed ramdisk
+filesystem image, because it needs to be stored starting at block
+zero so that the BIOS can load the bootsector and then the kernel
+can bootstrap itself to get going.
+</p><p>Note: If you are using an uncompressed ramdisk image, then the kerne=
+l
+can be a part of the filesystem image that is being loaded into the
+ramdisk, and the floppy can be booted with LILO, or the two can be
+separate as is done for the compressed images.
+</p><p>If you are using a two-disk boot/root setup (kernel on disk 1,
+ramdisk image on disk 2) then the ramdisk would start at block zero,
+and an offset of zero would be used. Since this is the default value,
+you would not need to actually use the command at all.
+</p><p>
+</p><h3>The `load_ramdisk=3D' Argument</h3>
+
+<p>This parameter tells the kernel whether it is to try to load a
+ramdisk image or not. Specifying `load_ramdisk=3D1' will tell the
+kernel to load a floppy into the ramdisk. The default value is
+zero, meaning that the kernel should not try to load a ramdisk.
+</p><p>Please see the file <code>linux/Documentation/ramdisk.txt</code>
+for a complete description of the new boot time arguments, and
+how to use them. A description of how this parameter can be set
+and stored in the kernel image via `rdev' is also described.
+</p><p>
+</p><h3>The `prompt_ramdisk=3D' Argument</h3>
+
+<p>This parameter tells the kernel whether or not to give you a prompt
+asking you to insert the floppy containing the ramdisk image. In
+a single floppy configuration the ramdisk image is on the same floppy
+as the kernel that just finished loading/booting and so a prompt
+is not needed. In this case one can use `prompt_ramdisk=3D0'. In a
+two floppy configuration, you will need the chance to switch disks,
+and thus `prompt_ramdisk=3D1' can be used. Since this is the default
+value, it doesn't really need to be specified. (
+(Historical note: Sneaky people used to use the `vga=3Dask' LILO
+option to temporarily pause the boot process and allow a chance to=20
+switch from boot to root floppy.)
+</p><p>Please see the file <code>linux/Documentation/ramdisk.txt</code>
+for a complete description of the new boot time arguments, and
+how to use them. A description of how this parameter can be set
+and stored in the kernel image via `rdev' is also described.
+</p><p>
+</p><h3>The `ramdisk_size=3D' Argument</h3>
+
+<p>While it is true that the ramdisk grows dynamically as required,
+there is an upper bound on its size so that it doesn't consume
+all available RAM and leave you in a mess. The default is 4096
+(i.e. 4MB) which should be large enough for most needs. You
+can override the default to a bigger or smaller size with this
+boot argument.
+</p><p>Please see the file <code>linux/Documentation/ramdisk.txt</code>
+for a complete description of the new boot time arguments, and
+how to use them. A description of how this parameter can be set
+and stored in the kernel image via `rdev' is also described.
+</p><p>
+</p><h3>The `ramdisk_blocksize=3D' Argument</h3>
+
+<p>This can be tuned for better memory management behaviour.
+Quoting from the ramdisk driver <code>rd.c</code>:
+</p><p>It would be very desirable to have a soft-blocksize (that in=20
+the case of the ramdisk driver is also the hardblocksize ;) of=20
+PAGE_SIZE because doing that we'll achieve a far better MM=20
+footprint. Using a rd_blocksize of BLOCK_SIZE in the worst case=20
+we'll make PAGE_SIZE/BLOCK_SIZE buffer-pages unfreeable. With a=20
+rd_blocksize of PAGE_SIZE instead we are sure that only 1 page=20
+will be protected. Depending on the size of the ramdisk you may=20
+want to change the ramdisk blocksize to achieve a better or worse=20
+MM behaviour. The default is still BLOCK_SIZE (needed by=20
+rd_load_image that supposes the filesystem in the image uses=20
+a BLOCK_SIZE blocksize)
+</p><p>
+</p><h3>The `ramdisk=3D' Argument (obsolete)</h3>
+
+<p>(NOTE: This argument is obsolete, and should not be used except
+on kernels v1.3.47 and older. The commands that should be used
+for the ramdisk device are documented above.  Newer kernels
+may accept this as an alias for <code>ramdisk_size</code>.)
+</p><p>This specifies the size in kB of the RAM disk device.
+For example, if one wished to have a root filesystem on a 1.44MB
+floppy loaded into the RAM disk device, they would use:
+</p><p>
+</p><hr>
+<pre>        ramdisk=3D1440
+</pre>
+<hr>
+<p>This is one of the few kernel boot arguments that has its
+default stored in the kernel image, and which can thus
+be altered with the <code>rdev</code> utility.
+</p><p>
+</p><p>
+</p><h3>The `noinitrd' (initial RAM disk) Argument</h3>
+
+<p>The v2.x and newer kernels have a feature where the root filesystem
+can be initially a RAM disk, and the kernel executes <code>/linuxrc</code>
+on that RAM image. This feature is typically used to allow loading
+of modules needed to mount the real root filesystem (e.g. load
+the SCSI driver modules stored in the RAM disk image, and then
+mount the real root filesystem on a SCSI disk.)
+</p><p>The actual `noinitrd' argument determines what happens to the
+initrd data after the kernel has booted.  When
+specified, instead of converting it to a RAM disk, it
+is accessible via <code>/dev/initrd</code>, which can be read once
+before the RAM is released back to the system. For full details
+on using the initial RAM disk, please consult
+<code>linux/Documentation/initrd.txt</code>. In addition, the most
+recent versions of <code>LILO</code> and <code>LOADLIN</code> should have a=
+dditional
+useful information.
+</p><p>
+</p><p>
+</p><h2><a name=3D"ss3.3">3.3 Boot Arguments Related to Memory Handling</a>
+</h2>
+
+<p>The following arguments alter how Linux detects or handles
+the physical and virtual memory of your system.
+</p><p>
+</p><h3>The `cachesize=3D' Argument</h3>
+
+<p>Override level 2 CPU cache size detection (in kB).  Sometimes=20
+CPU hardware bugs make them report the cache size incorrectly.=20
+The kernel will attempt work arounds to fix known problems, but=20
+for some CPUs it is not possible to determine what the correct=20
+size should be.  This option provides an override for these=20
+situations.
+</p><p>
+</p><h3>The `mem=3D' Argument</h3>
+
+<p>This argument has several purposes: The original purpose was to
+specify the amount of installed memory (or a value less than
+that if you wanted to limit the amount of memory available to
+linux).
+</p><p>The next (and hardly used) purpose is to specify
+<code>mem=3Dnopentium</code> which tells the Linux kernel to not use
+the 4MB page table performance feature.  If you want to use
+it for both purposes, use a separate <code>mem=3D</code> for each one.
+</p><p>The original BIOS call defined in the PC specification  that
+returns the amount of installed memory was only designed to
+be able to report up to 64MB. (Yes, another lack of foresight,
+just like the 1024 cylinder disks... sigh.) Linux uses this
+BIOS call at boot to determine how much memory is installed.
+A newer specification (e820) allows the BIOS to get this right
+on most machines nowadays.  If you have more than 64MB of RAM=20
+installed on an older machine, you can use this
+boot argument to tell Linux how much memory you have.
+Here is a quote from Linus on the usage of the <code>mem=3D</code> paramete=
+r.
+</p><p>``The kernel will accept any `mem=3Dxx' parameter you give it, and i=
+f
+it turns out that you lied to it, it will crash horribly sooner or
+later.  The parameter indicates the highest addressable RAM address,
+so `mem=3D0x1000000' means you have 16MB of memory, for example.  For
+a 96MB machine this would be `mem=3D0x6000000'.
+If you tell Linux that it has more memory
+than it actually does have, bad things will happen: maybe not at
+once, but surely eventually.''
+</p><p>Note that the argument does not have to be in hex, and the
+suffixes `k' and `M' (case insensitive) can be used to specify
+kilobytes and Megabytes, respectively. (A `k' will cause a 10 bit
+shift on your value, and a `M' will cause a 20 bit shift.)
+A typical example for a 128MB machine would be "<code>mem=3D128m</code>".
+</p><p>In some cases, the memory reported via e820 can also be wrong,
+and so the <code>mem=3Dexactmap</code> was added.  You use this in
+conjunction with specifying an exact memory map, such as:
+</p><p>
+</p><hr>
+<pre>        mem=3Dexactmap mem=3D640K@0 mem=3D1023M@1M
+</pre>
+<hr>
+<p>for a 1GB machine with the usual 384k of ISA memory mapped
+I/O space excluded from use.
+</p><p>
+</p><p>
+</p><h3>The `memfrac=3D' Argument</h3>
+
+<p>Memory is broken down into zones; on i386 these zones
+correspond to `DMA' (for legacy ISA devices that can only address
+up to 16MB via DMA); `Normal' for memory from 16MB up to 1GB,
+and `HighMem' for memory beyond 1GB (assuming your kernel
+was built with high mem support enabled). The two (or three)
+integers supplied here determine how much memory in each zone
+should be kept free - with the size of the zone divided by the
+number supplied being used as the minimum (so smaller numbers
+mean keep more free in the zone).  The defaults are currently
+<code>memfrac=3D32,128,128</code>.
+</p><p>
+</p><h3>The `swap=3D' Argument</h3>
+
+<p>This allows the user to tune some of the virtual memory (VM)
+parameters that are related to swapping to disk. It accepts
+the following eight parameters:
+</p><p>
+</p><hr>
+<pre>        MAX_PAGE_AGE
+        PAGE_ADVANCE
+        PAGE_DECLINE
+        PAGE_INITIAL_AGE
+        AGE_CLUSTER_FRACT
+        AGE_CLUSTER_MIN
+        PAGEOUT_WEIGHT
+        BUFFEROUT_WEIGHT
+</pre>
+<hr>
+<p>Interested hackers are advised to have a read of=20
+<code>linux/mm/swap.c</code> and also make note of the goodies in=20
+<code>/proc/sys/vm</code>. Kernels come with some
+useful documentation on this in the
+<code>linux/Documentation/vm/</code> directory.
+</p><p>
+</p><h3>The `buff=3D' Argument</h3>
+
+<p>Similar to the `swap=3D' argument, this allows the user to
+tune some of the parameters related to buffer memory management.
+It accepts the following six parameters:
+</p><p>
+</p><hr>
+<pre>        MAX_BUFF_AGE
+        BUFF_ADVANCE
+        BUFF_DECLINE
+        BUFF_INITIAL_AGE
+        BUFFEROUT_WEIGHT
+        BUFFERMEM_GRACE
+</pre>
+<hr>
+<p>Interested hackers are advised to have a read of=20
+<code>linux/mm/swap.c</code> and also make note of the goodies
+in <code>/proc/sys/vm</code>.  Kernels come with some
+useful documentation on this in the
+<code>linux/Documentation/vm/</code> directory.
+</p><p>
+</p><h2><a name=3D"ss3.4">3.4 Other Misc. Kernel Boot Arguments</a>
+</h2>
+
+<p>These various boot arguments let the user tune certain
+internal kernel parameters.
+</p><p>
+</p><h3>The `acpi=3D' Argument</h3>
+
+<p>Currently this only accepts `off' to disable the ACPI subsystem.
+</p><p>
+</p><h3>The `console=3D' Argument</h3>
+
+<p>Usually the console is the 1st virtual terminal, and so boot
+messages appear on your VGA screen.  Sometimes it is nice to
+be able to use another device like a serial port (or even a
+printer!) to be the console when no video device is present.
+It is also useful to capture boot time messages if a problem
+stops progress before they can be logged to disk.
+An example would be to use
+<code>console=3DttyS1,9600</code> for selecting the 2nd serial port
+at 9600 baud to be the console.
+More information can be found in=20
+<code>linux/Documentation/serial-console.txt</code>.
+</p><p>
+</p><h3>The `debug' Argument</h3>
+
+<p>The kernel communicates important (and not-so important)
+messages to the operator via the <code>printk()</code> function.
+If the message is considered important, the <code>printk()</code>
+function will put a copy on the present console as well
+as handing it off to the <code>klogd()</code> facility so that it
+gets logged to disk. The reason for printing important
+messages to the console as well as logging them to disk is
+because under unfortunate circumstances (e.g. a disk failure)
+the message won't make it to disk and will be lost.
+</p><p>The threshold for what is and what isn't considered important
+is set by the <code>console_loglevel</code> variable. The default is
+to log anything more important than <code>DEBUG</code> (level 7) to
+the console. (These levels are defined in the include file
+<code>kernel.h</code>) Specifying <code>debug</code> as a boot argument wil=
+l
+set the console loglevel to 10, so that <em>all</em> kernel
+messages appear on the console.
+</p><p>The console loglevel can usually also be set at run time via
+an option to the <code>klogd()</code> program. Check the man page
+for the version installed on your system to see how to do this.
+</p><p>
+</p><h3>The `decnet=3D' Argument</h3>
+
+<p>If you are using DECnet, you can supply two comma separated
+integers here to give your area and node respectively.
+</p><p>
+</p><h3>The `devfs=3D' Argument</h3>
+
+<p>If you are using devfs, instead of the standard static
+devices in <code>/dev/</code> then you can supply the words
+<code>only</code> or <code>mount</code> with this argument.
+There are also additional debug arguments that are listed
+in the source.
+</p><p>
+</p><h3>The `gpt' Argument</h3>
+
+<p>If you are using EFI GUID Partition Table handling, you can
+use this to override problems associated with an invalid PMBR.
+</p><p>
+</p><h3>The `idle=3D' Argument</h3>
+
+<p>Setting this to `poll' causes the idle loop in the kernel
+to poll on the need reschedule flag instead of waiting
+for an interrupt to happen. This can result in an improvement
+in performance on SMP systems (albeit at the cost of an
+increase in power consumption).
+</p><p>
+</p><h3>The `init=3D' Argument</h3>
+
+<p>The kernel defaults to starting the `init' program at boot,
+which then takes care of setting up the computer for users
+via launching getty programs, running `rc' scripts and the like.
+The kernel first looks for <code>/sbin/init</code>, then
+<code>/etc/init</code> (depreciated), and as a last resort, it
+will try to use <code>/bin/sh</code> (possibly on <code>/etc/rc</code>).
+If for example, your init program got corrupted and thus stopped
+you from being able to boot, you could simply use the boot prompt
+<code>init=3D/bin/sh</code> which would drop you directly into a
+shell at boot, allowing you to replace the corrupted program.
+</p><p>
+</p><h3>The `isapnp=3D' Argument</h3>
+
+<p>This takes the form of:
+<code>isapnp=3Dread_port,reset,skip_pci_scan,verbose</code>
+</p><p>
+</p><h3>The `isapnp_reserve_dma=3D' Argument</h3>
+
+<p>This takes the form of:
+<code>isapnp_reserve_dma=3Dn1,n2,n3,...nN</code>
+where n1 ... nN are the DMA channel numbers to not use for PnP.
+</p><p>
+</p><h3>The `isapnp_reserve_io=3D' Argument</h3>
+
+<p>This takes the form of:
+<code>isapnp_reserve_irq=3Dio1,size1,io2,size2,...ioN,sizeN</code>
+where ioX,sizeX are I/O start and length pairs of regions
+in I/O space that are not to be used by PnP.
+</p><p>
+</p><h3>The `isapnp_reserve_irq=3D' Argument</h3>
+
+<p>This takes the form of:
+<code>isapnp_reserve_irq=3Dn1,n2,n3,...nN</code>
+where n1 ... nN are the interrupt numbers to not use for PnP.
+</p><p>
+</p><h3>The `isapnp_reserve_mem=3D' Argument</h3>
+
+<p>This takes the form of:
+<code>isapnp_reserve_mem=3Dmem1,size1,mem2,size2,...memN,sizeN</code>
+where ioX,sizeX are I/O start and length pairs of regions
+in memory space that are not to be used by PnP.
+</p><p>
+</p><h3>The `kbd-reset' Argument</h3>
+
+<p>Normally on i386 based machines, the Linux kernel does not=20
+reset the keyboard controller at boot, since the BIOS is
+supposed to do this.  But as usual, not all machines do what
+they should. Supplying this option may help if you are having=20
+problems with your keyboard behaviour.  It simply forces a
+reset at initialization time. (Some have argued that this should
+be the default behaviour anyways).
+</p><p>
+</p><h3>The `lockd.udpport=3D' and `lockd.tcpport' Argument</h3>
+
+<p>These tell the kernel to use the given port numbers for
+NFS lockd operation (for either UDP or TCP operation).
+</p><p>
+</p><h3>The `maxcpus=3D' Argument</h3>
+
+<p>The number given with this argument limits the maximum
+number of CPUs activated in SMP mode.  Using a value of
+0 is equivalent to the <code>nosmp</code> option.
+</p><p>
+</p><h3>The `mca-pentium' Argument</h3>
+
+<p>The IBM model 95 Microchannel machines seem to lock up on the=20
+test that Linux usually does to detect the type of math chip
+coupling.  Since all Pentium chips have a built in math processor,
+this test (and the lock up problem) can be avoided by using
+this boot option.
+</p><p>
+</p><h3>The `md=3D' Argument</h3>
+
+<p>If your root filesystem is on a Multiple Device then you can
+use this (assuming you compiled in boot support) to tell the
+kernel the  multiple device layout. The format (from the=20
+file <code>linux/Documentation/md.txt</code>) is:
+</p><p><code>md=3Dmd_device_num,raid_level,chunk_size_factor,fault_level,de=
+v0,dev1,...,devN</code>
+</p><p>Where <code>md_device_num</code> is the number of the md device,
+i.e. 0 means md0, 1 means md1, etc.
+For <code>raid_level</code>, use -1 for linear mode and 0 for striped mode.
+Other modes are currently unsupported.
+The <code>chunk_size_factor</code> is for  raid-0 and raid-1 only and
+sets the chunk size as PAGE_SIZE shifted left the specified=20
+amount.  The <code>fault_level</code> is only for raid-1
+and sets the maximum fault number to the specified number.
+(Currently unsupported due to lack of boot support for raid1.)
+The <code>dev0-devN</code> are a comma separated list of the devices that
+make up the individual md device:=20
+e.g. <code>/dev/hda1,/dev/hdc1,/dev/sda1</code>
+</p><p>See also <code>raid=3D</code>.
+</p><p>
+</p><h3>The `nmi_watchdog=3D' Argument</h3>
+
+<p>Supplying a non-zero integer will enable the non maskable
+interrupt watchdog (assuming IO APIC support is compiled in).
+This checks to see if the interrupt count is increasing
+(indicating normal system activity) and if it is not then
+it assumes that a processor is stuck and forces an error
+dump of diagnostic information.
+</p><p>
+</p><h3>The `no387' Argument</h3>
+
+<p>Some i387 coprocessor chips have bugs that show up when
+used in 32 bit protected mode. For example, some of the
+early ULSI-387 chips would cause solid lockups while
+performing floating point calculations, apparently due to
+a bug in the FRSAV/FRRESTOR instructions.  Using the `no387'
+boot argument causes Linux to ignore the math coprocessor
+even if you have one. Of course you must then have your
+kernel compiled with math emulation support! This may also
+be useful if you have one of those <em>really</em> old 386 machines
+that could use an 80287 FPU, as Linux can't use an 80287.
+</p><p>
+</p><h3>The `no-hlt' Argument</h3>
+
+<p>The i386 (and successors thereof) family of CPUs have a
+`hlt' instruction which tells the CPU that nothing is
+going to happen until an external device (keyboard, modem,
+disk, etc.) calls upon the CPU to do a task. This allows the
+CPU to enter a `low-power' mode where it sits like a zombie
+until an external device wakes it up (usually via an interrupt).
+Some of the early i486DX-100 chips had a problem  with the
+`hlt' instruction, in that they couldn't reliably return to
+operating mode after this instruction was used. Using the
+`no-hlt' instruction tells Linux to just run an infinite loop
+when there is nothing else to do, and to <em>not</em> halt your
+CPU when there is no activity. This allows people with these
+broken chips to use Linux, although they would be well advised
+to seek a replacement through a warranty where possible.
+</p><p>
+</p><h3>The `no-scroll' Argument</h3>
+
+<p>Using this argument at boot disables scrolling features that
+make it difficult to use Braille terminals.
+</p><p>
+</p><h3>The `noapic' Argument</h3>
+
+<p>Using this option tells a SMP kernel to not use some of the
+advanced features of the interrupt controller on multi processor
+machines.  Use of this option may be required when a device
+(such as those using ne2k-pci or 3c59xi drivers) stops generating
+interrupts (i.e. <code>cat /proc/interrupts</code> shows the same
+interrupt count.)
+See <code>linux/Documentation/IO-APIC.txt</code> for more information.
+</p><p>
+</p><h3>The `noht' Argument</h3>
+
+<p>This will disable hyper-threading on intel processors that=20
+have this feature.
+</p><p>
+</p><h3>The `noisapnp' Argument</h3>
+
+<p>If ISA PnP is built into the kernel, this will disable it.
+</p><p>
+</p><h3>The `nomce' Argument</h3>
+
+<p>Some newer processors have the ability to self-monitor and
+detect inconsistencies that should not regularly happen.
+If an inconsistency is detected, a Machine Check Exception
+will take place and the system will be halted (rather than
+plundering forward and corrupting your data).  You can use
+this argument to disable this feature, but be sure to check
+that your CPU is not overheating or otherwise faulty first.
+</p><p>
+</p><h3>The `nosmp' Argument</h3>
+
+<p>Use of this option will tell a SMP kernel on a SMP machine to
+operate single processor.  Typically only used for debugging
+and determining if a particular problem is SMP related.
+</p><p>
+</p><h3>The `noresume' Argument</h3>
+
+<p>If software suspend is enabled, and a suspend to disk file
+has been specified, using this argument will give a normal
+boot and the suspend data will be ignored.
+</p><p>
+</p><h3>The `notsc' Argument</h3>
+
+<p>Use of this option will tell the kernel to not use the
+Time Stamp Counter for anything, even if the CPU has one.
+</p><p>
+</p><h3>The `nofxsr" Argument</h3>
+
+<p>Use of this option will tell the kernel to not use=20
+any speed-up tricks involving the floating point unit,
+even if the processor supports them.
+</p><p>
+</p><h3>The `panic=3D' Argument</h3>
+
+<p>In the unlikely event of a kernel panic (i.e. an internal error
+that has been detected by the kernel, and which the kernel decides
+is serious enough to moan loudly and then halt everything), the
+default behaviour is to just sit there until someone comes along
+and notices the panic message on the screen and reboots the machine.
+However if a machine is running unattended in an isolated location
+it may be desirable for it to automatically reset itself so that
+the machine comes back on line. For example, using <code>panic=3D30</code> =
+at
+boot would cause the kernel to try and reboot itself 30 seconds
+after the kernel panic happened. A value of zero gives the default
+behaviour, which is to wait forever.
+</p><p>Note that this timeout value can also be read and set via the
+<code>/proc/sys/kernel/panic</code> sysctl interface.
+</p><p>
+</p><h3>The `pirq=3D' Argument</h3>
+
+<p>Using this option tells a SMP kernel information on the PCI
+slot versus IRQ settings for SMP motherboards which are
+unknown (or known to be blacklisted).
+See <code>linux/Documentation/IO-APIC.txt</code> for more
+information.
+</p><p>
+</p><h3>The `profile=3D' Argument</h3>
+
+<p>Kernel developers can=20
+profile how and where the kernel is spending its CPU cycles
+in an effort to maximize efficiency and performance. This
+option lets you set the profile shift count at boot. Typically
+it is set to two.   You need a tool such as=20
+<code>readprofile.c</code> that can make use of the <code>/proc/profile</co=
+de>
+output.
+</p><p>
+</p><h3>The `quiet' Argument</h3>
+
+<p>This is pretty much the opposite of the `debug' argument.
+When this is given, only important and system critical
+kernel messages are printed to the console.  Normal messages
+about hardware detection at boot are suppressed.
+</p><p>
+</p><h3>The `raid=3D' Argument</h3>
+
+<p>Accepts <code>noautodetect</code> at the moment.  See also <code>md=3D</=
+code>.
+</p><p>
+</p><h3>The `reboot=3D' Argument</h3>
+
+<p>This option controls the type of reboot that Linux will do
+when it resets the computer (typically via <code>/sbin/init</code>
+handling a Control-Alt-Delete). The default as of v2.0
+kernels is to do a `cold' reboot (i.e. full reset, BIOS does
+memory check, etc.) instead of a `warm' reboot (i.e. no full
+reset, no memory check). It was changed to be cold by default=20
+since that tends to work on cheap/broken hardware that fails
+to reboot when a warm reboot is requested. To get the old=20
+behaviour (i.e. warm reboots) use <code>reboot=3Dw</code> or in fact
+any word that starts with <code>w</code> will work.
+</p><p>Other accepted options are `c', `b', `h', and `s', for cold,
+bios, hard, and SMP respectively. The `s' takes an optional
+digit to specify which CPU should handle the reboot. Options
+can be combined where it makes sense, i.e. <code>reboot=3Db,s2</code>=20
+</p><p>
+</p><h3>The `reserve=3D' Argument</h3>
+
+<p>This is used to <em>protect</em> I/O port regions from probes.
+The form of the command is:
+</p><p>
+</p><blockquote><code>
+reserve=3Diobase,extent[,iobase,extent]...
+</code></blockquote>
+<p>In some machines it may be necessary to prevent device drivers from
+checking for devices (auto-probing) in a specific region. This may be
+because of poorly designed hardware that causes the boot to <em>freeze</em>
+(such as some ethercards), hardware that is mistakenly identified,
+hardware whose state is changed by an earlier probe, or merely
+hardware you don't want the kernel to initialize.
+</p><p>The <code>reserve</code> boot-time argument addresses this problem b=
+y specifying
+an I/O port region that shouldn't be probed. That region is reserved
+in the kernel's port registration table as if a device has already
+been found in that region (with the name <code>reserved</code>).=20
+Note that this mechanism shouldn't be necessary on most machines.=20
+Only when there is a problem or special case would it be necessary=20
+to use this.
+</p><p>The I/O ports in the specified region are protected against
+device probes that do a <code>check_region()</code> prior to probing
+blindly into a region of I/O space. This was put in to be used=20
+when some driver was hanging on a NE2000, or misidentifying=20
+some other device as its own.  A correct device driver shouldn't=20
+probe a reserved region, unless another boot argument explicitly=20
+specifies that it do so.  This implies that <code>reserve</code> will=20
+most often be used with some other boot argument. Hence if you=20
+specify a <code>reserve</code> region to protect a specific device, you=20
+must generally specify an explicit probe for that device. Most=20
+drivers ignore the port registration table if they are given an=20
+explicit address.
+</p><p>For example, the boot line
+</p><p>
+</p><hr>
+<pre>        reserve=3D0x300,32  blah=3D0x300
+</pre>
+<hr>
+<p>keeps all device drivers except the driver for `blah' from
+probing <code>0x300-0x31f</code>.
+</p><p>As usual with boot-time specifiers there is an 11 parameter limit,
+thus you can only specify 5 reserved regions per <code>reserve</code> keywo=
+rd.
+Multiple <code>reserve</code> specifiers will work if you have an unusually
+complicated request.
+</p><p>
+</p><h3>The `resume=3D' Argument</h3>
+
+<p>If you are using software suspend, then this will allow you to
+specify the file name of the suspend to disk data that you=20
+want the machine to resume from.
+</p><p>
+</p><h3>The `vga=3D' Argument</h3>
+
+<p>Note that this is not really a boot argument. It is an option
+that is interpreted by LILO and not by the kernel like all the
+other boot arguments are. However its use has become so common
+that it deserves a mention here. It can also be set via using
+<code>rdev -v</code> or equivalently <code>vidmode</code> on the vmlinuz fi=
+le.
+This allows the setup code to use the video BIOS to change
+the default display mode before actually booting the Linux
+kernel. Typical modes are 80x50, 132x44 and so on. The best
+way to use this option is to start with <code>vga=3Dask</code> which
+will prompt you with a list of various modes that you can use
+with your video adapter before booting the kernel. Once you
+have the number from the above list that you want to use, you
+can later put it in place of the `ask'. For more information,
+please see the file <code>linux/Documentation/svga.txt</code>
+that comes with all recent kernel versions.
+</p><p>Note that newer kernels (v2.1 and up) have the setup code that=20
+changes the video mode as an option, listed as
+<code>Video mode selection support</code> so you need to enable this
+option if you want to use this feature.
+</p><p>
+</p><hr>
+<h2><a name=3D"s4">4.</a> <a href=3D"http://www.faqs.org/docs/Linux-HOWTO/B=
+ootPrompt-HOWTO.html#toc4">Boot Arguments to Control PCI Bus Behaviour (`pc=
+i=3D')</a></h2>
+
+<p>The `pci=3D' argument (not avail. in v2.0 kernels)
+can be used to change the behaviour of PCI bus device
+probing and device behaviour. Firstly the file
+<code>linux/drivers/pci/pci.c</code> checks for=20
+architecture independent <code>pci=3D</code> options.=20
+The remaining allowed arguments are handled
+in <code>linux/arch/???/kernel/bios32.c</code> and are
+listed below for ???=3Di386.
+</p><p>
+</p><h2><a name=3D"ss4.1">4.1 The `pci=3Dassign-busses' Argument</a>
+</h2>
+
+<p>This tells the kernel to always assign all PCI bus numbers,=20
+overriding whatever the firmware may have done.
+</p><p>
+</p><h2><a name=3D"ss4.2">4.2 The `pci=3Dbios' and `pci=3Dnobios' Arguments=
+</a>
+</h2>
+
+<p>These are used to set/clear the flag indicating that the
+PCI probing is to take place via the PCI BIOS.  The default
+is to use the BIOS.
+</p><p>
+</p><h2><a name=3D"ss4.3">4.3 The `pci=3Dconf1' and `pci=3Dconf2' Arguments=
+</a>
+</h2>
+
+<p>If PCI direct mode is enabled, the use of these enables
+either configuration Type 1 or Type 2.  These implicitly
+clear the PCI BIOS probe flag (i.e. `pci=3Dnobios') too.
+</p><p>
+</p><h2><a name=3D"ss4.4">4.4 The `pci=3Dirqmask=3D' Argument</a>
+</h2>
+
+<p>This allows the user to supply an IRQ mask value, which
+is converted using strtol(). It will set a bit mask of IRQs=20
+allowed to be assigned automatically to PCI devices. You
+can make the kernel exclude IRQs of your ISA cards this way.
+</p><p>
+</p><h2><a name=3D"ss4.5">4.5 The `pci=3Dlastbus=3D' Argument</a>
+</h2>
+
+<p>This allows the user to supply a lastbus value, which
+is converted using strtol().  It will scan all buses till bus N.=20
+Can be useful if the kernel is unable to find your secondary buses
+and you want to tell it explicitly which ones they are.
+</p><p>
+</p><h2><a name=3D"ss4.6">4.6 The `pci=3Dnoacpi' Argument</a>
+</h2>
+
+<p>
+</p><p>This disables the use of ACPI routing information during
+the PCI configuration stages.
+</p><p>
+</p><h2><a name=3D"ss4.7">4.7 The `pci=3Dnopeer' Argument</a>
+</h2>
+
+<p>This disables the default peer bridge fixup, which according
+to the source does the following:
+</p><p>``In case there are peer host bridges, scan bus behind each of=20
+them.  Although several sources claim that the host bridges should=20
+have header type 1 and be assigned a bus number as for PCI2PCI=20
+bridges, the reality doesn't pass this test and the bus number=20
+is usually set by BIOS to the first free value.''
+</p><p>
+</p><h2><a name=3D"ss4.8">4.8 The `pci=3Dnosort' Argument</a>
+</h2>
+
+<p>Using this argument instructs the kernel to not sort the
+PCI devices during the probing phase.
+</p><p>
+</p><h2><a name=3D"ss4.9">4.9 The `pci=3Doff' Argument</a>
+</h2>
+
+<p>Using this option disables all PCI bus probing. Any
+device drivers that make use of PCI functions to find
+and initialize hardware will most likely fail to work.
+</p><p>
+</p><h2><a name=3D"ss4.10">4.10 The `pci=3Dusepirqmask' Argument</a>
+</h2>
+
+<p>This sets the USE_PIRQ_MASK flag during PCI init.
+The kernel will honour the possible IRQ mask
+stored in the BIOS PIR table. This is needed on some systems=20
+with broken BIOSes, notably some HP Pavilion N5400
+and Omnibook XE3 notebooks. This will have no effect if=20
+ACPI IRQ routing is enabled.
+</p><p>
+</p><h2><a name=3D"ss4.11">4.11 The `pci=3Drom' Argument</a>
+</h2>
+
+<p>This sets the ASSIGN_ROM flag during the probing phase.
+The kernel will assign address space to expansion ROMs.
+Use with caution as certain devices share address
+decoders between ROMs and other resources.
+</p><p>
+</p><p>
+</p><hr>
+<h2><a name=3D"s5">5.</a> <a href=3D"http://www.faqs.org/docs/Linux-HOWTO/B=
+ootPrompt-HOWTO.html#toc5">Boot Arguments for Video Frame Buffer Drivers</a=
+></h2>
+
+<p data-find=3D"_4">The `video=3D' argument (not avail. in v2.0 kernels)
+is used when the frame buffer device abstraction layer
+is built into the kernel. If that sounds complicated,
+well it isn't really too bad.  It basically means that=20
+instead of having a different
+video program (the X11R6 server) for each brand of video
+card (e.g. XF86_S3, XF86_SVGA, ...), the kernel would have=20
+a built in driver available for each video card and export=20
+a single interface for the video program so that only one
+X11R6 server (XF86_FBDev) would be required.  This is similar
+to how networking is now - the kernel has drivers available for
+each brand of network card and exports a single network=20
+interface so that just one version of a network program
+(like Netscape) will work for all systems, regardless of the
+underlying brand of network card.
+</p><p>The typical format of this argument is=20
+<code>video=3Dname:option1,option2,...</code>
+where <code>name</code> is the name of a generic option or of a
+frame buffer driver.
+The <code>video=3D</code> option is passed from <code>linux/init/main.c</co=
+de>
+into <code>linux/drivers/video/fbmem.c</code> for further processing.
+Here it is checked for some generic options before trying to=20
+match to a known driver name. Once a driver name match is made,
+the comma separated option list is then passed into that particular
+driver for final processing. The list of valid driver names
+can be found by reading down the <code>fb_drivers</code> array in the
+file <code>fbmem.c</code> mentioned above.
+</p><p>Information on the options that each driver supports will
+eventually be found in <code>linux/Documentation/fb/</code> but=20
+currently (v2.2) only a few are described there. =20
+Unfortunately the number
+of video drivers and the number of options for each one=20
+is content for another document itself and hence=20
+too much to list here.
+</p><p>If there is no Documentation file for your card, you=20
+will have to get
+the option information directly from the driver. Go to
+<code>linux/drivers/video/</code> and look in the appropriate
+<code>???fb.c</code> file (the ??? will be based on the card name).
+In there, search for a function with <code>_setup</code> in its name
+and you should see what options the driver tries to match,=20
+such as <code>font</code> or <code>mode</code> or...
+</p><p>
+</p><h2><a name=3D"ss5.1">5.1 The `video=3Dmap:...' Argument</a>
+</h2>
+
+<p>This option is used to set/override the console to frame buffer
+device mapping. A comma separated list of numbers sets the mapping,
+with the value of option N taken to be the frame buffer device=20
+number for console N.
+</p><p>
+</p><h2><a name=3D"ss5.2">5.2 The `video=3Dscrollback:...' Argument</a>
+</h2>
+
+<p>A number after the colon will set the size of memory allocated=20
+for the scrollback buffer. (Use Shift and Page Up or Page Down=20
+keys to scroll.)  A suffix of `k' or `K' after the number will=20
+indicate that the number is to be interpreted as kilobytes=20
+instead of bytes.
+</p><p>
+</p><h2><a name=3D"ss5.3">5.3 The `video=3Dvc:...' Argument</a>
+</h2>
+
+<p>
+</p><p>A number, or a range of numbers (e.g. <code>video=3Dvc:2-5</code>)
+will specify the first, or the first and last frame
+buffer virtual console(s). The use of this option also=20
+has the effect of setting the frame buffer console to
+<em>not</em> be the default console.
+</p><p>
+</p><hr>
+<h2><a name=3D"s6">6.</a> <a href=3D"http://www.faqs.org/docs/Linux-HOWTO/B=
+ootPrompt-HOWTO.html#toc6">Boot Arguments for SCSI Peripherals.</a></h2>
+
+<p>This section contains the descriptions of the boot args that
+are used for passing information about the installed SCSI
+host adapters, and SCSI devices.
+</p><p>
+</p><h2><a name=3D"ss6.1">6.1 Arguments for Upper and Mid-level Drivers</a>
+</h2>
+
+<p>The upper level drivers handle all things SCSI, regardless
+of whether they be disk, tape, or CD-ROM.
+The mid level drivers handle things like disks, CD-ROMs and
+tapes without getting into low level host adapter=20
+device driver specifics.
+</p><p>
+</p><h3>Maximum Probed LUNs (`max_scsi_luns=3D')</h3>
+
+<p>Each SCSI device can have a number of `sub-devices' contained
+within itself. The most common example is any of the=20
+SCSI CD-ROMs that handle more than one disk at a time.
+Each CD is addressed as a `Logical Unit Number' (LUN) of
+that particular device. But most devices, such as hard disks,
+tape drives and such are only one device, and will be
+assigned to LUN zero.
+</p><p>The problem arises with single LUN devices with bad firmware.
+Some poorly designed SCSI devices (old and unfortunately new)
+can not handle being probed for LUNs not equal to zero. They
+will respond by locking up, and possibly taking the whole
+SCSI bus down with them.
+</p><p>The kernel has a configuration option that allows you
+to set the maximum number of probed LUNs. The default is to
+only probe LUN zero, to avoid the problem described above.
+</p><p>To specify the number of probed LUNs at boot, one enters
+`max_scsi_luns=3Dn' as a boot arg, where n is a number between
+one and eight. To avoid problems as described above, one would
+use n=3D1 to avoid upsetting such broken devices
+</p><p>
+</p><h3>SCSI Logging (`scsi_logging=3D')</h3>
+
+<p>Supplying a non-zero value to this boot argument turns on
+logging of all SCSI events (error, scan, mlqueue, mlcomplete,
+llqueue, llcomplete, hlqueue, hlcomplete).  Note that
+better control of which events are logged can be obtained
+via the <code>/proc/scsi/scsi</code> interface if you aren't
+interested in the events that take place at boot before
+the <code>/proc/</code> filesystem is accessible.
+</p><p>
+</p><h3>Parameters for the SCSI Tape Driver (`st=3D')</h3>
+
+<p>Some boot time configuration of the SCSI tape driver can
+be achieved by using the following:
+</p><p>
+</p><hr>
+<pre>        st=3Dbuf_size[,write_threshold[,max_bufs]]
+</pre>
+<hr>
+<p>The first two numbers are specified in units of kB.
+The default <code>buf_size</code> is 32kB, and the maximum size
+that can be specified is a ridiculous 16384kB.
+The <code>write_threshold</code> is the value at which the buffer is
+committed to tape, with a default value of 30kB.
+The maximum number of buffers varies with the number of drives
+detected, and has a default of two. An example usage would be:
+</p><p>
+</p><hr>
+<pre>        st=3D32,30,2
+</pre>
+<hr>
+<p>Full details can be found in the <code>README.st</code> file that is
+in the <code>scsi</code> directory of the kernel source tree.
+</p><p>
+</p><h2><a name=3D"ss6.2">6.2 Arguments for SCSI Host Adapter Drivers</a>
+</h2>
+
+<p>
+</p><p>These are arguments for low level SCSI host device drivers,
+and as such are typically only used by those that compile
+their own kernel with the SCSI driver built in.  These=20
+people are advised to check the source for the latest
+list of options that can be supplied to their driver.
+</p><p><code>aha152x=3D</code> Adaptec aha151x, aha152x, aic6260, aic6360, =
+SB16-SCSI
+</p><p><code>aha1542=3D</code> Adaptec aha1540, aha1542
+</p><p><code>aic7xxx=3D</code> Adaptec aha274x, aha284x, aic7xxx
+</p><p><code>advansys=3D</code> AdvanSys SCSI Host Adaptors=20
+</p><p><code>in2000=3D</code> Always IN2000 Host Adaptor=20
+</p><p><code>AM53C974=3D</code> AMD AM53C974 based hardware=20
+</p><p><code>BusLogic=3D</code> ISA/PCI/EISA BusLogic SCSI Hosts
+</p><p><code>eata=3D</code> EATA SCSI Cards
+</p><p><code>tmc8xx=3D</code> Future Domain TMC-8xx, TMC-950=20
+</p><p><code>fdomain=3D</code> Future Domain TMC-16xx, TMC-3260, AHA-2920=
+=20
+</p><p><code>ppa=3D</code> IOMEGA Parallel Port / ZIP drive
+</p><p><code>ncr5380=3D</code> NCR5380 based controllers
+</p><p><code>ncr53c400=3D</code> NCR53c400 based controllers
+</p><p><code>ncr53c406a=3D</code> NCR53c406a based controllers
+</p><p><code>pas16=3D</code> Pro Audio Spectrum
+</p><p><code>st0x=3D</code> Seagate ST-0x
+</p><p><code>t128=3D</code> Trantor T128
+</p><p><code>u14-34f=3D</code> Ultrastor SCSI cards
+</p><p><code>wd7000=3D</code> Western Digital WD7000 cards
+</p><p>
+</p><p>
+</p><hr>
+<h2><a name=3D"s7">7.</a> <a href=3D"http://www.faqs.org/docs/Linux-HOWTO/B=
+ootPrompt-HOWTO.html#toc7">Hard Disks</a></h2>
+
+<p>This section lists all the boot args associated with standard
+MFM/RLL, ST-506, XT, and IDE disk drive devices.
+Note that both the IDE and the generic ST-506 HD driver
+both accept the `hd=3D' option.
+</p><p>
+</p><h2><a name=3D"ss7.1">7.1 IDE Disk/CD-ROM Driver Parameters</a>
+</h2>
+
+<p>The IDE driver accepts a number of parameters, which range
+from disk geometry specifications, to support for advanced or
+broken controller chips. The following is a summary of
+some of the more common boot arguments. For full details, you
+<em>really</em> should consult the file <code>ide.txt</code> in the
+<code>linux/Documentation</code> directory, from which this
+summary was extracted.
+</p><p>
+</p><hr>
+<pre data-find=3D"_1">
+ "hdx=3D"  is recognized for all "x" from "a" to "h", such as "hdc".
+ "idex=3D" is recognized for all "x" from "0" to "3", such as "ide1".
+
+ "hdx=3Dnoprobe"          : drive may be present, but do not probe for it
+ "hdx=3Dnone"             : drive is NOT present, ignore cmos and do not pr=
+obe
+ "hdx=3Dnowerr"           : ignore the WRERR_STAT bit on this drive
+ "hdx=3Dcdrom"            : drive is present, and is a cdrom drive
+ "hdx=3Dcyl,head,sect"    : disk drive is present, with specified geometry
+ "hdx=3Dautotune"         : driver will attempt to tune interface speed
+                                to the fastest PIO mode supported,
+                                if possible for this drive only.
+                                Not fully supported by all chipset types,
+                                and quite likely to cause trouble with
+                                older/odd IDE drives.
+
+ "idex=3Dnoprobe"         : do not attempt to access/use this interface
+ "idex=3Dbase"            : probe for an interface at the addr specified,
+                                where "base" is usually 0x1f0 or 0x170
+                                and "ctl" is assumed to be "base"+0x206
+ "idex=3Dbase,ctl"        : specify both base and ctl
+ "idex=3Dbase,ctl,irq"    : specify base, ctl, and irq number
+ "idex=3Dautotune"        : driver will attempt to tune interface speed
+                                to the fastest PIO mode supported,
+                                for all drives on this interface.
+                                Not fully supported by all chipset types,
+                                and quite likely to cause trouble with
+                                older/odd IDE drives.
+ "idex=3Dnoautotune"      : driver will NOT attempt to tune interface speed
+                                This is the default for most chipsets,
+                                except the cmd640.
+ "idex=3Dserialize"       : do not overlap operations on idex and ide(x^1)
+</pre>
+<hr>
+<p>The following are valid ONLY on ide0,
+and the defaults for the base,ctl ports must not be altered.
+</p><p>
+</p><hr>
+<pre>
+ "ide0=3Ddtc2278"         : probe/support DTC2278 interface
+ "ide0=3Dht6560b"         : probe/support HT6560B interface
+ "ide0=3Dcmd640_vlb"      : *REQUIRED* for VLB cards with the CMD640 chip
+                          (not for PCI -- automatically detected)
+ "ide0=3Dqd6580"          : probe/support qd6580 interface
+ "ide0=3Dali14xx"         : probe/support ali14xx chipsets (ALI M1439/M1445=
+)
+ "ide0=3Dumc8672"         : probe/support umc8672 chipsets
+</pre>
+<hr>
+<p>During the install of some PCMCIA systems, you may be able
+to get detection of your CD-ROM by using:
+</p><hr>
+<pre>
+ "ide2=3D0x180,0x386"     : probe typical PCMCIA IDE interface location
+</pre>
+<hr>
+<p>Everything else is rejected with a "BAD OPTION" message.
+Also note that there is an implied <code>ide0=3D0x1f0 ide1=3D0x170</code>
+in the absence of any other ide boot args.
+</p><p>
+</p><h2><a name=3D"ss7.2">7.2 Old MFM/RLL/Standard ST-506 Disk Driver Optio=
+ns (`hd=3D')</a>
+</h2>
+
+<p>The standard disk driver can accept geometry arguments for
+the disks similar to the IDE driver. Note however that it
+only expects three values (C/H/S) -- any more or any less
+and it will silently ignore you. Also, it only accepts
+`hd=3D' as an argument, i.e. `hda=3D', `hdb=3D' and so on are
+not valid here. The format is as follows:
+</p><p>
+</p><hr>
+<pre>        hd=3Dcyls,heads,sects
+</pre>
+<hr>
+<p>If there are two disks installed, the above is repeated
+with the geometry parameters of the second disk.
+</p><p>
+</p><h2><a name=3D"ss7.3">7.3 XT Disk Driver Options (`xd=3D', `xd_geo=3D')=
+</a>
+</h2>
+
+<p>If you are unfortunate enough to be using one of these old
+8 bit cards that move data at a whopping 125kB/s then here
+is the scoop.  The probe code for these cards looks for an installed
+BIOS, and if none is present, the probe will not find your card. Or,
+if the signature string of your BIOS is not recognized then it
+will also not be found. In either case, you will then have to use a
+boot argument of the form:
+</p><p>
+</p><hr>
+<pre>        xd=3Dtype,irq,iobase,dma_chan
+</pre>
+<hr>
+<p>The <code>type</code> value specifies the particular manufacturer of the
+card, and are as follows: 0=3Dgeneric; 1=3DDTC; 2,3,4=3DWestern Digital,
+5,6,7=3DSeagate; 8=3DOMTI. The only difference between multiple types
+from the same manufacturer is the BIOS string used for detection,
+which is not used if the type is specified.
+</p><p>The <code>xd_setup()</code> function does no checking on the values,=
+ and
+assumes that you entered all four values. Don't disappoint it.
+Here is an example usage for a WD1002 controller with the BIOS
+disabled/removed, using the `default' XT controller parameters:
+</p><p>
+</p><hr>
+<pre>        xd=3D2,5,0x320,3
+</pre>
+<hr>
+<p>If the disk geometry that the kernel prints out comes out all
+wrong to what you know the disk is set up as, you can override
+that as well, with:
+</p><p>
+</p><hr>
+<pre>        xd_geo=3Dcyl_xda,head_xda,sec_xda
+</pre>
+<hr>
+<p>Add another comma and another three CHS values if you are
+silly enough to have two disks on the old hunk of scrap...
+</p><p>
+</p><hr>
+<h2><a name=3D"s8">8.</a> <a href=3D"http://www.faqs.org/docs/Linux-HOWTO/B=
+ootPrompt-HOWTO.html#toc8">The Sound Drivers </a></h2>
+
+<p>
+</p><p>Note that there was a rewrite of a lot of the sound
+core and related drivers.  The older stuff is generally
+called `OSS' and the newer is called `ALSA'.  The intention
+is to drop the OSS stuff eventually.  To avoid name conflict,
+the ALSA stuff generally has `snd-' as a prefix to all
+the boot parameters.
+</p><p>Note that each driver has its own
+individual boot argument (very old kernels used a shared
+<code>sound=3D</code>). Also, generally no defaults are set at
+compile time (i.e. you <em>must</em> supply a boot
+argument for older non-PNP ISA cards to be detected.)
+Your best source of information for your card is the files
+in <code>linux/Documentation/sound/</code>. =20
+</p><p>
+</p><h2><a name=3D"ss8.1">8.1 Individual Sound Device Driver Arguments</a>
+</h2>
+
+<p>
+</p><p>
+</p><h3>ALSA ISA drivers</h3>
+
+<p><code>snd-dummy=3D</code> Dummy soundcard
+</p><p><code>snd-mpu401=3D</code> mpu401 UART
+</p><p><code>snd-mtpav=3D</code> MOTU Midi Timepiece=20
+</p><p><code>snd-serial=3D</code> Serial UART 16450/16550 MIDI
+</p><p><code>snd-virmidi=3D</code> Dummy soundcard for virtual rawmidi devi=
+ces
+</p><p><code>snd-ad1816a=3D</code> ADI SoundPort AD1816A
+</p><p><code>snd-ad1848=3D</code> Generic driver for AD1848/AD1847/CS4248
+</p><p><code>snd-als100=3D</code> Avance Logic ALS100
+</p><p><code>snd-azt2320=3D</code> Aztech Systems AZT2320 (and 2316)
+</p><p><code>snd-cmi8330=3D</code> C-Media's CMI8330
+</p><p><code>snd-cs4231=3D</code> Generic driver for CS4231 chips
+</p><p><code>snd-cs4232=3D</code> Generic driver for CS4232 chips
+</p><p><code>snd-cs4236=3D</code> Generic driver for CS4235/6/7/8/9 chips
+</p><p><code>snd-dt019x=3D</code> Diamond Technologies DT-019x
+</p><p><code>snd-es1688=3D</code> Generic ESS AudioDrive ESx688=20
+</p><p><code>snd-es18xx=3D</code> Generic ESS AudioDrive ES18xx
+</p><p><code>snd-gusclassic=3D</code> Gus classic
+</p><p><code>snd-gusextreme=3D</code> Gus extreme
+</p><p><code>snd-gusmax=3D</code> Gus Max
+</p><p><code>snd-interwave=3D</code> Interwave
+</p><p><code>snd-interwave-stb=3D</code> Interwave
+</p><p><code>snd-opl3sa2=3D</code> Yamaha OPL3SA2
+</p><p><code>snd-opti93x=3D</code> OPTi 82c93x based cards=20
+</p><p><code>snd-opti92x-cs4231=3D</code> OPTi 82c92x/CS4231
+</p><p><code>snd-opti92x-ad1848=3D</code> OPTi 82c92x/AD1848
+</p><p><code>snd-es968=3D</code> ESS AudioDrive ES968
+</p><p><code>snd-sb16=3D</code> SoundBlaster 16
+</p><p><code>snd-sbawe=3D</code> SoundBlaster 16 AWE
+</p><p><code>snd-sb8=3D</code> Old 8 bit SoundBlaster (1.0, 2.0, Pro)
+</p><p><code>snd-sgalaxy=3D</code> Sound galaxy
+</p><p><code>snd-wavefront=3D</code> Wavefront
+</p><p>
+</p><h3>OSS drivers</h3>
+
+<p>
+</p><p><code>ad1848=3D</code> AD1848
+</p><p><code>adlib=3D</code> Adlib=20
+</p><p><code>mad16=3D</code> MAD16
+</p><p><code>pas2=3D</code> ProAudioSpectrum PAS16=20
+</p><p><code>sb=3D</code> SoundBlaster=20
+</p><p><code>uart401=3D</code> UART 401 (on card chip)
+</p><p><code>uart6850=3D</code> UART 6850 (on card chip)
+</p><p><code>opl3=3D</code> Yamaha OPL2/OPL3/OPL4 FM Synthesizer (on card c=
+hip)
+</p><p><code>opl3sa=3D</code> Yamaha OPL3-SA FM Synthesizer (on card chip)
+</p><p><code>opl3sa2=3D</code> Yamaha OPL3-SA2/SA3 FM Synthesizer (on card =
+chip)
+</p><p>
+</p><h3>ALSA PCI Drivers</h3>
+
+<p>
+</p><p><code>snd-ali5451=3D</code> ALi PCI audio M5451
+</p><p><code>snd-als4000=3D</code> Avance Logic ALS4000
+</p><p><code>snd-cmipci=3D</code> C-Media CMI8338 and 8738
+</p><p><code>snd-cs4281=3D</code> Cirrus Logic CS4281
+</p><p><code>snd-cs46xx=3D</code> Cirrus Logic Sound Fusion CS46XX
+</p><p><code>snd-emu10k1=3D</code> EMU10K1 (SB Live!)
+</p><p><code>snd-ens1370=3D</code> Ensoniq ES1370 AudioPCI
+</p><p><code>snd-ens1371=3D</code> Ensoniq ES1371 AudioPCI
+</p><p><code>snd-es1938=3D</code> ESS Solo-1 (ES1938, ES1946, ES1969)
+</p><p><code>snd-es1968=3D</code> ESS Maestro 1/2/2E
+</p><p><code>snd-fm801=3D</code> ForteMedia FM801
+</p><p><code>snd-intel8x0=3D</code> Intel ICH (i8x0) chipsets
+</p><p><code>snd-maestro3=3D</code> ESS Maestro3/Allegro (ES1988)
+</p><p><code>snd-korg1212=3D</code> Korg 1212 IO
+</p><p><code>snd-rme32=3D</code> RME Digi32, Digi32/8 and Digi32 PRO
+</p><p><code>snd-nm256=3D</code> NeoMagic 256AV and 256ZX
+</p><p><code>snd-rme96=3D</code> RME Digi96, Digi96/8 and Digi96/8 PRO/PAD/=
+PST
+</p><p><code>snd-rme9652=3D</code> RME Digi9652 audio interface
+</p><p><code>snd-hdsp=3D</code> RME Hammerfall DSP
+</p><p><code>snd-sonicvibes=3D</code> S3 SonicVibes
+</p><p><code>snd-trident=3D</code> Trident 4DWave DX/NX &amp; SiS SI7018
+</p><p><code>snd-via82xx=3D</code> VIA South Bridge  VT82C686A/B/C, VT8233A=
+/C, VT8235=20
+</p><p><code>snd-ymfpci=3D</code> Yamaha DS1/DS1E=20
+</p><p><code>snd-ice1712=3D</code> ICEnsemble ICE1712 (Envy24)
+</p><p>
+</p><p>
+</p><hr>
+<h2><a name=3D"s9">9.</a> <a href=3D"http://www.faqs.org/docs/Linux-HOWTO/B=
+ootPrompt-HOWTO.html#toc9">CD-ROMs (Non-SCSI/ATAPI/IDE)</a></h2>
+
+<p>This section lists all the possible boot args pertaining to
+these older CD-ROM devices on proprietary interface cards.
+Note that this does not include SCSI or
+IDE/ATAPI CD-ROMs. See the appropriate section(s) for those
+types of CD-ROMs.
+</p><p>Note that most of these CD-ROMs have documentation files that you
+<em>should</em> read, and they are all in one handy place:
+<code>linux/Documentation/cdrom</code>.
+</p><p>
+</p><h2><a name=3D"ss9.1">9.1 Old CD-ROM Driver Arguments</a>
+</h2>
+
+<p>
+</p><p><code>aztcd=3D</code> Aztech Interface
+</p><p><code>cdu31a=3D</code> CDU-31A and CDU-33A Sony Interface (Also Old =
+PAS)
+</p><p><code>sonycd535=3D</code> CDU-535 Sony Interface
+</p><p><code>gscd=3D</code> GoldStar Interface
+</p><p><code>isp16=3D</code> ISP16 Interface
+</p><p><code>mcd=3D</code> Mitsumi Standard Interface=20
+</p><p><code>mcdx=3D</code> Mitsumi XA/MultiSession Interface
+</p><p><code>optcd=3D</code> Optics Storage Interface=20
+</p><p><code>cm206=3D</code> Phillips CM206 Interface
+</p><p><code>sjcd=3D</code> Sanyo Interface
+</p><p><code>sbpcd=3D</code> SoundBlaster Pro Interface=20
+</p><p>
+</p><hr>
+<h2><a name=3D"s10">10.</a> <a href=3D"http://www.faqs.org/docs/Linux-HOWTO=
+/BootPrompt-HOWTO.html#toc10">Serial and ISDN Drivers</a></h2>
+
+<p>
+</p><p>
+</p><h2><a name=3D"ss10.1">10.1 The ISDN drivers</a>
+</h2>
+
+<p>
+</p><p>Please see <code>linux/Documentation/isdn/</code> for the full
+details of all the options the following ISDN drivers accept.
+</p><p><code>icn=3D</code> ICN ISDN driver
+</p><p><code>pcbit=3D</code> PCBIT ISDN driver
+</p><p><code>teles=3D</code> Teles ISDN driver
+</p><p>
+</p><h2><a name=3D"ss10.2">10.2 The Serial drivers</a>
+</h2>
+
+<p>Please see <code>linux/Documentation/</code> and/or the <code>README</co=
+de>
+files in <code>linux/drivers/char</code> for the full details of
+all the options that the following support.
+</p><p><code>digi=3D</code> DigiBoard Driver
+</p><p><code>riscom8=3D</code> RISCom/8 Multiport Serial Driver
+</p><p><code>baycom=3D</code> Baycom Serial/Parallel Radio Modem=20
+</p><p>
+</p><hr>
+<h2><a name=3D"s11">11.</a> <a href=3D"http://www.faqs.org/docs/Linux-HOWTO=
+/BootPrompt-HOWTO.html#toc11">Other Hardware Devices</a></h2>
+
+<p>Any other devices that didn't fit into any of the above categories
+got lumped together here.
+</p><p>
+</p><h2><a name=3D"ss11.1">11.1 Ethernet Devices (`ether=3D', `netdev=3D')<=
+/a>
+</h2>
+
+<p>Different drivers make use of different parameters, but they all
+at least share having an IRQ, an I/O port base value, and
+a name. In its most generic form, it looks something like this:
+</p><p>
+</p><hr>
+<pre>        ether=3Dirq,iobase[,param_1[,param_2,...param_8]]],name
+</pre>
+<hr>
+<p>The first non-numeric argument is taken as the name.
+The <code>param_n</code> values (if applicable) usually have
+different meanings for each different card/driver.
+Typical <code>param_n</code> values are used to specify things
+like shared memory address, interface selection, DMA
+channel and the like.
+</p><p>The most common use of this parameter is to force probing
+for a second ethercard, as the default is to only probe
+for one (with 2.4 and older kernels). This can be accomplished=20
+with a simple:
+</p><p>
+</p><hr>
+<pre>        ether=3D0,0,eth1
+</pre>
+<hr>
+<p>Note that the values of zero for the IRQ and I/O base in the
+above example tell the driver(s) to autoprobe.
+</p><p>IMPORTANT NOTE TO MODULE USERS: The above will <em>not</em> force a
+probe for a second card if you are using the driver(s) as run time
+loadable modules (instead of having them complied into the kernel).
+Most Linux distributions use a bare bones kernel combined with a
+large selection of modular drivers.  The <code>ether=3D</code> only applies=
+=20
+to drivers compiled directly into the kernel.
+</p><p>The Ethernet-HowTo has complete and extensive
+documentation on using multiple cards and on the card/driver
+specific implementation of the <code>param_n</code> values where used.=20
+Interested readers should refer to the section in that document=20
+on their particular card for more complete information.
+<a href=3D"http://metalab.unc.edu/mdw/HOWTO/Ethernet-HOWTO.html">Ethernet-H=
+owTo</a></p><p>
+</p><h2><a name=3D"ss11.2">11.2 The Floppy Disk Driver (`floppy=3D')</a>
+</h2>
+
+<p>There are many floppy driver options, and they are all listed in
+<code>floppy.txt</code> in <code>linux/Documentation</code>.  There are too
+many options in that file to list here. Instead, only those
+options that may be required to get a Linux install to proceed
+on less than normal hardware are reprinted here.
+</p><p><code>floppy=3D0,daring</code>
+Tells the floppy driver that your floppy controller should be used
+with caution (disables all daring operations).=20
+</p><p><code>floppy=3Dthinkpad</code>
+Tells the floppy driver that you have a Thinkpad. Thinkpads use an
+inverted convention for the disk change line.
+</p><p><code>floppy=3Dnodma</code>
+Tells the floppy driver not to use DMA for data transfers.
+This is needed on HP Omnibooks, which don't have a workable
+DMA channel for the floppy driver. This option is also useful
+if you frequently get `Unable to allocate DMA memory' messages.
+Use of `nodma' is not recommended if
+you have a FDC without a FIFO (8272A or 82072). 82072A and
+later are OK). The FDC model is reported at boot.
+You also need at least a 486 to use nodma.
+</p><p><code>floppy=3Dnofifo</code>
+Disables the FIFO entirely. This is needed if you get `Bus
+master arbitration error' messages from your Ethernet card (or
+from other devices) while accessing the floppy.
+</p><p><code>floppy=3Dbroken_dcl</code>
+Don't use the disk change line, but assume that the disk was
+changed whenever the device node is reopened. Needed on some
+boxes where the disk change line is broken or unsupported.
+This should be regarded as a stopgap measure, indeed it makes
+floppy operation less efficient due to unneeded cache
+flushings, and slightly more unreliable. Please verify your
+cable connection and jumper settings if you have any DCL
+problems. However, some older drives, and also some Laptops
+are known not to have a DCL.
+</p><p><code>floppy=3Ddebug</code>
+Print (additional) debugging messages.
+</p><p><code>floppy=3Dmessages</code>
+Print informational messages for some operations (disk change
+notifications, warnings about over and underruns, and about
+autodetection).
+</p><p>
+</p><h2><a name=3D"ss11.3">11.3 The Bus Mouse Driver (`bmouse=3D')</a>
+</h2>
+
+<p>The busmouse driver only accepts one parameter, that being
+the hardware IRQ value to be used.
+</p><p>
+</p><h2><a name=3D"ss11.4">11.4 The MS Bus Mouse Driver (`msmouse=3D')</a>
+</h2>
+
+<p>The MS mouse driver only accepts one parameter, that being
+the hardware IRQ value to be used.
+</p><p>
+</p><h2><a name=3D"ss11.5">11.5 The Printer Driver (`lp=3D')</a>
+</h2>
+
+<p>With this boot argument you can tell the printer driver
+what ports to use and what ports <em>not</em> to use. The latter comes
+in handy if you don't want the printer driver to claim all available
+parallel ports, so that other drivers (e.g. PLIP, PPA) can use
+them instead.
+</p><p>The format of the argument is multiple i/o, IRQ pairs. For example,
+<code>lp=3D0x3bc,0,0x378,7</code> would use the port at <code>0x3bc</code> =
+in IRQ-less
+(polling) mode, and use IRQ 7 for the port at <code>0x378</code>. The port
+at <code>0x278</code> (if any) would not be probed, since autoprobing only
+takes place in the absence of a <code>lp=3D</code> argument. To disable the
+printer driver entirely, one can use <code>lp=3D0</code>.
+</p><p>
+</p><h2><a name=3D"ss11.6">11.6 The Parallel port IP driver (`plip=3D')</a>
+</h2>
+
+<p>
+</p><p>Using <code>plip=3Dtimid</code> will tell the plip driver to avoid
+any ports that appear to be in use by other parallel port=20
+devices. Otherwise you can use <code>plip=3DparportN</code> where
+<code>N</code> is a non-zero integer indicating the parallel
+port to use. (Using <code>N</code>=3D0 will disable the plip driver.)
+</p><p>
+</p><hr>
+<h2><a name=3D"s12">12.</a> <a href=3D"http://www.faqs.org/docs/Linux-HOWTO=
+/BootPrompt-HOWTO.html#toc12">Copying, Translations, Closing, etc.</a></h2>
+
+<p>Hey, you made it to the end! (Phew...)  Now just the legal stuff.
+</p><p>
+</p><h2><a name=3D"copyright"></a> <a name=3D"ss12.1">12.1 Copyright and Di=
+sclaimer</a>
+</h2>
+
+<p>This document is Copyright (c) 1995-1999 by Paul Gortmaker.
+Copying and redistribution is allowed under the conditions as
+outlined in the Linux Documentation Project Copyright, available
+from where you obtained this document, OR as outlined in the
+GNU General Public License, version 2 (see linux/COPYING).
+</p><p>This document is <em>not</em> gospel. However, it is probably the mo=
+st
+up to date info that you will be able to find. Nobody is responsible
+for what happens to your hardware but yourself. If your stuff
+goes up in smoke, or anything else bad happens,=20
+we take no responsibility. ie. THE AUTHOR IS NOT RESPONSIBLE
+FOR ANY DAMAGES INCURRED DUE TO ACTIONS TAKEN BASED ON THE
+INFORMATION INCLUDED IN THIS DOCUMENT.
+</p><p>A hint to people considering doing a translation.  First,
+translate the SGML source (available via FTP from the HowTo
+main site) so that you can then generate other output formats.
+Be sure to keep a copy of the original English SGML source that
+you translated from! When an updated HowTo is released,
+get the new SGML source for that version, and then a simple
+<code>diff -u old.sgml new.sgml</code> will show you exactly what has
+changed so that you can easily incorporate those changes into
+your translated SMGL source without having to re-read or
+re-translate everything.
+</p><p>If you are intending to incorporate this document into a
+published work, please make contact (via e-mail) so that
+you can be supplied with the most up to date information
+available. In the past, out of date versions of the Linux
+HowTo documents have been published, which caused the developers
+undue grief from being plagued with questions that were already
+answered in the up to date versions.
+</p><p>
+</p><h2><a name=3D"ss12.2">12.2 Closing</a>
+</h2>
+
+<p>If you have found any glaring typos, or outdated info in this
+document, please let me know. It is easy to overlook stuff,
+as the kernel (and the number of drivers) is huge compared
+to what it was when I started this.
+</p><p>Thanks,
+</p><p>Paul Gortmaker, <code>p_gortmaker @ yahoo.com</code>
+</p><p>
+</p><hr>
+
+
+</body></html>
+------MultipartBoundary--TA3EYkDRZxfHT1Aqwl6Y8VWNV5VipgqkbsulWgXds0------

@@ -1,0 +1,11 @@
+注1：BIOS 的 POST 功能解释：http://en.wikipedia.org/wiki/Power-on_self-test
+注2：BIOS 的 INT 13 硬件中断解释：http://en.wikipedia.org/wiki/INT_13
+注3：关於 splash 的相关说明：http://ruslug.rutgers.edu/~mcgrof/grub-images/
+注4：一些 grub 出错时的解决之道：
+http://wiki.linuxquestions.org/wiki/GRUB_boot_menu
+http://forums.gentoo.org/viewtopic.php?t=122656&highlight=grub+error+collection
+info grub
+GNU 官方网站关於 grub 的说明文件：
+http://www.gnu.org/software/grub/manual/html_node/
+纯文字萤幕解析度的修改方法：
+http://phorum.study-area.org/viewtopic.php?t=14776

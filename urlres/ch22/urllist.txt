@@ -1,0 +1,6 @@
+注1：GNU 的 make 网页：http://www.gnu.org/software/make/manual/make.html
+几种常见加密机制的全名：
+md5 (Message-Digest algorithm 5) http://en.wikipedia.org/wiki/MD5
+sha (Secure Hash Algorithm) http://en.wikipedia.org/wiki/SHA_hash_functions
+des (Data Encryption Standard) http://en.wikipedia.org/wiki/Data_Encryption_Standard
+洪朝贵老师的 C 程序语言：http://www.cyut.edu.tw/~ckhung/b/c/

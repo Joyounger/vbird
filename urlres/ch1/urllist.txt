@@ -1,0 +1,15 @@
+Multics计划网站：http://www.multicians.org/。
+葛林穆迪着，杜默译，『Linux传奇』，时报文化出版企业。
+书本介绍：http://findbook.tw/book/9789571333632/basic
+网络农夫，2001，Unix简史：
+http://netlab.cse.yzu.edu.tw/~statue/freebsd/docs/csh/
+Ken Thompson的个人网站：http://plan9.bell-labs.com/cm/cs/who/ken/index.html
+Dennis Ritchie的个人网站： http://cm.bell-labs.com/cm/cs/who/dmr/
+Richard Stallman的个人网站： http://www.stallman.org/
+GNU计划： http://www.gnu.org
+XFree86的网站：http://www.xfree86.org/
+洪朝贵老师的GNU/FSF介绍： http://people.ofset.org/~ckhung/a/c_83.php
+维基百科对Linus Torvalds的介绍：http://en.wikipedia.org/wiki/Linus_Torvalds。
+POSIX的相关说明：
+维基百科：http://en.wikipedia.org/wiki/POSIX
+IEEE POSIX标准：http://standards.ieee.org/regauth/posix/

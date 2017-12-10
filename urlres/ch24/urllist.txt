@@ -1,0 +1,9 @@
+注1：维基百科对 X Window 的介绍：http://en.wikipedia.org/wiki/X_Window_System
+注2：X Server/X client 与网络相关性的参考图示：
+http://en.wikipedia.org/wiki/File:X_client_sever_example.svg
+注3：系统的 man page： man xinit 、 man Xorg 、 man startx
+注4：一些与中文字型有关的网页连结：
+洪朝贵老师主笔的字型配置：http://www.cyut.edu.tw/~ckhung/b/gnu/font.php
+李果正先生的 GNU/Linux 初探第十六章：http://edt1023.sayya.org/node17.html
+EricCheng 的 fontconfig 软件简介：http://fractal.csie.org/~eric/wiki/Fontconfig
+X 相关的官方网站： X.org 官方网站 (http://www.x.org/)、 XFree86 官方网站 (http://www.xfree86.org/)

@@ -1,0 +1,5 @@
+
+注1：高级电源管理接口配置 (Advanced Configuration and Power Interface, ACPI) 官网 http://acpid.sourceforge.net/
+注2：Zeroconf 自动网络管理机制 http://www.zeroconf.org/
+注3：壁纸计算机的自动硬件侦测服务 http://www.freedesktop.org/wiki/Software/hal
+注4：CPU 微命令集加载服务的说明 http://www.urbanmyth.org/microcode/

@@ -1,0 +1,2 @@
+FHS的标准官方文件：http://proton.pathname.com/fhs/，非常值得参考的文献！
+关于 Journaling 日志式文章的相关说明 http://www.linuxplanet.com/linuxplanet/reports/3726/1/

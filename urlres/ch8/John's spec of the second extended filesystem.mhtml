@@ -1,0 +1,798 @@
+From: <Saved by Blink>
+Subject: John's ext2 spec
+Date: Mon, 10 Dec 2017 02:41:34 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--z9ujG6AicwxkxE9bDe9Ze5b4BkKsePq1RuaN7esmDF----"
+
+------MultipartBoundary--z9ujG6AicwxkxE9bDe9Ze5b4BkKsePq1RuaN7esmDF----
+Content-Type: text/html
+Content-ID: <frame-183-afa7c6d5-3ad9-45fb-abcf-96c147ff7efa@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://uranus.chrysocome.net/explore2fs/es2fs.htm
+
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML//EN"><html><head><meta http-equiv=
+=3D"Content-Type" content=3D"text/html; charset=3Dwindows-1252">
+
+<meta name=3D"GENERATOR" content=3D"Microsoft FrontPage 5.0">
+<title>John's ext2 spec</title>
+</head>
+
+<body bgcolor=3D"#FFFFFF">
+<div align=3D"center"><center>
+
+<table border=3D"0" width=3D"600">
+    <tbody><tr>
+        <td width=3D"100%"><h1 align=3D"center"><font face=3D"Arial">John's
+        spec of the second extended filesystem</font></h1>
+          <p><font face=3D"Arial">This information has been compiled
+        from resources published on the internet, the Linux
+        kernel source and information gained from
+        experimentation.&nbsp;&nbsp;</font></p>
+          <p><font face=3D"Arial">The primary focus of the document is to p=
+rovide
+          enough information to allow someone to read the file system.&nbsp=
+;</font></p>
+        <p><font face=3D"Arial"><b>Introduction</b></font></p>
+          <p><font face=3D"Arial">When Linus was first creating Linux, he u=
+sed the
+          Minix filesystem.&nbsp; This served initial development well but =
+soon there
+          was a need for something bigger and better.</font></p>
+          <p><font face=3D"Arial">In April 1992, the Extended File System w=
+as
+          created.&nbsp; Although solving the problems of Minix, it had pro=
+blems
+          of it's own so a successor was created.&nbsp; This new filesystem=
+ was
+          known as the Second Extended File System or Ext2 FS (or EXT2).</f=
+ont></p>
+        <p><font face=3D"Arial"><b>Structure</b></font></p>
+        <p><font face=3D"Arial">The file system is created from a
+        sequential collection of blocks. These blocks can be
+        either 1k, 2k or 4k in size. These blocks are divided up
+        into groups for various reasons which will be discussed below.</fon=
+t></p>
+          <p><font face=3D"Arial">The starting point for the
+        filesystem is the superblock. This is a structure 1024
+        bytes in length and is always located at an offset of
+        1024 bytes from the start of the filesystem.&nbsp; This means that =
+it
+          might be in block 0 or block 1, depending on the block size of th=
+e
+          filesystem.&nbsp; This is the reason for the </font><font face=3D=
+"Courier New"> s_first_data_block</font><font face=3D"Arial"> entry
+          in the superblock.</font></p>
+        <p><font face=3D"Arial">The following is a list of the
+        structure used by Linux. Note that other OS's may use a
+        different structure. For details see ???.h</font></p>
+        <div align=3D"left"><table border=3D"0" cellpadding=3D"3">
+            <tbody><tr>
+                <td><strong><font face=3D"Arial">field name</font></strong>=
+</td>
+                <td><font face=3D"Arial"><strong>type</strong></font></td>
+                <td><font face=3D"Arial"><strong>comment</strong></font></t=
+d>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_inodes_count</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Count of inodes in the
+                filesystem</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_blocks_count</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Count of blocks in the
+                filesystem</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_r_blocks_count</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Count of the number of
+                reserved blocks</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_free_blocks_count</font></=
+td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Count of the number of
+                free blocks</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_free_inodes_count</font></=
+td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Count of the number of
+                free inodes</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_first_data_block</font></t=
+d>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">The first block which
+                contains data</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_log_block_size</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Indicator of the block
+                size</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_log_frag_size</font></td>
+                <td><font face=3D"Arial">LONG</font></td>
+                <td><font face=3D"Arial">Indicator of the size of
+                the fragments</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_blocks_per_group</font></t=
+d>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Count of the number of
+                blocks in each block group</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_frags_per_group</font></td=
+>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Count of the number of
+                fragments in each block group</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_inodes_per_group</font></t=
+d>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Count of the number of
+                inodes in each block group</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_mtime</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">The time that the
+                filesystem was last mounted</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_wtime</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">The time that the
+                filesystem was last written to</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_mnt_count</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">The number of times the
+                file system has been mounted</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_max_mnt_count</font></td>
+                <td><font face=3D"Arial">SHORT</font></td>
+                <td><font face=3D"Arial">The number of times the
+                file system can be mounted</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_magic</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">Magic number indicating
+                ex2fs</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_state</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">Flags indicating the
+                current state of the filesystem</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_errors</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">Flags indicating the
+                procedures for error reporting</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_pad</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">padding</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_lastcheck</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">The time that the
+                filesystem was last checked</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_checkinterval</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">The maximum time
+                permissible between checks</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_creator_os</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Indicator of which OS
+                created the filesystem</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_rev_level</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">The revision level of the
+                filesystem</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">s_reserved</font></td>
+                <td><font face=3D"Arial">ULONG[235]</font></td>
+                <td><font face=3D"Arial">padding to 1024 bytes</font></td>
+            </tr>
+        </tbody></table>
+        </div><p><font face=3D"Courier New">s_r_blocks_count</font><font fa=
+ce=3D"Arial"> : <br>
+        this is the number of blocks which are reserved for the
+        super user</font></p>
+        <p><font face=3D"Courier New">s_first_data_block</font><font face=
+=3D"Arial"> : <br>
+        Depending on the block size, the first data block will be
+        either 0 or 1. See diagram below</font></p>
+        <p><font face=3D"Courier New">s_log_block_size</font><font face=3D"=
+Arial"> :<br>
+        0 =3D 1k block size<br>
+        1 =3D 2k<br>
+        2 =3D 4k</font></p>
+        <p><font face=3D"Courier New">s_log_frag_size</font><font face=3D"A=
+rial"> :<br>
+        At the moment, it seems that fragments are not
+        implemented. In the future I may have to find out how
+        they work.</font></p>
+          <p><font face=3D"Courier New">s_blocks_per_group</font><font face=
+=3D"Arial"><br>
+        The filesystem is divided up into block groups. Note that
+        the last block group may be incomplete</font></p>
+        <p><font face=3D"Courier New">s_inodes_per_group</font><font face=
+=3D"Arial"><br>
+        Each block group has space reserved for a number of inodes.</font><=
+/p>
+        <p><font face=3D"Courier New">s_mtime, s_wtime</font><font face=3D"=
+Arial"><br>
+        This may be the mount time, or the umount time. I am not
+        sure which.</font></p>
+        <p><font face=3D"Courier New">s_mnt_count, s_max_mnt_count</font><f=
+ont face=3D"Arial"><br>
+        Once this count reaches the maximum, the filesystem must
+        be checked, the count is then reset.</font></p>
+        <p><font face=3D"Courier New">s_magic</font><font face=3D"Arial"><b=
+r>
+        This should contain the magic number 0xEF53</font></p>
+        <p><font face=3D"Courier New">s_state</font><font face=3D"Arial"><b=
+r>
+        This contains a set of flags which indicate wether the
+        filesystem is clean etc.</font></p>
+        <p><font face=3D"Courier New">s_errors</font><font face=3D"Arial"><=
+br>
+        This contains flags which indicate how the filesystem
+        should be treated if errors are found.</font></p>
+        <p><font face=3D"Courier New">s_creator_os</font><font face=3D"Aria=
+l"><br>
+        For Linux this is ???</font></p>
+        <p><font face=3D"Courier New">s_rev_level</font><font face=3D"Arial=
+"><br>
+        The current revision is ???</font></p>
+        <p><font face=3D"Arial">The information in the superblock
+        is used to access the rest of the data on the disk.</font></p>
+        <p><font face=3D"Arial">The number of block groups =3D the
+        number of blocks / the number of blocks per group; //
+        rounded up</font></p>
+          <p><font face=3D"Arial">(There are several calculations which req=
+uire
+          divisions rounded up.&nbsp; I wrote a function called div2 which =
+does
+          the division and then checks to see if it should round up the res=
+ult)</font></p>
+          <p><font face=3D"Arial">All block and inode addresses start
+        at 1. The first block on the disk is block 1. 0 is used
+        to indicate no block. (Sparse files can have these inside them)</fo=
+nt></p>
+        <p><font face=3D"Arial">Each block group can be found at
+        the block address ((group_number - 1)* blocks_per_group)
+        and is of course blocks_per_group long. Group numbers are
+        1 based as well</font></p>
+        <p><font face=3D"Arial">Each group is just a series of
+        blocks, however the first blocks in the group have a
+        special purpose. The remainder are used for storing data.</font></p=
+>
+        <p><font size=3D"1" face=3D"Arial">
+        </font></p><pre><font size=3D"1" face=3D"Arial">|Superblock | Group=
+ Descriptors |Block Bitmap|INode Bitmap|INode Table|Data blocks|
+|-------------------------------|------------------------------------------=
+-------|
+|This is the same for all groups| this is specific to each group           =
+       |
+</font></pre><font face=3D"Arial"><br>
+          As discussed above, the superblock is stored at offset 1024 on th=
+e
+          disk.&nbsp; There are also backup superblocks stored in the first
+          datablock of all blockgroups grater than one.&nbsp; With the adve=
+nt of
+          revision 1 of the filesystem, there is a flag SPARSE_SUPERBLOCK w=
+hich
+          means that the superblock is not stored on every block group but =
+just
+          a select few.&nbsp; This improves performance as changes to the
+          superblock do not have to be written to as many places.</font>
+        <p><font face=3D"Arial">The Group Descriptors contains
+        information on the block groups. This data is covers all
+        the groups and is stored in all the groups for redundancy. This is =
+an array of the following structure</font></p>
+        <div align=3D"left"><table border=3D"0" cellpadding=3D"3">
+            <tbody><tr>
+                <td><strong><font face=3D"Arial">field name</font></strong>=
+</td>
+                <td><font face=3D"Arial"><strong>type</strong></font></td>
+                <td><font face=3D"Arial"><strong>comment</strong></font></t=
+d>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">bg_block_bitmap</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">The address of the block
+                containing the block bitmap for this group</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">bg_inode_bitmap</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">The address of the block
+                containing the inode bitmap for this group</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">bg_inode_table</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">The address of the block
+                containing the inode table for this group</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">bg_free_blocks_count</font><=
+/td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">The count of free blocks
+                in this group</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">bg_free_inodes_count</font><=
+/td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">The count of free inodes
+                in this group</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">bg_used_dirs_count</font></t=
+d>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">The number inodes in this
+                group which are directories</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">bg_pad</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">padding</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">bg_reserved</font></td>
+                <td><font face=3D"Arial">ULONG[3]</font></td>
+                <td><font face=3D"Arial">padding</font></td>
+            </tr>
+        </tbody></table>
+        </div><p><font face=3D"Arial">The size of the descriptors
+        can be calculated as (sizeof(ext2_group) * number_of_groups) / bloc=
+k size; // rounded up if necessary</font></p>
+        <p><font face=3D"Arial">The information in this structure
+        us used to locate the block and inode bitmaps and inode
+        table.</font></p>
+        <p><font face=3D"Arial">Remember that the first entry
+        corresponds to block group 1.</font></p>
+        <p><font face=3D"Arial">The block bitmap is a bitmap
+        indicating which blocks in the group have been allocated.
+        If the bit is set then the block is allocated. The size
+        of the bitmap is (blocks_per_group / 8) / block_size;//
+        with both divisions rounded up.</font></p>
+        <p><font face=3D"Arial">It is necessary to find out which
+        group a particular group is in to be able to look up the
+        bitmap. The group =3D ((block_number - 1) / blocks_per_group) + 1; =
+// rounded up</font></p>
+        <p><font face=3D"Arial">The block in that group is then block_numbe=
+r -
+        (group * blocks_per_group)</font></p>
+        <p><font face=3D"Arial">The inode bitmap is essentially the
+        same as the block bitmap, but indicates which inodes are
+        allocated. The size of the inode bitmpap is (inodes_per_group / 8) =
+/ block_size;// with both divisions rounded
+        up.</font></p>
+        <p><font face=3D"Arial">The same calculations can be used
+        for finding the group of a particular inode. The group =3D ((INode_=
+number - 1) / INodes_per_group) + 1; // rounded
+        up</font></p>
+        <p><font face=3D"Arial">The inode in that group is then
+        INode_Number - (Group * INodes_per_group)</font></p>
+        <p><font face=3D"Arial">The inode table is an array of the
+        inodes for that particular group. Again, the first entry
+        is for the first inode in that group.</font></p>
+        <div align=3D"left"><table border=3D"0" cellpadding=3D"3">
+            <tbody><tr>
+                <td><strong><font face=3D"Arial">field name</font></strong>=
+</td>
+                <td><font face=3D"Arial"><strong>type</strong></font></td>
+                <td><font face=3D"Arial"><strong>description</strong></font=
+></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_mode</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">File mode</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_uid</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">Owner Uid</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_size</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Size in bytes</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_atime</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Access time</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_ctime</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Creation time</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_mtime</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Modification time</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_dtime</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Deletion Time</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_gid</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">Group Id</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_links_count</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">Links count</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_blocks</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Blocks count</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_flags</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">File flags</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_reserved1</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">OS dependent</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_block</font></td>
+                <td><font face=3D"Arial">ULONG[15]</font></td>
+                <td><font face=3D"Arial">Pointers to blocks</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_version</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">File version (for NFS)</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_file_acl</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">File ACL</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_dir_acl</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Directory ACL</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_faddr</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">Fragment address</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_frag</font></td>
+                <td><font face=3D"Arial">UCHAR</font></td>
+                <td><font face=3D"Arial">Fragment number</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_fsize</font></td>
+                <td><font face=3D"Arial">UCHAR</font></td>
+                <td><font face=3D"Arial">Fragment size</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_pad1</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial"></font>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">i_reserved2</font></td>
+                <td><font face=3D"Arial">ULONG[2]</font></td>
+                <td><font face=3D"Arial"></font>&nbsp;</td>
+            </tr>
+        </tbody></table>
+        </div><p><font face=3D"Arial">The file mode is a set of
+        flags that specify the type of file and the access
+        permissions</font></p>
+        <div align=3D"left"><table border=3D"0" cellpadding=3D"3">
+            <tbody><tr>
+                <td><strong><font face=3D"Arial">identifier</font></strong>=
+</td>
+                <td><font face=3D"Arial"><strong>value</strong></font></td>
+                <td><font face=3D"Arial"><strong>comment</strong></font></t=
+d>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IFMT</font></td>
+                <td><font face=3D"Arial">F000</font></td>
+                <td><font face=3D"Arial">format mask</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IFSOCK</font></td>
+                <td><font face=3D"Arial">A000</font></td>
+                <td><font face=3D"Arial">socket</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IFLNK</font></td>
+                <td><font face=3D"Arial">C000</font></td>
+                <td><font face=3D"Arial">symbolic link</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IFREG</font></td>
+                <td><font face=3D"Arial">8000</font></td>
+                <td><font face=3D"Arial">regular file</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IFBLK</font></td>
+                <td><font face=3D"Arial">6000</font></td>
+                <td><font face=3D"Arial">block device</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IFDIR</font></td>
+                <td><font face=3D"Arial">4000</font></td>
+                <td><font face=3D"Arial">directory</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IFCHR</font></td>
+                <td><font face=3D"Arial">2000</font></td>
+                <td><font face=3D"Arial">character device</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IFIFO</font></td>
+                <td><font face=3D"Arial">1000</font></td>
+                <td><font face=3D"Arial">fifo</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">&nbsp;</font></td>
+                <td><font face=3D"Arial"></font>&nbsp;</td>
+                <td><font face=3D"Arial"></font>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_ISUID</font></td>
+                <td><font face=3D"Arial">0800</font></td>
+                <td><font face=3D"Arial">SUID</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_ISGID</font></td>
+                <td><font face=3D"Arial">0400</font></td>
+                <td><font face=3D"Arial">SGID</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_ISVTX</font></td>
+                <td><font face=3D"Arial">0200</font></td>
+                <td><font face=3D"Arial">sticky bit</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">&nbsp;</font></td>
+                <td><font face=3D"Arial"></font>&nbsp;</td>
+                <td><font face=3D"Arial"></font>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IRWXU</font></td>
+                <td><font face=3D"Arial">01C0</font></td>
+                <td><font face=3D"Arial">user mask</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IRUSR</font></td>
+                <td><font face=3D"Arial">0100</font></td>
+                <td><font face=3D"Arial">read</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IWUSR</font></td>
+                <td><font face=3D"Arial">0080</font></td>
+                <td><font face=3D"Arial">write</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IXUSR</font></td>
+                <td><font face=3D"Arial">0040</font></td>
+                <td><font face=3D"Arial">execute</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">&nbsp;</font></td>
+                <td><font face=3D"Arial"></font>&nbsp;</td>
+                <td><font face=3D"Arial"></font>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IRWXG</font></td>
+                <td><font face=3D"Arial">0038</font></td>
+                <td><font face=3D"Arial">group mask</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IRGRP</font></td>
+                <td><font face=3D"Arial">0020</font></td>
+                <td><font face=3D"Arial">read</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IWGRP</font></td>
+                <td><font face=3D"Arial">0010</font></td>
+                <td><font face=3D"Arial">write</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IXGRP</font></td>
+                <td><font face=3D"Arial">0008</font></td>
+                <td><font face=3D"Arial">execute</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">&nbsp;</font></td>
+                <td><font face=3D"Arial"></font>&nbsp;</td>
+                <td><font face=3D"Arial"></font>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IRWXO</font></td>
+                <td><font face=3D"Arial">0007</font></td>
+                <td><font face=3D"Arial">other mask</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IROTH</font></td>
+                <td><font face=3D"Arial">0004</font></td>
+                <td><font face=3D"Arial">read</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IWOTH</font></td>
+                <td><font face=3D"Arial">0002</font></td>
+                <td><font face=3D"Arial">write</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">S_IXOTH</font></td>
+                <td><font face=3D"Arial">0001</font></td>
+                <td><font face=3D"Arial">execute</font></td>
+            </tr>
+        </tbody></table>
+        </div><p><font face=3D"Arial">The i_block entry is an array
+        of block addresses. The first EXT2_NDIR_BLOCKS (12) are
+        direct block addresses. The data in these blocks is the
+        content of the file. (According to ???, ??% of files in a unix
+          environment are less than 12k, assuming a 1k block size the decis=
+ion
+          to use 12 direct blocks makes a lot of sense).</font></p>
+          <p><font face=3D"Arial"> The next block EXT2_IND_BLOCK in the
+        indirect block. This is the address of a block which
+        contains a list of addresses of blocks which contain the
+        data. There are block_size / sizeof(ULONG) addresses in
+        this block.</font></p>
+        <p><font face=3D"Arial">The EXT2_DIND_BLOCK is similar, but
+        it is a double indirect block. It contains the address
+        of a block which has a list of indirect block addresses.
+        Each indirect block then has another list is blocks.</font></p>
+        <p><font face=3D"Arial">The EXT2_TIND_BLOCK is similar
+        again, but it is the triple indirect block. It contains
+        a list of double indirect blocks etc.</font></p>
+        <p><font face=3D"Arial">Now that you know how to find and
+        read inodes, you can start to read the files. There are a
+        set of special inodes which are reserved for certain
+        purposes. These include</font></p>
+        <div align=3D"left"><table border=3D"0" cellpadding=3D"3">
+            <tbody><tr>
+                <td><strong><font face=3D"Arial">indetifier</font></strong>=
+</td>
+                <td><font face=3D"Arial"><strong>value</strong></font></td>
+                <td><font face=3D"Arial"><strong>description</strong></font=
+></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">EXT2_BAD_INO</font></td>
+                <td><font face=3D"Arial">1</font></td>
+                <td><font face=3D"Arial">Bad blocks inode</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">EXT2_ROOT_INO</font></td>
+                <td><font face=3D"Arial">2</font></td>
+                <td><font face=3D"Arial">Root inode</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">EXT2_ACL_IDX_INO</font></td>
+                <td><font face=3D"Arial">3</font></td>
+                <td><font face=3D"Arial">ACL inode</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">EXT2_ACL_DATA_INO</font></td=
+>
+                <td><font face=3D"Arial">4</font></td>
+                <td><font face=3D"Arial">ACL inode</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">EXT2_BOOT_LOADER_INO</font><=
+/td>
+                <td><font face=3D"Arial">5</font></td>
+                <td><font face=3D"Arial">Boot loader inode</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">EXT2_UNDEL_DIR_INO</font></t=
+d>
+                <td><font face=3D"Arial">6</font></td>
+                <td><font face=3D"Arial">Undelete directory inode</font></t=
+d>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">EXT2_FIRST_INO</font></td>
+                <td><font face=3D"Arial">11</font></td>
+                <td><font face=3D"Arial">First non reserved inode</font></t=
+d>
+            </tr>
+        </tbody></table>
+        </div><p><font face=3D"Arial">The most important inode here
+        is the root inode. This is the inode at the root of the
+        file system. This inode is a directory, which like all
+        directories has the following structure:</font></p>
+        <div align=3D"left"><table border=3D"0" cellpadding=3D"3">
+            <tbody><tr>
+                <td><font face=3D"Arial"><b>field name</b></font></td>
+                <td><font face=3D"Arial"><b>type</b></font></td>
+                <td><font face=3D"Arial"><b>description</b></font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">inode</font></td>
+                <td><font face=3D"Arial">ULONG</font></td>
+                <td><font face=3D"Arial">address if inode</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">rec_len</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">length of this record</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">name_len</font></td>
+                <td><font face=3D"Arial">USHORT</font></td>
+                <td><font face=3D"Arial">length of file name</font></td>
+            </tr>
+            <tr>
+                <td><font face=3D"Courier New">name</font></td>
+                <td><font face=3D"Arial">CHAR[0]</font></td>
+                <td><font face=3D"Arial">the file name</font></td>
+            </tr>
+        </tbody></table>
+        </div><p><font face=3D"Arial">A directory is a list of
+        these structures. The structures can not pass over a
+        block boundary, so the last record is extended to fill the
+        block. And entry with an inode of 0 should be ignored.</font></p>
+          <p><font face=3D"Arial"><b>References</b></font></p>
+          <ul>
+            <li><font face=3D"Arial">Design and Implementation of the Secon=
+d Extended Filesystem - R=E9my
+          Card, Theodore Ts'o, Stephen Tweedie<a href=3D"http://web.mit.edu=
+/tytso/www/linux/ext2intro.html"><br>
+          http://web.mit.edu/tytso/www/linux/ext2intro.html</a></font></li>
+          </ul>
+        </td>
+    </tr>
+</tbody></table>
+</center></div>
+
+</body></html>
+------MultipartBoundary--z9ujG6AicwxkxE9bDe9Ze5b4BkKsePq1RuaN7esmDF------

@@ -1,0 +1,2660 @@
+From: <Saved by Blink>
+Subject: ????
+Date: Mon, 10 Dec 2017 09:51:04 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----"
+
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----
+Content-Type: text/html
+Content-ID: <frame-430-97b80efc-9500-4c05-977d-9ba531ca1e48@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://nmc.nchu.edu.tw/linux/process.htm
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DBig5">
+
+<title>=B5{=A7=C7=BA=DE=B2z</title>
+<meta name=3D"GENERATOR" content=3D"Microsoft FrontPage 4.0">
+<meta name=3D"ProgId" content=3D"FrontPage.Editor.Document">
+<meta name=3D"Microsoft Theme" content=3D"mstheme23698 011, default">
+<meta name=3D"Microsoft Border" content=3D"tb, default">
+</head>
+
+<body background=3D"http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expte=
+xtb.jpg" bgcolor=3D"#FFFFFF" text=3D"#000000" link=3D"#993300" vlink=3D"#66=
+6600" alink=3D"#CC3300"><!--msnavigation--><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td><!--mstheme--><font =
+face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+
+<p align=3D"center"><font size=3D"6"><strong><img src=3D"http://nmc.nchu.ed=
+u.tw/linux/_derived/process.htm_cmp_mstheme23698010_bnr.gif" width=3D"600" =
+height=3D"60" border=3D"0" alt=3D"=B5{=A7=C7=BA=DE=B2z"></strong></font><br=
+>
+<a href=3D"http://nmc.nchu.edu.tw/linux/index.htm" language=3D"JavaScript" =
+onmouseover=3D"if(MSFPhover) document['MSFPnav1'].src=3DMSFPnav1h.src" onmo=
+useout=3D"if(MSFPhover) document['MSFPnav1'].src=3DMSFPnav1n.src"><img src=
+=3D"http://nmc.nchu.edu.tw/linux/_derived/home_cmp_mstheme23698010_hbtn.gif=
+" width=3D"140" height=3D"50" border=3D"0" alt=3D"Home" align=3D"middle" na=
+me=3D"MSFPnav1"></a> <a href=3D"http://nmc.nchu.edu.tw/linux/manage.htm" la=
+nguage=3D"JavaScript" onmouseover=3D"if(MSFPhover) document['MSFPnav2'].src=
+=3DMSFPnav2h.src" onmouseout=3D"if(MSFPhover) document['MSFPnav2'].src=3DMS=
+FPnav2n.src"><img src=3D"http://nmc.nchu.edu.tw/linux/_derived/up_cmp_msthe=
+me23698010_hbtn.gif" width=3D"140" height=3D"50" border=3D"0" alt=3D"Up" al=
+ign=3D"middle" name=3D"MSFPnav2"></a></p>
+<p align=3D"center">=A1@</p>
+
+<!--mstheme--></font></td></tr><!--msnavigation--></tbody></table><!--msnav=
+igation--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%"><tbody><tr><!--msnavigation--><td valign=3D"top"><!--mstheme--><font =
+face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+<!--mstheme--></font><!--msthemelist--><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%">
+  <!--msthemelist--><tbody><tr><td valign=3D"baseline" width=3D"42"><img sr=
+c=3D"http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif" width=
+=3D"15" height=3D"15" hspace=3D"13"></td><td valign=3D"top" width=3D"100%">=
+<!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+    </font><p style=3D"line-height: 150%"><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font face=3D"Rockwell" color=3D"#0033CC">What is Process</font><br>=
+=20
+    UNIX=A4=A4Pocess=A5N=AA=ED=A4@=AD=D3=A8=E3=A6=B3=BFW=A5=DF=B0O=BE=D0=AA=
+=C5=B6=A1=A1B=A5i=B3=E6=BFW=B9B=A7@=AA=BA=A1=A8=A4u=A7@=AA=C5=B6=A1=A1=A8(P=
+rogram)=A1A=A8C=A4@=A5=F3=A8t=B2=CE=A9=CEUser=AA=BA=A4u=A7@=A7=A1=A5=D1=A6U=
+=BA=D8=A4=A3=A6P=AA=BAprocess=A7=B9=A6=A8=A4=A7<br>=20
+  <!--mstheme--></font><!--msthemelist--></p></td></tr>=20
+  <!--msthemelist--><tr><td valign=3D"baseline" width=3D"42"><img src=3D"ht=
+tp://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif" width=3D"15" =
+height=3D"15" hspace=3D"13"></td><td valign=3D"top" width=3D"100%"><!--msth=
+eme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+    </font><p style=3D"line-height: 150%"><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font face=3D"Rockwell" color=3D"#0033CC">Why Process</font><br>=20
+    UNIX=A4=A4=A1A=AB=DC=A6hresource=AA=BA=BA=DE=B2z=A1A=A5=B2=B6=B7=C2=C7=
+=A5=D1process=AA=BA=B1=B1=A8=EE=A8=D3=A7=B9=A6=A8UNIX=A8C=A4@=AD=D3=B5{=A7=
+=C7=B3=A3=A6=B3=A4@=AD=D3=B0=DF=A4@=AA=BA=C3=D1=A7O=A5N=B8=B9=A1A=A7=DA=AD=
+=CC=BA=D9=A4=A7=AC=B0=B5{=A7=C7=A5N=B8=B9(process id or pid)<br>=20
+  <!--mstheme--></font><!--msthemelist--></p></td></tr>=20
+  <!--msthemelist--><tr><td valign=3D"baseline" width=3D"42"><img src=3D"ht=
+tp://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif" width=3D"15" =
+height=3D"15" hspace=3D"13"></td><td valign=3D"top" width=3D"100%"><!--msth=
+eme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+    </font><p style=3D"line-height: 150%"><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font face=3D"Rockwell" color=3D"#0033CC">How Process Works</font><br>=
+=20
+    =A8C=A4@process=A6b=A5=B2=ADn=B1=A1=AAp=A4=A7=A4U=A5=D1=A8=E4Parent Pro=
+cess=B2=A3=A5=CD=A1A=A7=B9=A6=A8=A4u=A7@=A4=A7=AB=E1=B7|=A6=DB=B0=CA=C4=C0=
+=A9=F1=A9=D2=A6=B3=A6=FB=A5=CE=AA=BA=A8t=B2=CE=B8=EA=B7=BD=A1A=B5=B2=A7=F4=
+=A8=C3=A8t=B6}=A8t=B2=CE=A1C<br>
+  <!--mstheme--></font><!--msthemelist--></p></td></tr>
+  <!--msthemelist--><tr><td valign=3D"baseline" width=3D"42"><img src=3D"ht=
+tp://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif" width=3D"15" =
+height=3D"15" hspace=3D"13"></td><td valign=3D"top" width=3D"100%"><!--msth=
+eme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+    </font><p style=3D"line-height: 150%"><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font face=3D"Rockwell" color=3D"#0033CC">Process</font><font color=3D=
+"#0033CC">=AA=BA=B2=A3=A5=CD</font><br>
+    <img border=3D"0" src=3D"http://nmc.nchu.edu.tw/linux/images/process.gi=
+f" width=3D"523" height=3D"397"><!--mstheme--></font><!--msthemelist--></p>=
+</td></tr>
+<!--msthemelist--></tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9">
+</font><div align=3D"left"><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+  </font><blockquote><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+    <!--mstheme--></font><table border=3D"1" width=3D"59%" cellspacing=3D"0=
+" bgcolor=3D"#008080" bordercolordark=3D"#000000" bordercolorlight=3D"#0000=
+00">
+      <tbody><tr>
+        <td width=3D"100%"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9">
+          </font><p style=3D"line-height: 100%"><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9"><font color=3D"#FFFFFF" size=3D"2"><br>
+          <font face=3D"=BC=D0=B7=A2=C5=E9">fork-and-exec=ACOUNIX=A4=A4=A9=
+=D2=A6=B3process=B9B=A7@=AA=BA=BC=D2=A6=A1=A1C=A8t=B2=CEbootup=AA=BA=AE=C9=
+=AD=D4=A1A=B2=C4=A4@=AD=D3=B3Q=B0=F5=A6=E6=AA=BAprocess(=B5{=A6=A1)=A1A=A8=
+=E4pid=AC=B01=A1F=B8g=A5=D1fork-and-exec=B5{=A7=C7=A1A=B1=D2=B0=CA=A6U=AD=
+=D3=A5=B2=ADn=AA=BAprocess=A1A=A6=D3=A7=CE=A6=A8=A4@=AD=D3=A5\=AF=E0=A7=B9=
+=BE=E3=AA=BA=A7@=B7~=A8t=B2=CE=A1C<br>
+          &#65533;b<br>
+          fork=ACOUNIX=A4@=AD=D3=A8t=B2=CE=A9I=A5s(system call)=A1Aprocess =
+fork=AE=C9=A1A=B7|=BD=C6=BBs=A4@=AD=D3=B8=F2=A6=DB=A4v=A7=B9=A5=FE=A4@=BC=
+=D2=A4@=BC=CB=AA=BAprocess (with different pid)=A1A=A8=C3=A7Q=A5=CE=A8t=B2=
+=CE=A9I=A5s=A7=B9=A6=A8=A4=A7=B6=C7=A6^=AD=C8=A1A=A8=D3=B0=CF=A4=C0parent p=
+rocess =BBPchild process=A1A=A6=D3=A4=C0=A7O=BD=E1=A4=A9child process=A4=A3=
+=A6P=AA=BA=A5\=AF=E0=A1C<br>=20
+          process=A9=F3=B5{=A6=A1=B0=F5=A6=E6=B9L=B5{=A4=A4=A1A=A7Q=A5=CEex=
+ec=B0=F5=A6=E6=A5t=A4@=A4=A3=A6P=AA=BA=B5{=A6=A1=A1A=B3o=AD=D3=B5{=A6=A1=A8=
+=C3=A5B=B7|=A7=B9=A5=FE=A8=FA=A5N=AD=EC=A6=B3=B5{=A6=A1(with the same pid)=
+=A1C</font><br>=20
+          </font><!--mstheme--></font></p></td>=20
+      </tr>=20
+    </tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+  </font></blockquote><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+</font></div><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+<p>=A1@</p>=20
+<!--mstheme--></font><!--msthemelist--><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%">=20
+  <!--msthemelist--><tbody><tr><td valign=3D"baseline" width=3D"42"><img sr=
+c=3D"http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif" width=
+=3D"15" height=3D"15" hspace=3D"13"></td><td valign=3D"top" width=3D"100%">=
+<!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+    </font><p style=3D"line-height: 150%"><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font face=3D"Rockwell" color=3D"#0033CC">Process</font><font color=3D=
+"#0033CC">=AA=BA=B5=B2=A7=F4</font><br>
+    <img border=3D"0" src=3D"http://nmc.nchu.edu.tw/linux/images/process_en=
+d.gif" width=3D"523" height=3D"397"><!--mstheme--></font><!--msthemelist-->=
+</p></td></tr>
+<!--msthemelist--></tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9">
+</font><blockquote><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+  <!--mstheme--></font><table border=3D"1" width=3D"59%" cellspacing=3D"0" =
+bgcolor=3D"#008080" bordercolordark=3D"#000000" bordercolorlight=3D"#000000=
+">
+    <tbody><tr>
+      <td width=3D"100%"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9=
+">
+        </font><p style=3D"line-height: 100%"><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9"><font color=3D"#FFFFFF" size=3D"2"><br>
+        <font face=3D"=BC=D0=B7=A2=C5=E9">process=A4=CEchild process=A1C<br=
+>=20
+        =A6p=AAG=A6]=ACY=A8=C7=AD=EC=A6]=A1Aparent process=A6b=A8=E4=B5=B2=
+=A7=F4=ABe=A7Y=A4w=A4=A3=A6s=A6b=A1A=A6=B9 process=A7Y=A6=A8=AC=B0=A9=D2=BF=
+=D7=AA=BAZombie process(or defunct process)=A1A=B5L=AAk=A5=BF=B1`=B5=B2=A7=
+=F4=A1C<br>=20
+        <br>=20
+        Child process=B3q=B1`=B7|=C0H=B5=DBparent process=B5=B2=A7=F4=A6=D3=
+=B5=B2=A7=F4=A1A=A6]=A6=B9=A4=E2=B0=CA=B5=B2=A7=F4process =A1=A7init=A1=A8(=
+=A8t=B2=CE=B2=C4=A4@=AD=D3=B1=D2=B0=CA=AA=BAprocess, pid=AC=B01)=A1A=B1N=B7=
+|=B3y=A6=A8=A8t=B2=CE=B7=ED=BE=F7=A1C(=A5=D8=ABe=A4j=B3=A1=A4=C0=AA=BAUNIX=
+=A7@=B7~=A8t=B2=CE=B7|=B8T=A4=EE=A7A=A4=E2=B0=CA=B0=B1=A4=EEinit=AA=BA=B0=
+=F5=A6=E6)</font><br>=20
+        </font><!--mstheme--></font></p></td>=20
+    </tr>=20
+  </tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+</font></blockquote><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+<p>=A1@</p>=20
+<!--mstheme--></font><!--msthemelist--><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%">=20
+  <!--msthemelist--><tbody><tr><td valign=3D"baseline" width=3D"42"><img sr=
+c=3D"http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif" width=
+=3D"15" height=3D"15" hspace=3D"13"></td><td valign=3D"top" width=3D"100%">=
+<!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+    </font><p style=3D"line-height: 150%"><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font face=3D"Rockwell" color=3D"#0033CC">Monitor Proces with Command =
+: ps</font>=20
+    <!--mstheme--></font><!--msthemelist--><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">=20
+      <!--msthemelist--><tbody><tr><td valign=3D"baseline" width=3D"42"><im=
+g src=3D"http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul2a.gif" wi=
+dth=3D"12" height=3D"12" hspace=3D"15"></td><td valign=3D"top" width=3D"100=
+%"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+        </font><p style=3D"line-height: 150%"><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9">You can always monitor process information currently running in =
+the system, which including: process owner , CPU usage , memory(real &amp; =
+virtual) usage, command name, PID(Process ID) etc.<br>=20
+      <!--mstheme--></font><!--msthemelist--></p></td></tr>=20
+      <!--msthemelist--><tr><td valign=3D"baseline" width=3D"42"><img src=
+=3D"http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul2a.gif" width=
+=3D"12" height=3D"12" hspace=3D"15"></td><td valign=3D"top" width=3D"100%">=
+<!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=20
+        <p style=3D"line-height: 150%">Monitor Process whith "ps"</p>
+        </font><div align=3D"left"><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+          <!--mstheme--></font><table border=3D"2" width=3D"80%" bgcolor=3D=
+"#FFFFFF" bordercolordark=3D"#000000" bordercolorlight=3D"#000000">
+            <tbody><tr>
+              <td width=3D"100%"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9"><font size=3D"2" face=3D"Rockwell">[root@nmc ~]# <font color=3D"=
+#0033CC">ps<br>
+                </font></font>
+                <!--mstheme--></font><table border=3D"0" width=3D"501" heig=
+ht=3D"153">
+                  <tbody><tr>
+                    <td width=3D"65" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">PID</font><!--mstheme--></font=
+></td>
+                    <td width=3D"60" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">TTY</font><!--mstheme--></font=
+></td>
+                    <td width=3D"82" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">TIME</font><!--mstheme--></fon=
+t></td>
+                    <td width=3D"264" height=3D"20"><!--mstheme--><font fac=
+e=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">CMD</font><!--mstheme--></fon=
+t></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"65" height=3D"17"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">19325</font><!--mstheme--></fo=
+nt></td>
+                    <td width=3D"60" height=3D"17"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">pts/0</font><!--mstheme--></fo=
+nt></td>
+                    <td width=3D"82" height=3D"17"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">00:00:00</font><!--mstheme--><=
+/font></td>
+                    <td width=3D"264" height=3D"17"><!--mstheme--><font fac=
+e=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">login</font><!--mstheme--></f=
+ont></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"65" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">19413</font><!--mstheme--></fo=
+nt></td>
+                    <td width=3D"60" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">pts/0</font><!--mstheme--></fo=
+nt></td>
+                    <td width=3D"82" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">00:00:00</font><!--mstheme--><=
+/font></td>
+                    <td width=3D"264" height=3D"20"><!--mstheme--><font fac=
+e=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">su</font><!--mstheme--></font=
+></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"65" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">19414</font><!--mstheme--></fo=
+nt></td>
+                    <td width=3D"60" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">pts/0</font><!--mstheme--></fo=
+nt></td>
+                    <td width=3D"82" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">00:00:00</font><!--mstheme--><=
+/font></td>
+                    <td width=3D"264" height=3D"20"><!--mstheme--><font fac=
+e=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">tcsh</font><!--mstheme--></fo=
+nt></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"65" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">19442</font><!--mstheme--></fo=
+nt></td>
+                    <td width=3D"60" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">pts/0</font><!--mstheme--></fo=
+nt></td>
+                    <td width=3D"82" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">00:00:00</font><!--mstheme--><=
+/font></td>
+                    <td width=3D"264" height=3D"20"><!--mstheme--><font fac=
+e=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">ps</font><!--mstheme--></font=
+></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"65" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">19443</font><!--mstheme--></fo=
+nt></td>
+                    <td width=3D"60" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">pts/0</font><!--mstheme--></fo=
+nt></td>
+                    <td width=3D"82" height=3D"20"><!--mstheme--><font face=
+=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">00:00:00</font><!--mstheme--><=
+/font></td>
+                    <td width=3D"264" height=3D"20"><!--mstheme--><font fac=
+e=3D"=B7s=B2=D3=A9=FA=C5=E9"><font size=3D"2">awk</font><!--mstheme--></fon=
+t></td>
+                  </tr>
+                </tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9">
+                <p style=3D"line-height: 100%"><font size=3D"2">[<font face=
+=3D"Rockwell">root@nmc ~]#=20
+                <font color=3D"#0033CC"> ps aux | more</font></font></font>=
+</p>
+                <!--mstheme--></font><table border=3D"0" width=3D"628">
+                  <tbody><tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">USER</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">PID</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">%CPU</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">%MEM</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">VSZ</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">RSS</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">TTY</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">STAT</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">START</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">TIME</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">COMMAND</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.3</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1120</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">472</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:04</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">init</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">2</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">[kflushd]</font><!--mstheme--></font></td=
+>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">3</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:10</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">[kupdate]</font><!--mstheme--></font></td=
+>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">4</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">[kpiod]</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">5</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:01</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">[kswapd]</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">bin</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">319</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.3</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1216</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">400</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">portmap</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">333</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">[lockd]</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">334</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">[rpciod]</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">343</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.4</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1164</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">516</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">rpc.statd</font><!--mstheme--></font></td=
+>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">396</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.3</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1168</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">468</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:05</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">syslogd</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">405</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.4</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1348</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">612</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">klogd</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">nobody</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">419</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.4</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1300</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">540</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">identd</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">nobody</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">422</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.4</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1300</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">540</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">identd</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">nobody</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">423</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.4</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1300</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">540</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">identd</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">nobody</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">425</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.4</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1300</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">540</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">identd</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">nobody</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">426</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.4</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1300</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">540</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">identd</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">daemon</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">437</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.2</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1144</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">296</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">/usr/sbin/atd</font><!--mstheme--></font>=
+</td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">451</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.4</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1328</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">564</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">crond</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"37"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">469</font><!--mstheme--></font></td>
+                    <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"53"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.3</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1156</font><!--mstheme--></font></td>
+                    <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">460</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:01</font><!--mstheme--></font></td>
+                    <td width=3D"144"><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9"><font size=3D"2">inetd</font><!--mstheme--></font></td>
+                  </tr>
+                </tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9">
+                <p style=3D"line-height: 100%"><font size=3D"2"><font face=
+=3D"Rockwell">[root@nmc ~]#=20
+                <font color=3D"#0033CC"> ps aux --sort:pid | more</font></f=
+ont></font></p>=20
+                <!--mstheme--></font><table border=3D"0" width=3D"570">
+                  <tbody><tr>
+                    <td width=3D"42"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">USER</font><!--mstheme--></font></td>
+                    <td width=3D"35"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">PID</font><!--mstheme--></font></td>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">%CPU</font><!--mstheme--></font></td>
+                    <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">%MEM</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">VSZ</font><!--mstheme--></font></td>
+                    <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">RSS</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">TTY</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">STAT</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">START</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">TIME</font><!--mstheme--></font></td>
+                    <td width=3D"87"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">COMMAND</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"42"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"35"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1</font><!--mstheme--></font></td>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.3</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1120</font><!--mstheme--></font></td>
+                    <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">472</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:04</font><!--mstheme--></font></td>
+                    <td width=3D"87"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">init</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"42"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"35"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">2</font><!--mstheme--></font></td>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"87"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">[kflushd]</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"42"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"35"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">3</font><!--mstheme--></font></td>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:10</font><!--mstheme--></font></td>
+                    <td width=3D"87"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">[kupdate]</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"42"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"35"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">4</font><!--mstheme--></font></td>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"87"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">[kpiod]</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"42"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"35"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">5</font><!--mstheme--></font></td>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:01</font><!--mstheme--></font></td>
+                    <td width=3D"87"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">[kswapd]</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"42"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">bin</font><!--mstheme--></font></td>
+                    <td width=3D"35"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">319</font><!--mstheme--></font></td>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.3</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">1216</font><!--mstheme--></font></td>
+                    <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">400</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">S</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"87"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">portmap</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"42"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"35"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">333</font><!--mstheme--></font></td>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"87"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">[lockd]</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"42"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">root</font><!--mstheme--></font></td>
+                    <td width=3D"35"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">334</font><!--mstheme--></font></td>
+                    <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0.0</font><!--mstheme--></font></td>
+                    <td width=3D"34"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0</font><!--mstheme--></font></td>
+                    <td width=3D"32"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">?</font><!--mstheme--></font></td>
+                    <td width=3D"41"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">SW</font><!--mstheme--></font></td>
+                    <td width=3D"52"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">Jul05</font><!--mstheme--></font></td>
+                    <td width=3D"39"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">0:00</font><!--mstheme--></font></td>
+                    <td width=3D"87"><!--mstheme--><font face=3D"=B7s=B2=D3=
+=A9=FA=C5=E9"><font size=3D"2">[rpciod]</font><!--mstheme--></font></td>
+                  </tr>
+                  <tr>
+                    <td width=3D"498" colspan=3D"11"><!--mstheme--><font fa=
+ce=3D"=B7s=B2=D3=A9=FA=C5=E9">...<!--mstheme--></font></td>
+                  </tr>
+                </tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9">
+              <!--mstheme--></font></td>
+            </tr>
+          </tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9">
+        </font></div><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+      <!--mstheme--></font><!--msthemelist--></td></tr>
+    <!--msthemelist--></tbody></table><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9">
+  <!--mstheme--></font><!--msthemelist--></p></td></tr>
+<!--msthemelist--></tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9">
+<p>=A1@</p>
+<!--mstheme--></font><!--msthemelist--><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%">
+  <!--msthemelist--><tbody><tr><td valign=3D"baseline" width=3D"42"><img sr=
+c=3D"http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif" width=
+=3D"15" height=3D"15" hspace=3D"13"></td><td valign=3D"top" width=3D"100%">=
+<!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+    </font><p style=3D"line-height: 150%"><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font face=3D"Rockwell" color=3D"#0033CC">ps </font><font color=3D"#00=
+33CC"> =A6U=C4=E6=A6=EC=B7N=B8q&nbsp;</font><br>
+    <u><font face=3D"Rockwell" color=3D"#FF0000"> USER:</font> </u> Usernam=
+e of the process owner&nbsp;<br>
+    <u><font face=3D"Rockwell" color=3D"#FF0000">PID:</font><font face=3D"R=
+ockwell" color=3D"#0033CC">=20
+    </font></u> Process ID&nbsp;<br>
+    <font face=3D"Rockwell" color=3D"#FF0000"><u>%CPU:</u></font> CPU time/=
+elapsed time&nbsp;<br>
+    <u><font face=3D"Rockwell" color=3D"#FF0000">%MEM:</font> </u> Fraction=
+ of system memory consumed&nbsp;<br>
+    <u><font face=3D"Rockwell" color=3D"#FF0000">SIZE:</font> </u> Virtural=
+ memory used (K)&nbsp;<br>
+    <u><font face=3D"Rockwell" color=3D"#FF0000">RSS:</font> </u> Real memo=
+ry used&nbsp;<br>
+    <font face=3D"Rockwell" color=3D"#FF0000"><u>TTY:</u></font> Terminal p=
+ort associated with process&nbsp;<br>
+    <font face=3D"Rockwell" color=3D"#FF0000"><u>STAT:</u></font> Process s=
+tate<br>=20
+    <font face=3D"Rockwell" color=3D"#FF0000">&nbsp;&nbsp;&nbsp;</font> <fo=
+nt face=3D"Rockwell" color=3D"#FF0000">R</font> Running<br>=20
+    <font face=3D"Rockwell" color=3D"#FF0000">&nbsp;&nbsp;&nbsp;</font> <fo=
+nt face=3D"Rockwell" color=3D"#FF0000">S</font> Sleeping<br>=20
+    <font face=3D"Rockwell" color=3D"#FF0000">&nbsp;&nbsp;&nbsp;</font> <fo=
+nt face=3D"Rockwell" color=3D"#FF0000">I</font> Idle<br>=20
+    <font face=3D"Rockwell" color=3D"#FF0000">&nbsp;&nbsp;&nbsp;</font> <fo=
+nt face=3D"Rockwell" color=3D"#FF0000">Z</font> Zombie&nbsp;<br>
+    <font face=3D"Rockwell" color=3D"#FF0000"><u>START:</u></font> Time or =
+date process started&nbsp;<br>
+    <font face=3D"Rockwell" color=3D"#FF0000"><u>TIME:</u></font> Total CPU=
+ time used&nbsp;<br>
+    <font face=3D"Rockwell" color=3D"#FF0000"><u>COMMAND:</u></font> Comman=
+d line being executed&nbsp;<br>
+  <!--mstheme--></font><!--msthemelist--></p></td></tr>
+  <!--msthemelist--><tr><td valign=3D"baseline" width=3D"42"><img src=3D"ht=
+tp://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif" width=3D"15" =
+height=3D"15" hspace=3D"13"></td><td valign=3D"top" width=3D"100%"><!--msth=
+eme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9"><font face=3D"Rockwell" color=
+=3D"#0033CC">Process</font><font color=3D"#0033CC">=AA=BA=BA=DE=B2z=AC=DB=
+=C3=F6=AB=FC=A5O<br>
+    </font>
+    <!--mstheme--></font><!--msthemelist--><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+      <!--msthemelist--><tbody><tr><td valign=3D"baseline" width=3D"42"><im=
+g src=3D"http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul2a.gif" wi=
+dth=3D"12" height=3D"12" hspace=3D"15"></td><td valign=3D"top" width=3D"100=
+%"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9"><font color=3D"#FF00=
+00" face=3D"Rockwell Condensed">kill [-s signal] pid --&gt; Control Process=
+ With Signal<br>=20
+        </font><br>=20
+        signal=A5i=A5H=ACOsingnal number=A9=CEsignal name=A1ALinux =A4=A4=
+=A4=E4=B4=A9=AA=BAsignal=A4=CE=A8=E4=A5=CE=B3~=C2=B2=B3=E6=B4y=ADz=A6p=A4U=
+=A1G<br>=20
+        <br>=20
+        <!--mstheme--></font><table border=3D"2" width=3D"721" bordercolord=
+ark=3D"#000000" bordercolorlight=3D"#000000">
+          <tbody><tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><b><font color=3D"#FF0000">Signal</font></b><!--mstheme--></font></=
+td>
+            <td width=3D"49"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><b><font color=3D"#FF0000">Value</font></b><!--mstheme--></font></t=
+d>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><b><font color=3D"#FF0000">Comment&nbsp;</font></b><!--mstheme--></=
+font></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGHUP<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">1<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Hangup detected on controlling terminal or death of controlling pro=
+cess&nbsp;<!--mstheme--></font></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGINT<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">2<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Interrupt from keyboard&nbsp;<!--mstheme--></font></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGQUIT<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">3<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Quit from keyboard&nbsp;<!--mstheme--></font></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGILL<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">4<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Illegal Instruction&nbsp;<!--mstheme--></font></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGABRT<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">6<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Abort signal from abort(3)&nbsp;<!--mstheme--></font></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGFPE<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">8<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Floating point exception&nbsp;<!--mstheme--></font></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGKILL<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">9<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Kill signal&nbsp;<!--mstheme--></font></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGSEGV<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">11<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Invalid memory reference&nbsp;<!--mstheme--></font></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGPIPE<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">13<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Broken pipe: write to pipe with no readers&nbsp;<!--mstheme--></fon=
+t></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGALRM<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">14<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Timer signal from alarm(2)&nbsp;<!--mstheme--></font></td>
+          </tr>
+          <tr>
+            <td width=3D"85"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SIGTERM<!--mstheme--></font></td>
+            <td align=3D"center" width=3D"49"><!--mstheme--><font face=3D"=
+=B7s=B2=D3=A9=FA=C5=E9">15<!--mstheme--></font></td>
+            <td width=3D"563"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">Termination signal&nbsp;<!--mstheme--></font></td>
+          </tr>
+        </tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9"=
+>
+        </font><p><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=A1@<!--mstheme--><=
+/font><!--msthemelist--></p></td></tr>
+      <!--msthemelist--><tr><td valign=3D"baseline" width=3D"42"><img src=
+=3D"http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul2a.gif" width=
+=3D"12" height=3D"12" hspace=3D"15"></td><td valign=3D"top" width=3D"100%">=
+<!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9"><font color=3D"#FF0000"=
+ face=3D"Rockwell Condensed">nice/renice -- Process Priority</font><font co=
+lor=3D"#FF0000">=AA=BA=A7=EF=C5=DC&nbsp;<br>
+        </font><br>
+        <font color=3D"#800080">**UNIX Process=A6@=A4=C040=AD=D3=B5=A5=AF=
+=C5 (-20 ~ 19)=A1A=C0u=A5=FD=B5=A5=AF=C5=B8=FB=B0=AA=AA=CC=A5i=A5H=A6=B3=A4=
+=F1=B8=FB=B0=AA=AA=BACPU=A8=CF=A5=CE=C5v=A1C<br>=20
+        **UNIX Process=B5=A5=AF=C5=B3=CC=B0=AA=AA=CC=AC=B0=A1y-20=A1z=A1A=
+=B3=CC=A7C=AA=CC=AC=B0=A1y19=A1z=A1A=B9w=B3]=AD=C8=AC=B0=A1y0=A1z=A1C<br>=
+=20
+        </font><br>=20
+ Specify Priority Before Program Submitted<br>=20
+        <br>=20
+        [root@dragon1 /root]# <font face=3D"Rockwell Condensed" color=3D"#F=
+F0000"> myprogram1 &amp;</font><br>=20
+        --&gt;=AC=B0=AB=FC=A9w=B5=A5=AF=C5=A1Amyprogram1 Priority=AC=B0 0<b=
+r>=20
+        <br>=20
+        [root@dragon1 /root]# <font face=3D"Rockwell Condensed" color=3D"#F=
+F0000"> nice myprogram2 &amp;</font><br>=20
+        --&gt;=A8=CF=A5=CEnice=A1A=A5=BC=AB=FC=A9w=B5=A5=AF=C5=A1Amyprogram=
+2 Priority=AC=B010<br>=20
+        <br>=20
+        [root@dragon1 /root]# <font face=3D"Rockwell Condensed" color=3D"#F=
+F0000"> nice -16 myprogram3 &amp;</font><br>=20
+        --&gt;myprogram3 Priority=AC=B016<br>=20
+        <br>=20
+        [root@dragon1 /root]# <font face=3D"Rockwell Condensed" color=3D"#F=
+F0000"> nice --14 myprogram4 &amp;</font><br>=20
+        --&gt;myprogram4 Priority=AC=B0-14&nbsp;<br>
+        <br>
+        <font color=3D"#800080">**=A4@=AF=EBuser=B6=C8=AF=E0=AD=B0=A7C=C4=
+=DD=A9=F3=A6=DB=A4vprocess=AA=BApriority (from 0 to 19)<br>=20
+        **Priority -20 ~ -1=B6=C8superuser=A5i=A5H=AB=FC=A9w<br>=20
+        </font><br>=20
+        Change Process Priority After Submitted<br>=20
+        <br>=20
+        [root@dragon1 /root]# <font face=3D"Rockwell Condensed" color=3D"#F=
+F0000"> renice -9 PID</font><br>=20
+        --&gt;=B1NProcess ID=AC=B0PID=AA=BAprocess priority =A7=EF=AC=B0 -9=
+&nbsp;<br>
+        <br>
+      <!--mstheme--></font><!--msthemelist--></td></tr>
+    <!--msthemelist--></tbody></table><!--mstheme--><font face=3D"=B7s=B2=
+=D3=A9=FA=C5=E9">
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign=3D"baseline" width=3D"42"><img src=3D"ht=
+tp://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif" width=3D"15" =
+height=3D"15" hspace=3D"13"></td><td valign=3D"top" width=3D"100%"><!--msth=
+eme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9"><font face=3D"Rockwell" color=
+=3D"#0033CC">Monitor Proces with Command Utility : "top"<br>=20
+    (top is not a standard UNIX Command)<br>=20
+    </font><!--mstheme--></font><!--msthemelist--></td></tr>=20
+<!--msthemelist--></tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9">=20
+</font><div align=3D"left"><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+  </font><blockquote><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+    <!--mstheme--></font><table border=3D"2" width=3D"80%" bgcolor=3D"#FFFF=
+FF" bordercolordark=3D"#000000" bordercolorlight=3D"#000000">
+      <tbody><tr>
+        <td width=3D"100%"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font face=3D"Rockwell">[root@nmc ~]# <font color=3D"#FF0000"> top</fo=
+nt></font><br>
+          <br>
+          3:56pm  up 53 days, 22:03,  1 user,  load average: 0.00, 0.00, 0.=
+00<br>=20
+          60 processes: 59 sleeping, 1 running, 0 zombie, 0 stopped<br>=20
+          CPU states:  0.7% user,  1.9% system,  0.0% nice, 97.2% idle<br>=
+=20
+          Mem:   128144K av,  124852K used,    3292K free,   60620K shrd,  =
+ 82020K buff<br>=20
+          Swap:  104412K av,     452K used,  103960K free15784K cached<br>=
+=20
+          <!--mstheme--></font><table border=3D"0" width=3D"673">
+            <tbody><tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">PID</font><!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">USER</font><!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">PRI</font><!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">NI</font><!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">SIZE</font><!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">RSS</font><!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">SHARE</font><!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">STAT</font><!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">LIB</font><!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">%CPU</font><!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">%MEM</font><!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">TIME</font><!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9"><font size=3D"2">COMMAND</font><!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">19512<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">15<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">860<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">860<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">664<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">R<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">2.9<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.6<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">top<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">1<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">472<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">472<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">400<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">S<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.3<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:04<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">init<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">2<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SW<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">kflushd<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">3<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SW<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:10<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">kupdate<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">4<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SW<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">kpiod<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">5<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SW<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:01<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">kswapd<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">319<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">bin<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">412<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">400<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">320<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">S<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.3<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">portmap<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">333<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SW<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">lockd<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">334<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">SW<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">rpciod<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">343<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">520<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">516<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">428<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">S<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.4<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">rpc.statd<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">396<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">472<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">468<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">376<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">S<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.3<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:05<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">syslogd<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">405<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">root<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">616<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">612<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">304<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">S<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.4<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">klogd<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">419<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">nobody<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">552<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">540<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">428<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">S<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.4<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">identd<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">422<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">nobody<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">552<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">540<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">428<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">S<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.4<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">identd<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">423<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">nobody<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">552<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">540<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">428<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">S<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.4<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">identd<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">425<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">nobody<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">552<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">540<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">428<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">S<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.4<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">identd<!--mstheme--></font></td>
+            </tr>
+            <tr>
+              <td width=3D"45"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">426<!--mstheme--></font></td>
+              <td width=3D"54"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">nobody<!--mstheme--></font></td>
+              <td width=3D"29"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"20"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"38"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">552<!--mstheme--></font></td>
+              <td width=3D"33"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">540<!--mstheme--></font></td>
+              <td width=3D"57"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">428<!--mstheme--></font></td>
+              <td width=3D"46"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">S<!--mstheme--></font></td>
+              <td width=3D"31"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0<!--mstheme--></font></td>
+              <td width=3D"50"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.0<!--mstheme--></font></td>
+              <td width=3D"55"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0.4<!--mstheme--></font></td>
+              <td width=3D"43"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">0:00<!--mstheme--></font></td>
+              <td width=3D"90"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=
+=C5=E9">identd<!--mstheme--></font></td>
+            </tr>
+          </tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9">
+        <!--mstheme--></font></td>
+      </tr>
+    </tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+  </font></blockquote><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+</font></div><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+<p><br>
+</p>
+<!--mstheme--></font><!--msthemelist--><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%">
+  <!--msthemelist--><tbody><tr><td valign=3D"baseline" width=3D"42"><img sr=
+c=3D"http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif" width=
+=3D"15" height=3D"15" hspace=3D"13"></td><td valign=3D"top" width=3D"100%">=
+<!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9"><font face=3D"Rockwell"=
+ color=3D"#0033CC">top Commands</font><br>=20
+    <br>=20
+    <!--mstheme--></font><table border=3D"0" width=3D"670">
+      <tbody><tr>
+        <td width=3D"149"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font color=3D"#FF0000" face=3D"Rockwell">q</font><!--mstheme--></font=
+></td>
+        <td width=3D"503"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"> Exit "top"&nbsp;<!--mstheme--></font></td>
+      </tr>
+      <tr>
+        <td width=3D"149"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font color=3D"#FF0000" face=3D"Rockwell">u&nbsp; <i>username</i></fon=
+t><!--mstheme--></font></td>
+        <td width=3D"503"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"> Monitor Process Belongs to <i> username</i>&nbsp;<!--mstheme--></font=
+></td>
+      </tr>
+      <tr>
+        <td width=3D"149"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font color=3D"#FF0000" face=3D"Rockwell">k</font><!--mstheme--></font=
+></td>
+        <td width=3D"503"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9">  kill Process specified&nbsp;<!--mstheme--></font></td>
+      </tr>
+      <tr>
+        <td width=3D"149"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"><font color=3D"#FF0000" face=3D"Rockwell">h</font><!--mstheme--></font=
+></td>
+        <td width=3D"503"><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=
+=E9"> "top" Online Help&nbsp;<!--mstheme--></font></td>
+      </tr>
+    </tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">
+    </font><p><font face=3D"=B7s=B2=D3=A9=FA=C5=E9"><br>
+    <br>
+  <!--mstheme--></font><!--msthemelist--></p></td></tr>
+<!--msthemelist--></tbody></table><!--mstheme--><font face=3D"=B7s=B2=D3=A9=
+=FA=C5=E9">
+=A1@<!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></=
+tbody></table><!--msnavigation--><table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"100%"><tbody><tr><td><!--mstheme--><font face=3D"=B7=
+s=B2=D3=A9=FA=C5=E9">
+<!--msthemeseparator--><p align=3D"center"><img src=3D"http://nmc.nchu.edu.=
+tw/linux/_themes/mstheme23698/line4.gif" width=3D"582" height=3D"23"></p>
+
+<p align=3D"center">
+
+<font color=3D"#0033CC">=AB=D8=B8m=A4=CE=BA=FB=C5@=AA=CC=A1G<br>
+=B0=EA=A5=DF=A4=A4=BF=B3=A4j=BE=C7 =B9q=BA=E2=A4=A4=A4=DF&nbsp;&nbsp;&nbsp;=
+   =A7d=BD=E5=A9=FA&nbsp;&nbsp; <a href=3D"mailto:woody@nchu.edu.tw">      =
+ =20
+woody@nchu.edu.tw</a><br>  =20
+<u>=A5=BB=BA=F4=AD=B6<font face=3D"=B7s=B2=D3=A9=FA=C5=E9">=B3=CC=AA=F1=A7=
+=F3=B7s=AE=C9=B6=A1=A1G2000/08/28 PM 06:28:35</font></u>  =20
+</font>       =20
+       =20
+</p></font><p align=3D"center"><font face=3D"=B7s=B2=D3=A9=FA=C5=E9">      =
+ =20
+       =20
+       =20
+       =20
+<!--mstheme--></font></p></td></tr><!--msnavigation--></tbody></table>
+
+
+</body></html>
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/exptextb.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwM
+DAwMEAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/2wBDAQcHBw0MDRgQEBgUDg4OFBQODg4O
+FBEMDAwMDBERDAwMDAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCADpAOQDAREA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3h28s
+EMu3aGOMZB49q8o3E85GRJcmPHynOMc+tADhJkSAnK9NvUEdsEdqAHNHujw3GOAc54P1oAQO/wAo
+LYbIyp6dcZHFACFOhUKH4HDbeh9OlAAzjBLMArZVm3ZIye4xQAp24KsFJPzAqc5C8d6AAqARghgv
+3CcKcHnGaABsq+cbeCwfsceo70AHKLwd0T5x0C89RQALsZCg+8p3YxjAbg4IoARGYEc8L97nHB6U
+ALIuVJbHUbS/QgdeRQApJEe4qcFvmYDt2+tACMAQWVgeSwJHQHj8qAInjkViqkxsMkKRuU5x2HvQ
+A4tIArSDa6DGE5ByOcj+VADhL99GODgExn0PQ8dqAHNHujw3GOAc54P1oAarTBvmcclcKfrg9qAA
+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
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://nmc.nchu.edu.tw/linux/_derived/process.htm_cmp_mstheme23698010_bnr.gif
+
+R0lGODdhWAI8AIQAAGYzAJlmM2YzMzMzADMzMzMAAGZmM5kzM2ZmAMxmMwAAAMzMmcyZZpmZZplm
+ZszMZsyZmTMAMwAzAAAAM5lmAJmZM2ZmZsyZM5nMmZkzAGYAM2YAADNmMwAzM///zAECAywAAAAA
+WAI8AAAF/qAijmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IpHLJbDqfUB1kQV0wGA2HYUAI
+NBoMyGNavWa33W94XLVitVwvWEymmuHpObv8RsvXdW5ncWp0bXd+hXt2fYR6gYiOgIeNeZN8g5aG
+mHh/m4yZnouCnYqQlaKnoaaUq4+tpa+cibKgsZe2tLikup+8kr6RmqPCqbC9xKiss8DJrrvFy7nN
+qrfBymBWVCQLbAxWXwYEBqze4A3i5K/mWOjj5VPf7enw2vPv6/Hn9Pn24fiT2P1TF1DfPYKGBLpD
+yEYhv4L+FtaTN3DiPoAJDVbsR1Eix4sMpzjE2FCjR4gd/h9mjKiyJEuSIk22jPkyZDeZMG/WtHiQ
+50aUIH2eXJky50ibR1lBICGAQJSnUKNKnUq1qtWrVgUYIBHAaQAAAQQECPv1q4GwCAoIEDCALQG2
+Bww0XWtA7Vq3bAWoVaC2LdsCAyL4VQt4Lt28XNYm/qu3bd+miQcnLkDgAJcCCtYSAPBW893JeUO7
+layXABfOBeTaVSzYs1/IeAdYFqDgNGXFd/XC7iy3rWm1deu+3axVMwDDr3Pjfj2AcNPjeesOyHy3
+t926ik0jVh66swDOuOV619q3+du2zVX3bvycuFy9fN/r9n38tOGzYL+fDXAAwfcBXx1X1lkGABDc
+WGCN/qVggF99Z2AAbVHQIH8IinVcggomEIACC2Zw1gULLqhhABkgOFZeBABG2Wq3tYVGYc09lxp3
+MfolX3HTofebcjbymGKNhsHmG2IpjqdYAXYN8FpmzAF313ivnSeAhGJ9NxaHW42ADodihQVAglbm
+x1Zgqs3VVljnrVcAZ2+Jh111uBVXpmpcHJBicaXBiVdoMfLY1IzbBerXAbCVqVmRho0jwGxxRreo
+Yy7eBV1pnTmlWV8RlGmaAYQKsAEajQogWJKfrQWeY8OJx0WPKDalnaJr3aZAZ47hRtmOw2WnpHnZ
+oRZdX5Z1pdmZC4q13pO0DpdicATQyqeZpQGWXwBU/pYIYVkYFvhdXBk4CMCZYBVIgZVnCeAfgmAW
+WGCICmI4FgIRSBiAfwAkAFaJI2oor1gUGOChqH5VGqmvlSZ6a5JD4uXre29lFsFqA2wxl6YBu6pd
+pKgSmtx2q5opzrBboXdYqT8W0FVhAFB2IbXlAqDAFyRkwWFZVIL1ZYNudYEXjNzdtSJimRkg1xZO
+EqlVx0f++t1hlNnZs19RahWXABMAGsGwrUn8l3ba4gYdqng2FljUbyH8Knoml/bemZDdGd1bV/cp
+HZCeaReraV0UBuhaYall5GdOKpm1XuLcxvBnzfV5taJIYlewWN7xXNZXHox1QH42h8WYZh7cVVue
+/nnZuVoXZLUrdOk2y+WuiQLWl6CYXn7ZZYXrrhwxWPQqWOJxHMrOLs3sCrgqas0BNuh5vOVmJ6TO
+Bvqsqc3iGOfFkW9dWG6raba2lJeiHeSriyetY6TVCZZplf5ZiMCGEDBAAgQNKIChg3IFsJ9Wf5OX
+5pi4edcZdaLxzN18lahVuQ1t0dseZXwTsTttZm8SkNKuWCSbns2nYgGDWK6Eo6S+OEs7mDKMBI5U
+tseUKjrHKduThmWqWnnghaWaEdR0s7boOC05DcOO3xZjK/k064UvfMtxJGCAxdHHbq8RzrQAAMQX
+2mx2J7IfhATQRCY1imvtate0SjSAcU1xciba/o8U67O0Bq0vP+q6mVbyA6AL6UdAs5NLAmYmAHsZ
+QF4PapcAdjcWuwxHWBK4mjh4mBoNqG5jM3rTXHaUm1oxKXqD8VnShjOp3KynTJcJmJLC1hnj5WZW
+GmvWkOxCqEH+5TSyW50CxkCCB8TPQgu62QHCIjIbAepnUGtTnHwTnNGMiYGk4lVgEOeq55Bsc475
+GHK0ogDLjAcNqmnWt4iUzDvNMDTZE02uLhOrZULHiniL2NS0hqfLXCxGTWNNW5oYxPI1kjyigVrn
+4omZ/Yllhq+xy3HY2Uj72UVzubGbaWY5RXaGy3dlsdIsm7hJA70xRHlcopUmxCnKufFCmdPK/omm
+GYAXnmhcYPoSRhu0rsvB8ksDSNDMxrU+gu4xQ/5pKYR25JsWIWk53NzTaQbJHLTZqTfWbJhyEOYW
+wOjSj6xS5qXCgh2/rMxcUF2PXyTQleSkRzHH+lOVxlgh9j3gffFToxcnOinLmMyoI6tYa3aYF8x0
+8zO0itRt+NfW5rRGVxtTTwTOYzzxSJI4wrprAhf3wVjdqH+wmZhuYlWrUr1JO5lpnmDKJqXbCPZP
+m8pOU9jpAQJ4ADqe7ZySVGgozwCRPImx1AptRcv13AmGywnorjabVc01CCxAxFz9OvpZBa3zhWfJ
+TO4Q5NHJzfJ1EwILBYBbII9C1aEjFVCF/nL7RLNstGXaQsC6AESguIBFfsVR0HfOmNCJhsavm+SV
+XuYq0FF25mphc1oC6SIb09RGO10xzV4T01RdmXBtgKmL/ZBlMjAmtHUngldKnSfJ1vyIXClN6LVW
+uZQRWEF+u10XdhEVPSGCcJc0xB4BRhibtWzgVZoFKA8npiIohS05znnWrGZkTeWgqVGOu1tbwBOo
+Ny3vMONIpGLr5BROcdNuc4FY/ejarOxx1j2HGgBnp0zlzt1IAWdZ5y2lVKSIsQW2cC2O0/oCw6oO
+Zl28/Sxb8DOvJuIHt70NwASOg+Y0Vy4ukwvp+sbSRDhX+c9u3uhB6zc/zTl0WwaSXe8A/oBHBCxx
+LAnYc31/Fho0Ja441+sOGenC42JaMzABMOGsXJPWkaUme0PTUzdn2FXkjqXOV1IdWeCopC2kj08M
+mmhZFLANC7tvvPYj6IA6BTW/8agvlBkwXiQW2bm6KHvN0ylQU3vTOJyX2FyDE2WwrM1eNUk+5kmc
+3Y5lJLmMUEcocnFqPjXXE3KaLkY6TwSg82dwY/OFDLRkCh8DxFoy0zswTI0uA/jDzwa5PYURT2iD
+eB38QQjQnKUzxKfMoIkDkbdlaWNZnFihaQYxQSLjT50R7Gj1aUXDAJBAKS0kRuuaqDRWXW09HRWZ
+UCXx3d/RzrwPpRizclNkesNfu4PU/taBC0k2k+vSHZfGFkVH8WZpnGULZ7TnQ06xPgqYAjfcl6Dd
+GRl3z9YVnUXGFsFcM6BWTFkRhwQezrhoMeGWJOEOezZjmilFcy2Ag8vpbLrAt5h+Z2yT90aXTEfN
+VG+qGG2aItUwa7api0v8xdYCwzaFjwuwTVKuyu4i4La7bIIzgMVH/2ff3PA7uU1p58CiMeminuOv
+X9fSMCR1bGkY3/o5UXPV7KXiMNEDI9/9t9rYJQNdLs9ffFCYLjqBM9I+cyEitmaXRXYkkgxVo0WM
+xgwLQkRVewLRU+dd0OS/UzWpMpESqGLCZZbqPnE/vUN56nBHS6jiOV3HhxCvKyyC/gVggEP3dz84
+U3g+tEIodiuhAQCtQR35tkDSoxaasyJuQ0PLsliNlULFgWKY1ha1gU9Bkk/owSmk4lcnFIKNBCUC
+JkHRwgVOASmWVB08U1eLchidgiIwNCkdZBnAxXh/UjHCcQCw9WE5VQAvxFa5YVvcc1gjIyc+4mVq
+AUT7IWWdk0UAAiBU1DmbYSChRS4YYjPsBwDC5lxg0UUKAlxekoVacYP2kzpllh4Qkmho1HuvdiFd
+UyUAsiYb5XJi0R/jhTfOtiaVkhpEUyQC5UyLZWzDwj275GWCwYB4snKTdRxGtTcB5oC/UUN+5C26
+lkoJMi7gBV27BVD1AUYsdzMJ/rVKC7B1TGIWs7RnYzEueXJqMcQppsFNQIUiNQUniScqW7BXcKEq
+S8gckHFJPvdWNSUXM6ZC0hRPzWN9a9YUtHRX54U4OOQ3epcYVRUt7zFIduFBAMNXKUJVMVc2Rdgx
+NfZCa8UcxGFYOxhbMxYxQRQlCQMka0VX0NIYQ/Mz/OZEYCgboucBO+Z7X7Z6ZSQ/TiR7KQVHDrIZ
++1Fc5WIixZVcbRZns3eFtDZ7szYuEcMgsyYXe2YzE9BGbOYtltMuzegziqcdhOI3BmJsvrEZXUGL
+cFUYBbNJj4QkmdVtbzVF3rExl6IrXTI7vkMgVvKMsbMgAFJyEbZGx3EuXQE7/lmXiiOABfJzM0oi
+XaYjNWt3FhPYFBrAG4QSakPCbdhkOJTUGdOEljIyW4xXGH8nd5vSWC7yd2xZY6RyGKsijZXmk9th
+hExXNH0iACRWKxjoGSY0TE3Igm4BZt5oGmCGHnQjJR/3JHvxJE7EHvehWZ5BgqeRPHpBS4oIRJtC
+aFc4YE15hWuWaLRBOb3FNkLJKQf1e1NyJhUkhQHCcmEBQ9qCIR6VUlnGNv1CKMYXcrEJIXGwIbHD
+csURU0sEd3zigH4EKOqVF3s1KY9xG5sBerFFGZzyjMMRIxLDMIT0WGFzYy9YFiWXOU+FAL2jR+7H
+Fh/FVOgSJgXiMhc2la9E/jpk5SXrsiyV8Ufj4GXTExhGRx0yKR+dIoEE+k5LOEWuskkDJ0qL1T8c
+uB5/10uKRULbJ3CZSADn4xZE86A3hTc4kjzygZ3d8Uv+Y0wGVEkxFIRlhz+oqRw644DiAWaHQ3ZB
+1JNJ00hp4z2IApAZmHCrIZqGRQFnAlxjmGYBOTRud4WV81wFcjv5gQCX84+xBJ+8hTngcoXEYoVS
+iGC0hJUDYl3osTK5dibqskakaCK6t1pc1j9FQ1+bskMG1G2KmCuzYk7Og3e1SB3ZuU2RIYujsRrB
+Jl7aomH8sWjyuVH/UXwEICHQh0ZYdwUxsyFT+iXEMYZgeCF+oTmvAV/g/rlJq2ZYQvKdeKOEMno0
+w8FecJFY20FZAuQ5u1GJu7R32XYXlvEefaWrPBI+2xlJqfJIPdhpz7hgA7VCvdQj+OYblXNpHsU1
+fiMf3XmF2/RTs9IZMCQyusRLAdUFESAsfnFaqqat81R4nPEVUuhdlNdEDlIiq5lmJmKlsGksXbit
+s7E+sVemKHWDiaY6HjWGeLZ+ZmEhm2FSqaQ66yE/guZGJGIuXsI6l5FC5jEpkIUXP/KWGWRWkzcm
+4SqMANSVd4c9XCAdcTJvy3I+vyGh4GIzNZOHyKk6IPUd/fIta1h8AzhGRfky8TMCWlCV9jqwupcg
+jMIjXpaLM5JwIyZY/v74Vr8kd+9RSkYFNavyY9D4NwK6KgH5YYukk8KINGh1ANI5Mt2abmuRKXC3
+F6qzJ6AVI+YzJBGTaaITpB6wV0R4Wm+BeysGGaRymb4UAY4IZlBKelRGI+2KHvMUPdPERIn6e5Vj
+XfBnJZUzim/YhQiye/KCH1NikQILFnnLe23hXQ55M03pdpOqRwyJpvbDbRGGXTrbL0XJRoxTYuPT
+dO/UQTDSleh3GIJ0F3e1N2SXNh46NiupWDK0HJniTKzmUBOSkFfyRGhqITg7lIwWIAjmMjIzAuKQ
+GaVjAGfEZt07LEcGHA+2G7QCgd6xBaCVX7QCVGSEmIgZUIAzH7YC/jiAK7Jgsz0xhz3kNA4Sah1c
+cGKaZ1bOM7ZuQ2NtZXfGYSSE6wGpUXmdEqLgUSR3GzbAgWz/WE6agiKqOlvsxGXqoVWetR0H1XTr
+UmZhgaRslF3zM0/TwlT0tnpfgmd81sB9BqoPkh998XK7eT+J5iVqwUYiVVJsAyZmtIetco96t03k
+m4madBrkA21s8Tkicyzhhh5716OhAj1nRSuzBJPrkjsFgmXS9cMzZcSzRhbl8lxhgWVZIgLNwSEa
+9yhuCn29dxjCIlu3YbErAhzH4V3ggWzKohsH1EgA4h08FjHARKIQOjYBWqIqZiqTVVNIxjchSkIT
+ajSL8RaaYx3N/mJFmKVNGGookJRVlHFaOtK3nSPIKFIfmxSPtrQVhgFbcDceSIJqc3E1eNskfOI2
+nSV4AqItZnGZ/RKx7AlFIpVbYwEgt7k+valRFQd8l3ulv/clTrp7bLxgk9NBVuh8AWKFnFGzVAWf
+43c5EYYhCclm7Mc3pLLHIXtkiic1XSlwSMOBfcNAcfpPnrmR6VUlF4Oih5M7vrNVYzFvaWQiEYae
+VkJedgwh3runTOEV05SUuWeFEMKH6bMqmca3H7o34OW9BOVFoBokNEk4OmKcotoqoVqYAgpPAISZ
+7OGAAQQoSNZ3i6IojFzJKNM2aMWBiUiZSHZwArcWRbt5TdQm/g13yg6sFXd1ZvAFhFiIsp5Ti16K
+YsRGrRdzaFCqiDRafTb81R5lznm0pVmkORx3Lgt2hb2hRrLpUF1aZ7YbzLb1dLMUknToqRVyO6iz
+VSKlH2GjWdwayE0xG2vjNKFBKNkJKpH1N4aDJw8WB7AIWreBoil0OfISqcIsUoI2Qk+FOWESFiAC
+hsXyFfLyFQdAHSRgAVtxW7kWn1nq2c7igrMKIFhGLTRsIWQkRD2zxrPqHG+hvI/yPN0xHeflmSq9
+qpeYTctS0tAhja3RQbzqgrQSWV9jc9oSTr9Rcw/kmKf13OQhF19d3Sek1JahMZ70J5k3THbBcGcm
+MQkzLJVn/o8AoF3QIdqu9mozo6/zYmdo4XtmPbmU82bF5VJryI9B+S0v5CHKt4Zs9B+bwczoDIbr
+QyBrsl2vtihbAM5zaD8QbizYcsjc2m53mVhF9DHAWFRnuxj99THF1gUVY1I366A8U7ISQjoTYiU6
+Y12WkmjZyVGzU9priBZlbCEKUAEWEDMh84bjgC5wxJEMYjP+I4xBfiV5+CCwuEwTRBwN5ycf5Ec9
+eTV+OVnGyB6dVDLoMWYDh6Ikqhi0RKqIgo1v+x0SqIAHlBreEzfdNFe9YWmD2yrb1E6Dwqt1OpAh
+Rhez0pKPydS/tEDtxHinla6b5yzvi5px8TATgzpktDr9/mg5JxWwmU0WjhaRboaaGOJo+zSFiSoW
+uJdKUMXh07Q0C3aaOewgG1JGxyEhtzM78Mmu1gyxwmYql/NAp5ShKlIrpKqu0rpAqXHag+gWbTse
+Yu7HkeIfEmoqZXFc/BFRYyQxCoIlceFFt66H1DIl0nVc+SEvPEsCDOAA3OslwQ5LrC1hFz58lc4Z
+aMpmBTZGwtN7hDg6HxgdrIKLxPFsQkMeSTJqbh4bkZJjnpxqcTvs/5lTOma3QJJqgjx5Fl+TE8oz
+c/sa/LQiONjonpGNmYh7zoIZ8lWO30qZ4A1cUM2CzvEtlYGIhnW3PS0ppkJntgcAPC9G+W1HnHtb
+Umhx/mSdaARVzUrH87ylpgxOIQimLZvEKbv5dHJclG0Br9iSnDpvuTbzkbBEopI4JJs3F9cucj4j
+Hy9dNlozAF8pPfSRxtDhN52MOlNfe9aiXJsLIHxoLvbhHxngLl0YaXxD9fCj7vETRcZ5mwmyW/t5
+m246VnasAAKNkZ4L9VY7W22Bthr03iNOACfWyg2DgzlnVlK8WJy8GmsHVx44GeshLAXDVnvRyBQc
+QCa9NctUbVN2N92BJGAKT+52vI5d7YkuGzi0NAz1GOlR5pe0SOTqUES4HnAYLmWE7R7VLfMC1cWS
+LovvXMoGAHDGVWsasJPqUWckbL4Jn5n9qN5/496f/hdfEakKkoWJxsxSVPYJuS2ui1wpQ6K56oIJ
+HZsgQBiCMAZKMAgq2RbE6sLDYQCUEAACgJADoRfgDQCGmsoIAAx5udzgVAwccAJKcGQM6LgBQ4Ir
+QHS5TAWDoVgrFg3Fark76ErfHfk6znV5TNIOE9PQIIrZ047BlxMMAQsNTMzAQEQky8uOytBIwcrA
+SAsJwYuAI0GEClClQQEowKgBaylpKIwBzIEAbaQuUGfpa4wwScQtXIRLqW/JJNCBqSfJEQE1jIfH
+wLXAdWzBDi/Bs0iLAUvptUdjSeuKgrl2o4qjsks5ukdo6XBTrzQ6kD5r9wYSLOglAAUPZhYuJKGD
+/tsgLiy01anDhJsYL9s8zDGCw4bFIQF8gIzxhYuNKAEm4GBChwuFkaHwOIkC0gvIQTvKmAiUT1oB
+Sir5HGQUMB9AUSxGDdhVIIAIJSIHZFj0h8sBlT6WKCLTZUkOOE8m4SDk82qAqoOIxjyzYAEbBRDe
+4OSCwMYRAAfIBMIriA8eJooOeR0CpwyFnUvSpqgI9ccPS8pmdLLVQp0AZJ0+MRPgLtKIW1lXOAJo
+SoOwSStGmLtVogbkEuQi/+I0DggAVKmSkl664sUvEq0wQdambeNsFt+Ct8hGcHNzz70IHAe1AhWS
+EjCQoZvhkFcpVrxsHIcd47ifwS9vekEHk+jO/joIBMkMoG1xGedfD9rnSFSHAdrc1UQfhyiRwysS
+FcGDSFzAMWAgIvFARmFlRKTJSToIEsgOiY2hAwJZeddCRDFxUZUXANAgnQjWtaICdDDAoRogueTk
+yhVD8BUFIoowGMVODD54oBNlZRgRgDBxJRIAbajBxgNqqEhCWVEs6JhFOdigmBlobSWIBGLkoeEm
+Ef2B32s/xVAZO/3s0FsMo5BTCQBBPRGZBr+saKcko/hJiZuivJnKMM3xsw5lBMDhCDKZ1BJMQE25
+5l0k3cHTXVPMUPNDUEAUhA08kqzSAkS6hCIaUo5oQwOhurB2DUAjVLIOK6BQh00McuSI4ob9/u1H
+pk5HOLbENU1MCeSnyRLEUEsIEpECFCGZtIUKCiiiE7BO4AdkTwh+JRt/YjDxyBErRsaYTyfhtwgK
+yZgzCSxBwUCKTSH+ccWSXDKo4rc+GZCYDZ4NyuC/+66bgREH/AVYwG1AENcCD6e4h0MrZOiFDygO
+luJ+ejUYQARVtXTHtYHwiNLHkLIWmTmlgHbdu3G2I1sxmxmAyojl6CPbaKY6QsqmQMhjZ3CTyKqC
+dbMp+oNr+pRL2U+1mUoqPsipgI4+yDQ1xK0EbUpPKpE0qQwAypp99kDBWSdPJAXAU1JGNrxkBkUM
+DXYDgkqsdc18DOVQrLb1FXsjsQrNLZiG/j5ueESIRYzbawBPUUES4gddSwQPNWzYo5kd7tvYAaSA
+kgohXy32HxdyKqUPc8LR8gvicsBwlaOxx2HxHY8JYu0SRfj4CV6lb5LBtWUQoogCD8DFhhsKFMCG
+os5LsMYAazzPRgQKSHA999CvEX31zq8x/ffie6/ABM+rTz0b4Rdw/QDpKxDB9E2NX3702SsQ/fzP
+Z7/9BOYnvgJMT38BdEdc9Jc/d6xPgOLLnqKmV4AAEtB6cdmf+BQ1QfglcA36C18EETi/+v1DAdco
+IDrWgLb/me99AozA9fR3vWtgkHoBjN72amhCbEBveuDbYQrZUEEhfu8aoygf+9oHPVid/i8uAQxf
+9uS3wyeiz3zXqCAUtUfDGK5hAjTMYRWvx78oNjF6B8Th9USoPyIKkYoOnEAOwRhD8ilqjdG7HgDZ
+1wEnus+C7OujO/aIxPoh0Xo3LGQN+Xc+MZ7PjA50HhfjUr0JhM+POoTA8tawADVo4SZO0Igd+HCE
+wcTCIRrpghbs0K6MbOKTqNxYK1/QiE01QmeiuNNjMjUPgHyBdzYYRykOhTR5aEI2MGqGn0QwIluw
+YBPW2YRlWHMzsRBTFKFBmi0I8Bhp3LIEq0IOabBBiVXdwlzOGeWsbhGP8FBjf5XCRyS+ps143tKI
+UJGHz0hwD6fJRpTqWNUmTokyMWxE/iNIQpkoRzKYYnEMQcdB2U4YqqUtMNQLFPBRXezCysHARxOG
+4E/CQnTKgLUyDz7ggx1Eogg6CKYVoKEGJRxxSiPcLTSIsFYNqhEaZHBzGerQphhgmdKKBOwqKHXl
+IaiZO4dcTlyHQFksjJCBsCzgARCjSwriMzEmeGUQibGQhnJgIpcc6ASLSIxURiKTjZXldD+h0WVk
+k0xhKPOWIFnlneBlGfDkwzWAik2ngEIj1xgANcsQgIj4ZDE4JG1etOANZHwhAtigAxVWy0Vm+rkz
+Y24kOFDBLLx0AS0FJMJqQalBLloTCueQAEV3gALWAmEK1bkKLAylA68WojCY+Apu/ljZQVXuRoUu
+VPQOf9iYHxrjnHXlqEtMWmpauEKHLVHBAAh7bRzgEJHgHjdCgpmPH0KJkr9IFSEEdcYkYBhTk6TH
+D1JRwmDCkcrrSAI44XGVnba0mM0lKUI8EszjeHATG2zvcdQFDFfBlRPvMslhcUmDO7SKIJAIay0f
+o8IggpeIjAihFa5NbrpENuFtKkNnfC2Cn57Bp1aRyAkoCDBonsIU6MBGaIKaATAjgLN1iAI6j2Bn
+oahBtFesbB7EyMTPGjEcYaxKILyAayoUezUPdKMpr2CUb4YGC47Ei5uRs045WEEREOMFHVsACQ0A
+FLiHoO1T8iHCH7ZioZIA7nTs/hFET4bAjRqQiUGoo08KcBQTwOQgRFg4nbUaupC+DMEKEgmv47YQ
+3pI0pWW60aZJxlsHQDCkC6T9A0BgRKmpgdlGsuHXYkYZO2j5TgdBGIvHeCchmZhoEQZ7tESaQBIn
+PfgNfOBR37R154Nojj9FIpMPuDABrmCrBBEp3pnyoSfhBEEd/MgELVYDJJG0CzJ2+kYovjAcc2TF
+OuBYUFxxI+QnT+0ZwnjG/tYGiBms7Dqc0GVmWFtPeMKVBD2LTQSugVl1YPYFnNGFO68WDlnekq+I
+LQasVKQF3xUUSG+ymBYI8QSGVqUKgzGRAIiHg4Qo5CBv+tdzS+cQbdS6bBx5/i6AuTA4sOS5Ds0S
+noVxF5EnOKbAGuFLWLfChzycOUIWyfij5To0zfhi0UM/C048IyEe4JhlwViZcjxu1C4YSePQcklK
+5CAhFKgkw2/KqlQC5yz63AANT1pDA8zqkqHAl2NK4q1zzc6g4TqIlVdpq0HDuhq5Oqo0+wg2Px7R
+oHHZoG9tmp3owDOvphl8YNohpuqaYok/fSEcMCqHn6bzG4cHhac7k683qbyDTlyjTi8zDaK8Aw8j
+W43apXDHD6o2OqwDQzxT9laC9IyPTRd6v1BlAsm3YDyRxIQ9e+7YQZqZovnwTSSx3RJeXvK3l5ul
+PwoxgJyBvmG16qTQINbI/lM0cToLgzXkhyAetY7urM1Gdh4mULO2nhCwKNABAajwSBO0DmaAA3y4
+kqTlTY7kBDMg1HtUj8ZtCYLkwd6plRgMGkZ5gQI0wBuwgQMYgCHsl+bkzR+A3Mbsxec8FfS92FcE
+DMOohUh4R6aQhmXFFWAwCY/xwl/00lS0ja20jMysCWmYirzpwrwIB9gMw7yMiD44z08Y2egUwyRI
+mWxc0cugRwzcDI3ghugY0cDsk2JNzQrgA4xQW2WQQzgIxM7YSzZ4CxRoQiexnZYUi/J5FeQshDdg
+y8Z0SB3KnELcQ4YZC875Cldsn3v8R9HloFYJF6CZlQ4kgYaZ3OVEVVFx/kxRHWClsYB4uJ5wmEHB
+3J9iQMEZCNQ1DcOPiRZn6ITY2UXR3Z+27IQ32IQTPIV+fYjyqdVeDFfRTY4isEAGOkBcGMO6AEmO
+OMSY9MpBFUVbsKJZBc8QiNyNoIzB0VN00IMgbBtUDALplMPj6AAKiNRv0MOpdEIELIfktcwlrECN
+wVQt0F5s9NMASACcsMIjII2atIpzmGOAYAOfCF+bJYvSeaAtUVlkuUAs2dgVWQlK0ECyZUJ5jUsu
+LBof0sFugRTqlIC1/Mh++AinBQ5BREg/mk1LBImZpEVOmM4i+EhMoMAuZo7JGcHebYlaIBfwiQtY
+iAAy2EqPkcJOZEAQ/ozEe+UAHfDAi7EUftCLcFTTCOSC8qFUQyzB4ajEgijC3USDBPSFs/SBXsDN
+tiHgCJ5ALEhS9cQH7ezEoF0lxjTXexnIlqQkupSBDwSlmfQbZEBD8fhBFjQXFABCzJkAcYxePzwC
+O8RMNFRaiVmTO36hLOjDObIDO8zKLSXF6yQFPkUGrtADDMGKZCiFJRhc6v2UTwnDDmSPPhgRZ0rG
+J9iJ7FXNmimk8MCcJ5lBBlzDV4UBACTAszlX3/WHE+zLLYLXRRAES2UEIKzZb9JHSeTfIuQaUXyS
+YOzdTPbdIPjAFDRnDyBWuHDILb7JUiYdXXFGULCGFwSBVPQkKPbO/mFgxS4eCM5IQAQcyuwghIA1
+BhHcImBYwYE4jsKkwk7gVXUWVYjUpU8El7j8yP5U0qJol19sGnxqiDGWDn6Q5Qgs5CKcjIBNZFpx
+QQFoxuhAgn7unUt6XYeYhYAxpwfyQ9CcgixoHmzMA9DICVQkXjuOwBle3Jq0xjHFAO6NYeTQYxAC
+ISaGTjtyhhE1nA/uBtVcYXTIY9XlKKzIWGr8RDDcik29FlYACFh4hUPoSh7k40cmC0yMkhccwKcw
+jLNZaUOQZEGlCHtkyHRalFaN5N0512F8kjwioHMdjlR21RWsFHjZ1VyKAk+ZzHgpzEz206uhlbk4
+Zy90AmuYYB0k/sGPpIlbbZ3dJQGG1tSEKcYiBklIPNWBsoEFCIyBnGXAMOMk+p2BHFQoFoYQ1GIX
+qNbOJA3ULU6nvpbeUYEhZGGMHIVfSgJoWpg5HAoRIsplpMIMNodY0JVpNsrpsdgRiErq2ckYRsMP
+8NQkoEfY9Opw8gKXgceP7VXu4QNx8ISa+plMVI4ZJADHmVdGNQgfGALWNFqOeMSyjAGhcglYBNof
+utxECdh1UYV3aVOwjGSzPdUvIcmZNJOkgQh6OqVjYM5OnOPoPMMQSErnUOyZaUlOGEILMCzJEAlJ
+qYRbxmd6FOMnbIGHnJe5Dsmrigm4NOIWqIi/PFcGngAbNIAH/rJfgu1caxpbtJUEtuRmcKYIHbRF
+kCrDPkpItGHFFBRPVhjIGEQBCjDHPEjGN3BNnV5GVk3g8cyAOeySMaHm186CZVxhLoyIL9gUZ0or
+NExEOlxG0igmEYoZrrRNGQKWotxC2Uwj/REKIQTc95ni3lkjg4FUAIRBbx2XbRpPWzTfixWXTgQl
+yY1XfJJB8FiMS3Cd8AHaiI6fF1TFJ70EwpqclYbF5zgbgohsuNiN3tBOOezoz6Bj2yCtVfiFimSF
+8W0BaYHfIIQDv3wLKe1EqSpGyTRVHj5g7DTtGYBCwARnxt1L4sCXcTqIBsZFA/ji+fmb9LIrmVhE
+sPwcJwrJ/lZ1wV5kGCuc5Azawl/0TVZFXVGsnx8kG8jY2Deu2LxAyi/AYJKEV6smgP8xg3duB9sM
+cGwUKKeERytojWVtxvskU2JqAD7lI4pFIWcNjagJXEqQxhAmimkNJGvUTDCpSjpsRkVwrqXWoFPJ
+RLHY5rymSG1KSExITuuhnPEIRvVVBV8AWrDsSyy8RLEYyevi5pUET1fdhFgyWo6Q1vGsS8UuwVgV
+rdKaax2s1JVlaJbRwzz8BQTyCM+1whK0J/EOosgi2Jlcp3NWGHVxCY9siSZMgdT1gOj6GQ4Qzxf8
+J1ZCgZydAAS8HRrQBUnVInmhoBMs5IKNqkbQwB+Gy24S/oOkeMJ+wRLSNNoULERXvZYn7k/fbmZ9
+jU4/dMKvhKm7DgEpcE2cBIfCsKgjiAUvdMJmqMbNNKsRPmZsWGGxugDS/IJEPWoxuIy8GAFP4YOt
+JGZzAIpq5AKs5EPOMUSFAAAzs1JsesDiVgRelmuT8KF1Ge6JDNRyigsERh/fial/MPM1h1cc5A6+
+Tswnk5UXIE15ecurOosCahSDVEjz1cRkNsc4VqyxLcgWkAGkekZoREgOTJUZXMkTeIjFeWibptnL
+bggzm8LFjQtR2DFDZO52LqXonsADPAzzYJVPrqlgPC8p4cBd0IEbBq2VJpoOjJXNraBLMiVSWYhz
+lkHm/uTZGKyFdBCK5qHmALKN06Bb97nWV1FgdLjUMPspCViL5slG09ySo3RndDCKJ5CmDxqZNtGL
+fgz1IGQFPb4AI+penPiCYAYEPLwC4uBFrTGuJyIERb0cSh9CWZQFvJYcgNAmOveLWeAZ5qTIdELE
+c10UBXKJRMAlWI1gmZbBi11L8JpcEiAi893ELSbB0ESDLSENwujC5lBdM8/NLn7aSTQtXuifOJvd
+2dEEIKzkyWLlLRR0fH7ECQj0fHCuKgIfUH7Jf8mFVbEBA7wBWjjXcPZ2IDelYOuFSMEBS3PYNusN
+pDEnz/lZ0OpEWVCMbLUJaQjZcDqpqTEFZCzEYh9E/gKE3HH6CY2CwyuoAE8x6gwGphTagrRGGTjA
+yo5xMujJ1SgAToHcgcAlwQFUZfWJMmLFBjgwKjhJ3x+wlNyoHH0QRVVQxE34L4roQR4/xeQe7uSQ
+7jVfDPSqHIMObj7qyPi6hz7vhITaHav6zYuFAR8gLuIKb3xUyH1XKajJmGbc11pYyandyP7JLNUZ
+VJYSDw5LjqbBKdL5AZ/BX/79QU8GJWKXyb3EnIUxmF434vNsNMSoQReArplgKb98UoWqNgkQnZo+
+xUwSj4SiHA0o9ohZrkXZXdAOHXenwAsw4WHJwy1wJgIXQai5lxFTAOJ+QRi0XB/s1bQxh7WYAiuD
+/kIDP+YytefscrI2JKbaBId232NFjNU+NQEKlNx6aFty8N43HfZ+9F+JtCROSBT8LZ4LD0a7yCHe
+DRtjNGIXmNRyaom6gDMAREiEboSZGY9IIc5Lzo3JhYHq3gD3JpeViuygtZX2WW5EeN4fTwuAuPEn
+lnEnKTFJHgKYmtLC/Ne23TqbK22raY4jevu7+mRA8Sz02QHSgZoHvkWVWzsACgYkoMV7JWibkhV1
+2UA+vzjHwGWQ9A0TTNUemulM9joenHK1/MbntQKQ9qjtEeH7luvIubN8TAwmgJk0BAETcpN4SELk
+kMYGyEPFzqV2h6FqOkeXng1a3QpxvzD6oY2c/oiN515U3lyYHahFyrvZU1VBQ5XMouV8P5b2iL26
+eyGJgDKiDoTBigsBREJqcLepEwDt/alfUUFszEIkz50A11IyQ05iwhBUGaOM+hUah/2LeI68xZEn
+3klFlagUmZSkpcpFJvEaIuSAEr6n/JIvuZPU8j3gB7ozo22OVz3kSXAUW7jSMmfIIG/aUrDozRTZ
+cKhTrHg7KvZs934yG5IDalaGEuqDL5eYkvUDtTKwksHD+/yVLK/ML0hObpVwQJmQXbwEBexFAphA
+NIzpa3yChizuIGiMCyNimi4isJhFAiSADJdczStnl9xJgtx6Itw6dc3ayTiOwHqLlgsCUBEG/kKE
+RooYSSGUwQX8B2JdaJYwKJZ0yR9SxdHdbq4lwezcHwyQHwamZa3eeg06OYdlMx6AFZqZdYoYGQgE
+gSKWJSACwiAQwgsTA2C8tAooy6L0CsQLIASqwYFwGBAKLAIuADgEVgLT7WYAoE4KwwkaoIgyomp5
+i/iSAwnRYXhNGQdT3DBwqA1JA+PSkPTCwrKyJHAAYyZwlxVQo7VV4qUCdWM2YFDgkghAoFAg8BgK
+Q0haYEBQ0yIQoUTlsjTg4cGi+iLTdysAOkrgiRIJVrLmIUDWllZCRNG4yjI7O8hkI+JVHakiljIl
+tjhrMmxt0BZw4SggofUNfDaVRae3Uofy/qhCZHZVtahFDUaXHaoaFCIDp4BBsUhKChQJSLRJ0MYc
+GQTmRLSpQgOKEnehKIEhMG/KjEl5MFq7RImfNnwonOAzeIYKQnnCJmkBZABnESg1BhaxR2OVyxEo
+EEAk0gZAG00DmM6AgaipjFECFDyA4ENHAxL2Nk0NtO1OgKfJAPxLISUPQhEE1hhsJAyNwHs3HQXI
+kMaAGIYWzdRRhqdslS4Ckh5yUUpQAUQ1ZISx5giA2wxe4G7LgjlJwZm1WI1owSvx1F36XlEhFcPe
+LEMtniYiVKNJEkLC8mwT4YEEOIUrTTQCsO5WABfnFoLT4lPglDSzsrCLdEAbGyENDQKg/kDECwsU
+ewkSpPfF2pMy/pBXpnNPIDs8zJRxH2NRhPQEaUikoW/iqNvnJU4hN7vTQZGRx9N4GfFzlmXIYaSA
+d9fcBMxvZWlkHhELImTgWANhZA8TrowAjjkBcQQaLCv04YImiMDwAw8+MLCVLlUs4YIq2E0hQHdx
+iUAHT5XwGEZVyxUEE2QIURDhFgqZQEECVVQkRAnSHfRbCbqdQEUEXoCiRI0rAEPEAWA+YpdCkRB0
+UI5j8bNIKZg4lYhjr9V4RGt11pDJaauA4uUtSiRWQ2gtRGChI9ghiZGVO2ITRjCKkAfmXrdZ8RY4
+JThJgRQZ5ZdMjn7l4NsWReFIhYa//pnlVwb6JMMCAigMUhpptUQBHoRVZEBPlXYdZ4JD5WgKZYiW
+vtoRpC+4VwVk1qVXIW2hiMmTpwhMoEIaKJChCAJI7KqPI9Ci2ZMKBlA2XgponpPnC5oUcAI5TWI3
+AKGkoRZBAQq4okQnVS3AQFYMONAgIK7Y0GcorrBrLhw22IDnF6DChNyPytDnF5PygSPGARdos8Yi
+l+EBaQDsajPbaKeQNhwT23SU4xs7IiCFhIoossWj57CIWC6r+CmoIIVwGQoSmdQSG6ywttBYIaUE
+5UKmwoh1VxdKWTG1w2FRKox8amZ9wzZtaAMeHpGQYQ05QbJlglq3Adj1PZm4cEMq/qhmkSiROxOC
+GGinBfPFqhDdGJ+7upFhDjlmIyngggP1kYJ4mF2RBKpi9IheocJIh55HCqRhhmXYmbUNJDhk96mP
+lThhLt1gHOLnVJ6sUgPgzrwQW7otxCKUCgow0K8PDRjQoAxH6LvJyfpS8c93P3LeNUJeKMBddquH
+vjYYTk83NeCXSklkCUZdCvyDrLkOS2KUuCrJkpHMUMchA2GXDI7oAyMmIQ3yuYQ9mMzuZZ37wzCN
+GPACNOnCW1OEkphEpC0M21BAAnJCjrXcCEw0cNLKosWObnmBDKKKIIGgQAaw0Wcc3NPGXgbnnKLJ
+gxLUKAIRCDGDG3xuEu5oyimS/qCK8SUiFNNgn4CmFB0GSkkKCjCHFzRWwunApBoWQsHwCPKUlFDD
+L+m5hjuAwT7lZY0rUFhSTJ7ylopVoT3KcZ72xuKxUQxiRbVoUClckoum5KQQBpNBUFDTAgU0YCs+
+yGNW/gjIQApykIQspCEPichEKnKRjGykIx8JyUhKcpKUrKQlL4nJTGpyk5wMWFV8sIMdMIBfDXCA
+AVjggAYwAAhACOUCIACjBlDBAqpk5QNcCctSnlIAqWwABK7iSn7ByJS1qOUrg5lLYvJSlaNsZSh5
+p8tirhKYuBzmLnvZzFs+05qoNOYoXQlNWUrzl84UJTcFQMtsBhOaygxALam5/s09lsqYv6xmNJfJ
+u2O68gGxXEFO3llOYe5xlwbw5jr72U1fwtOc8uzmNAOazGvusZnVPGc6KQpOhC7Tl/xC5jkLukp9
+xlOZvWQlLklJ0j2S86TnTGU+A8rOXbqTo98cqUxVulCBppSjMG0pTst5lXPOFKM2HWdHM3pPkJoU
+qSkNaU2PKdSf7iArR/1lLFHhBVXycwFX6So/B5oKd1p1B+Tk51VTYYCXdnWlZxXARBlwy1HK9au/
+C6tC66nOfqbCpaMEZl/DiVWx9hUI2YSAPNGqVVsSlpR1NYBLgbBWv4I1q7B8pV9fqVfHGjOyhAUr
+B1y6VagKVJZ2rWxc+dXZpbriE7Jl7awp98pMsq6VsVhNa0g5S1u75tWygEXrKgfb0bhOVrBcZWtu
+KftNttIVaXw9LVuHq1Xg8nO5uuXsA8x62H+atrWMRZoFHipKyx73u4WdbWbTCsvTyrW7pe1qRyF7
+VgN8d7vmzS5fZftc0moWrusdbGaJa1m8ZvaxxXVRJw+M4AQreMEMbrCDHwzhCEt4whSusIUvjOEM
+a3jDHO6whycZAgA7
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://nmc.nchu.edu.tw/linux/_derived/home_cmp_mstheme23698010_hbtn.gif
+
+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
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://nmc.nchu.edu.tw/linux/_derived/up_cmp_mstheme23698010_hbtn.gif
+
+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
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul1a.gif
+
+R0lGODlhDwAPAHcAACH/C01TT0ZGSUNFOS4wDQAAAAFzUkdCAK7OHOkAIf8LTVNPRkZJQ0U5LjAY
+AAAADG1zT1BNU09GRklDRTkuMEKHRfUGACH/C01TT0ZGSUNFOS4wGAAAAAxjbVBQSkNtcDA3MTIC
+AAIBPjG4mQAh+QQBAAAAACwAAAAADwAPAIbAwMCcnJxSUlK1tbWcYwCcUgCcQgClY0IAAABra2uM
+MQCUMQCcOQiUlJTv563n1py9pUrWrXPezoRCQkLW1tbGnITOzs57e3t7OSGcMQClUhjnxrWlQhDG
+jGvOrVqlShicWgDetaWcOQC1ezm1cznWtYzn1r3n3sacSgC1jDHezq21lEqtcynOrWvezozv3qX3
+797GjGO1lDm9hFLv587nzpRaWlrn5+fetZylShDnzr29hFq1jELexpSccwjWxpTv57X39+cBAgMB
+AgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMB
+AgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMB
+AgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMBAgMB
+AgMBAgMBAgMBAgMHi4AAgoMAJ4SHhz+IggGEGzyCFIcWFwMAOh8gIQAXE5KDNwkKCzkECwwNizoZ
+GRoEIhkViBscCyIjBAUGDDiDNDUtLi8ODxAREg7EDgAqKywoINE+uSgkJSYnQQAwMQsGKCkoCzuL
+ABisKQYHCAmINhQVCzIzAAECloMNqQAdHoMBNsoB6CHwEJBFgQAAOw==
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://nmc.nchu.edu.tw/linux/images/process.gif
+
+R0lGODlhCwKNAef/AAAAAAAAQAAAgAAA/wAgAAAgQAAggAAg/wBAAABAQABAgABA/wBgAABgQABg
+gABg/wCAAACAQACAgACA/wCgAACgQACggACg/wDAAADAQADAgADA/wD/AAD/QAD/gAD//yAAACAA
+QCAAgCAA/yAgACAgQCAggCAg/yBAACBAQCBAgCBA/yBgACBgQCBggCBg/yCAACCAQCCAgCCA/yCg
+ACCgQCCggCCg/yDAACDAQCDAgCDA/yD/ACD/QCD/gCD//0AAAEAAQEAAgEAA/0AgAEAgQEAggEAg
+/0BAAEBAQEBAgEBA/0BgAEBgQEBggEBg/0CAAECAQECAgECA/0CgAECgQECggECg/0DAAEDAQEDA
+gEDA/0D/AED/QED/gED//2AAAGAAQGAAgGAA/2AgAGAgQGAggGAg/2BAAGBAQGBAgGBA/2BgAGBg
+QGBggGBg/2CAAGCAQGCAgGCA/2CgAGCgQGCggGCg/2DAAGDAQGDAgGDA/2D/AGD/QGD/gGD//4AA
+AIAAQIAAgIAA/4AgAIAgQIAggIAg/4BAAIBAQIBAgIBA/4BgAIBgQIBggIBg/4CAAICAQICAgICA
+/4CgAICgQICggICg/4DAAIDAQIDAgIDA/4D/AID/QID/gID//6AAAKAAQKAAgKAA/6AgAKAgQKAg
+gKAg/6BAAKBAQKBAgKBA/6BgAKBgQKBggKBg/6CAAKCAQKCAgKCA/6CgAKCgQKCggKCg/6DAAKDA
+QKDAgKDA/6D/AKD/QKD/gKD//8AAAMAAQMAAgMAA/8AgAMAgQMAggMAg/8BAAMBAQMBAgMBA/8Bg
+AMBgQMBggMBg/8CAAMCAQMCAgMCA/8CgAMCgQMCggMCg/8DAAMDAQMDAgMDA/8D/AMD/QMD/gMD/
+//8AAP8AQP8AgP8A//8gAP8gQP8ggP8g//9AAP9AQP9AgP9A//9gAP9gQP9ggP9g//+AAP+AQP+A
+gP+A//+gAP+gQP+ggP+g///AAP/AQP/AgP/A////AP//QP//gP///ywAAAAACwKNAUAI/wD/CRxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjx8BgBxJsqTJkyhTqlzJsqXLhSIfxnxJs6bN
+mzhz6tzJEyGANkCDAvXZs6jRo0iTKl168qfQoESZSp1KtarVqyydPm0TFavXr2DDirWq9WnXsWjT
+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
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://nmc.nchu.edu.tw/linux/images/process_end.gif
+
+R0lGODlhCwKNAef/AAAAAAAAQAAAgAAA/wAgAAAgQAAggAAg/wBAAABAQABAgABA/wBgAABgQABg
+gABg/wCAAACAQACAgACA/wCgAACgQACggACg/wDAAADAQADAgADA/wD/AAD/QAD/gAD//yAAACAA
+QCAAgCAA/yAgACAgQCAggCAg/yBAACBAQCBAgCBA/yBgACBgQCBggCBg/yCAACCAQCCAgCCA/yCg
+ACCgQCCggCCg/yDAACDAQCDAgCDA/yD/ACD/QCD/gCD//0AAAEAAQEAAgEAA/0AgAEAgQEAggEAg
+/0BAAEBAQEBAgEBA/0BgAEBgQEBggEBg/0CAAECAQECAgECA/0CgAECgQECggECg/0DAAEDAQEDA
+gEDA/0D/AED/QED/gED//2AAAGAAQGAAgGAA/2AgAGAgQGAggGAg/2BAAGBAQGBAgGBA/2BgAGBg
+QGBggGBg/2CAAGCAQGCAgGCA/2CgAGCgQGCggGCg/2DAAGDAQGDAgGDA/2D/AGD/QGD/gGD//4AA
+AIAAQIAAgIAA/4AgAIAgQIAggIAg/4BAAIBAQIBAgIBA/4BgAIBgQIBggIBg/4CAAICAQICAgICA
+/4CgAICgQICggICg/4DAAIDAQIDAgIDA/4D/AID/QID/gID//6AAAKAAQKAAgKAA/6AgAKAgQKAg
+gKAg/6BAAKBAQKBAgKBA/6BgAKBgQKBggKBg/6CAAKCAQKCAgKCA/6CgAKCgQKCggKCg/6DAAKDA
+QKDAgKDA/6D/AKD/QKD/gKD//8AAAMAAQMAAgMAA/8AgAMAgQMAggMAg/8BAAMBAQMBAgMBA/8Bg
+AMBgQMBggMBg/8CAAMCAQMCAgMCA/8CgAMCgQMCggMCg/8DAAMDAQMDAgMDA/8D/AMD/QMD/gMD/
+//8AAP8AQP8AgP8A//8gAP8gQP8ggP8g//9AAP9AQP9AgP9A//9gAP9gQP9ggP9g//+AAP+AQP+A
+gP+A//+gAP+gQP+ggP+g///AAP/AQP/AgP/A////AP//QP//gP///ywAAAAACwKNAUAI/wD/CRxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjx8BgBxJsqTJkyhTqlzJsqXLhSIfxnxJs6bN
+mzhz6tzJEyGANkCDAvXZs6jRo0iTKl168qfQoESZSp1KtarVqyydPm0TFavXr2DDirWq9WnXsWjT
+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
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/expbul2a.gif
+
+R0lGODlhDAAMALP/AP/39+ela96UUtZzGM5jAO/Ord6cWtZzEM5rCN6lY96cUu/Opffeve/Wtf//
+98DAwCH5BAEAAA8ALAAAAAAMAAwAAAQt8MlJqzQKWBkIMVqVeB5IjWTpcGkqSMvQEsgyNUeKNBXu
+IYUNA7HbSBpBozECADs=
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://nmc.nchu.edu.tw/linux/_themes/mstheme23698/line4.gif
+
+R0lGODlhRgIXAMIAAG9vb5ycnOfn57+/vwAA/wAAAAAAAAAAACH5BAEAAAQALAAAAABGAhcAAAP+
+SLrc/k7ASau9OOvNu/9gKI5kaZ5oqq5s675wLM90bd94rk/S7v/AoHBILBpFgAAgeWw6n9CodEqd
+JAUDZaDK7Xq/4LC4oSz1xui0es0GB7aLJaBNr9vveOmbSUjuOz1neYOEhYaHClpyAQJYSktwiJKT
+lJV1ewONWZoBmQJvlqGio6ROipADWY+ZcxSCCq+lsrO0tRZ7cH5lfQKtF7G2wcLDpKBxS4mLxMvM
+zc6wqr6usM/V1tdtnVqA2N3e31Gf0hYSwODn6Ok2A+Pq7u/wO70b5vH29/jk7VbI+f7/ABf0ikRB
+176ACBN+y8ROjsOHnVI9ekixosWLGDNq3MhIsaPHjyBDihxJsqTJkyhTqlzJsqVLlBk6NZpJsyaW
+VDZz6tzJs6fPn0CDCh1KtKjRo0iTKl3KtKnTp1CjSp1aL8RMhViz2koAADs=
+------MultipartBoundary--hRM2XGK1vnvOydxYcFxnUAARbeTdaBFCzweAT8jD00------

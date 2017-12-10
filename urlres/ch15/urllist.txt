@@ -1,0 +1,12 @@
+
+
+注1：若想对 RAID 有更深入的认识，可以参考底下的连结与书目：
+http://www.tldp.org/HOWTO/Software-RAID-HOWTO.html
+杨振和、『操作系统导论：第十一章』、学贯出版社，2006
+注2：详细的 mdstat 说明也可以参考如下网页：
+http://linux-raid.osdl.org/index.php/Mdstat
+注3：徐秉义老师在网管人杂志 (http://www.babyface.idv.tw/NetAdmin/) 的投稿文章：
+磁碟管理：SoftRAID 与 LVM 综合实做应用 (上)
+http://www.babyface.idv.tw/NetAdmin/16200705SoftRAIDLVM01/
+磁碟管理：SoftRAID 与 LVM 综合实做应用 (下)
+http://www.babyface.idv.tw/NetAdmin/18200707SoftRAIDLVM02/

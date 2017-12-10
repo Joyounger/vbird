@@ -1,0 +1,4 @@
+注1：维基百科的备份说明：http://en.wikipedia.org/wiki/Incremental_backup
+注2：关於 differential 与 incremental 备份的优缺点说明：
+http://www.backupschedule.net/databackup/differentialbackup.html
+注3：一些备份计画的实施：http://en.wikipedia.org/wiki/Backup_rotation_scheme
